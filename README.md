@@ -1,2 +1,2 @@
-# clavis-keys
-A collection of keys in the Clavis format
+# Clavis keys
+A collection of identification keys in the Clavis format. 
