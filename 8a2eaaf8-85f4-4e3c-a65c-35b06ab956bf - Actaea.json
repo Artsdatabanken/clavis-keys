@@ -1,0 +1,337 @@
+{
+  "$schema": "https://github.com/Artsdatabanken/Clavis/releases/download/v1.0/Clavis.json",
+  "identifier": "8a2eaaf8-85f4-4e3c-a65c-35b06ab956bf",
+  "lastModified": "2024-11-20 20:49:20",
+  "language": [
+    "nn"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "externalServices": [
+    {
+      "id": "service:nbic_taxa",
+      "title": "NBIC taxonomy scientificNameId",
+      "description": "To retrieve taxon information based on the NBIC scientificNameId, e.g. through https://www.artsdatabanken.no/api/Taxon/ByScientificNameId/4362",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_page",
+      "title": "NBIC page ID",
+      "description": "To retrieve a page from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Pages/237010",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_media",
+      "title": "NBIC media ID",
+      "description": "To retrieve a picture from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Media/F27858?mode=750x750",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    }
+  ],
+  "mediaElements": [
+    {
+      "id": "media:f42906",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F42906"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f42774",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F42774"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f42777",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F42777"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f42775",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F42775"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f42012",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F42012"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f42625",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F42625"
+          }
+        }
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "statement:61d53d7d3072420ea9ebafb59d667a53",
+      "character": "character:2ac1de654fb74a2a917cdb4602cf67e2",
+      "value": "state:15b1fc1fe1ee4e8e8fb8e51611c4c8ad",
+      "taxon": "taxon:78c8b282d94e4f4a92be7ae1b8f3b2ad",
+      "frequency": 0.5
+    },
+    {
+      "id": "statement:7c97165beead4c47826696b87d8ac2bb",
+      "character": "character:2ac1de654fb74a2a917cdb4602cf67e2",
+      "value": "state:15b1fc1fe1ee4e8e8fb8e51611c4c8ad",
+      "taxon": "taxon:3f5d770c77764a4eaf5035c22c97bbb3",
+      "frequency": 0
+    },
+    {
+      "id": "statement:2094291873574530a938adf7f44429f3",
+      "character": "character:2ac1de654fb74a2a917cdb4602cf67e2",
+      "value": "state:28c7ee3faebb40479974419a1a5c44af",
+      "taxon": "taxon:78c8b282d94e4f4a92be7ae1b8f3b2ad",
+      "frequency": 0.5
+    },
+    {
+      "id": "statement:42c37493a6684ea89d9be4fdc6919f58",
+      "character": "character:2ac1de654fb74a2a917cdb4602cf67e2",
+      "value": "state:28c7ee3faebb40479974419a1a5c44af",
+      "taxon": "taxon:3f5d770c77764a4eaf5035c22c97bbb3",
+      "frequency": 0.5
+    },
+    {
+      "id": "statement:5467298582e24397a50fc70bfe95d013",
+      "character": "character:2ac1de654fb74a2a917cdb4602cf67e2",
+      "value": "state:2a15e82748ad41079a11e07a37e8a61b",
+      "taxon": "taxon:78c8b282d94e4f4a92be7ae1b8f3b2ad",
+      "frequency": 0
+    },
+    {
+      "id": "statement:155b7dd122694da2b9d81059500f538b",
+      "character": "character:2ac1de654fb74a2a917cdb4602cf67e2",
+      "value": "state:2a15e82748ad41079a11e07a37e8a61b",
+      "taxon": "taxon:3f5d770c77764a4eaf5035c22c97bbb3",
+      "frequency": 0.5
+    },
+    {
+      "id": "statement:c20e3a1fc4fa4e6ebda627142ef20261",
+      "character": "character:187991e2435f42538c0ddb90a5d62898",
+      "value": "state:fd9019790d424b40909331bb1760b419",
+      "taxon": "taxon:78c8b282d94e4f4a92be7ae1b8f3b2ad",
+      "frequency": 1
+    },
+    {
+      "id": "statement:130b5c49b4754ea8ac97ea9eb12b4e37",
+      "character": "character:187991e2435f42538c0ddb90a5d62898",
+      "value": "state:fd9019790d424b40909331bb1760b419",
+      "taxon": "taxon:3f5d770c77764a4eaf5035c22c97bbb3",
+      "frequency": 0
+    },
+    {
+      "id": "statement:82059a9767ea4e849ca97e1fd5a6eba1",
+      "character": "character:187991e2435f42538c0ddb90a5d62898",
+      "value": "state:4677c85ff1a4499eb1805643fa24bf93",
+      "taxon": "taxon:78c8b282d94e4f4a92be7ae1b8f3b2ad",
+      "frequency": 0
+    },
+    {
+      "id": "statement:ee3e1dc39e0f4c55a8b1da987e7f2d06",
+      "character": "character:187991e2435f42538c0ddb90a5d62898",
+      "value": "state:4677c85ff1a4499eb1805643fa24bf93",
+      "taxon": "taxon:3f5d770c77764a4eaf5035c22c97bbb3",
+      "frequency": 1
+    },
+    {
+      "id": "statement:c6a1b0916400446aa314f5fa5a2e3826",
+      "character": "character:49c923b9e6674316b9f830f3f19733dd",
+      "value": "state:647b453aa8b84f8db74eace4841af3df",
+      "taxon": "taxon:78c8b282d94e4f4a92be7ae1b8f3b2ad",
+      "frequency": 0.3
+    },
+    {
+      "id": "statement:e6ebbba82dc647c6b358ee7b0ac52bb2",
+      "character": "character:49c923b9e6674316b9f830f3f19733dd",
+      "value": "state:647b453aa8b84f8db74eace4841af3df",
+      "taxon": "taxon:3f5d770c77764a4eaf5035c22c97bbb3",
+      "frequency": 0.3
+    },
+    {
+      "id": "statement:d2a4154f6b1e43eaa3d4db55d9e5f66e",
+      "character": "character:49c923b9e6674316b9f830f3f19733dd",
+      "value": "state:f216cf538e6844bb830fae8fd7041dc6",
+      "taxon": "taxon:78c8b282d94e4f4a92be7ae1b8f3b2ad",
+      "frequency": 0.7
+    },
+    {
+      "id": "statement:8ac3a44f66c846189ddf1bfa26b457d5",
+      "character": "character:49c923b9e6674316b9f830f3f19733dd",
+      "value": "state:f216cf538e6844bb830fae8fd7041dc6",
+      "taxon": "taxon:3f5d770c77764a4eaf5035c22c97bbb3",
+      "frequency": 0
+    },
+    {
+      "id": "statement:fbae543ff1d8455c94341b5a0840760b",
+      "character": "character:49c923b9e6674316b9f830f3f19733dd",
+      "value": "state:321dabf74f1245ad8b502090fb8b1ca7",
+      "taxon": "taxon:78c8b282d94e4f4a92be7ae1b8f3b2ad",
+      "frequency": 0
+    },
+    {
+      "id": "statement:67f3323df82a43a2ab66e3e361e7475d",
+      "character": "character:49c923b9e6674316b9f830f3f19733dd",
+      "value": "state:321dabf74f1245ad8b502090fb8b1ca7",
+      "taxon": "taxon:3f5d770c77764a4eaf5035c22c97bbb3",
+      "frequency": 0.7
+    }
+  ],
+  "title": {
+    "nn": "Actaea-nøkkel"
+  },
+  "geography": {
+    "name": {
+      "nn": "Noreg"
+    }
+  },
+  "description": {
+    "nn": "Tredjeutkast, HH&RE_010622"
+  },
+  "descriptionUrl": {
+    "nn": {
+      "externalReference": {
+        "serviceId": "service:nbic_page",
+        "externalId": "332301"
+      }
+    }
+  },
+  "characters": [
+    {
+      "id": "character:2ac1de654fb74a2a917cdb4602cf67e2",
+      "title": {
+        "nn": "Blad"
+      },
+      "states": [
+        {
+          "id": "state:15b1fc1fe1ee4e8e8fb8e51611c4c8ad",
+          "title": {
+            "nn": "To gonger kopla"
+          }
+        },
+        {
+          "id": "state:28c7ee3faebb40479974419a1a5c44af",
+          "title": {
+            "nn": "Tre gonger kopla"
+          }
+        },
+        {
+          "id": "state:2a15e82748ad41079a11e07a37e8a61b",
+          "title": {
+            "nn": "Meir enn tre gonger kopla"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:187991e2435f42538c0ddb90a5d62898",
+      "title": {
+        "nn": "Farge på bær"
+      },
+      "states": [
+        {
+          "id": "state:fd9019790d424b40909331bb1760b419",
+          "title": {
+            "nn": "Svart"
+          },
+          "media": "media:f42906"
+        },
+        {
+          "id": "state:4677c85ff1a4499eb1805643fa24bf93",
+          "title": {
+            "nn": "Raudt"
+          },
+          "media": "media:f42774"
+        }
+      ]
+    },
+    {
+      "id": "character:49c923b9e6674316b9f830f3f19733dd",
+      "title": {
+        "nn": "Endesmåblad"
+      },
+      "states": [
+        {
+          "id": "state:647b453aa8b84f8db74eace4841af3df",
+          "title": {
+            "nn": "Endesmåblad uflika"
+          }
+        },
+        {
+          "id": "state:f216cf538e6844bb830fae8fd7041dc6",
+          "title": {
+            "nn": "Endesmåbladet flika, midtflik jamlang med eller litt lengre enn sideflikar"
+          },
+          "media": "media:f42777"
+        },
+        {
+          "id": "state:321dabf74f1245ad8b502090fb8b1ca7",
+          "title": {
+            "nn": "Endesmåblad flika, midtflik mykje lengre enn sideflikar"
+          },
+          "media": "media:f42775"
+        }
+      ]
+    }
+  ],
+  "taxa": [
+    {
+      "id": "taxon:78c8b282d94e4f4a92be7ae1b8f3b2ad",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "103081"
+      },
+      "scientificName": "Actaea spicata",
+      "vernacularName": {
+        "nn": "trollbær"
+      },
+      "media": "media:f42012"
+    },
+    {
+      "id": "taxon:3f5d770c77764a4eaf5035c22c97bbb3",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "103080"
+      },
+      "scientificName": "Actaea rubra",
+      "vernacularName": {
+        "nn": "amerikatrollbær"
+      },
+      "media": "media:f42625"
+    }
+  ]
+}
