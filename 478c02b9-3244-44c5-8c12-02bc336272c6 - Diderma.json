@@ -3,10 +3,12 @@
   "identifier": "478c02b9-3244-44c5-8c12-02bc336272c6",
   "lastModified": "2026-06-12 10:04:42",
   "language": [
-    "nb"
+    "nb",
+    "en"
   ],
   "title": {
-    "nb": "Diderma (inkl. Polyschismium fallax)"
+    "nb": "Diderma (inkl. Polyschismium fallax)",
+    "en": "Diderma (incl. Polyschismium fallax)"
   },
   "externalServices": [
     {
@@ -356,34 +358,39 @@
     {
       "id": "character:34a9548265a04cb0bd0ac784104ef2b6",
       "title": {
-        "nb": "Habitat"
+        "nb": "Habitat",
+        "en": "Habitat"
       },
       "states": [
         {
           "id": "state:b58380dfd474409d946e6b71bbc24ae6",
           "title": {
-            "nb": "Nivicol (utvikles om våren under smeltende snø) - på diverse substrat"
+            "nb": "Nivicol (utvikles om våren under smeltende snø) - på diverse substrat",
+            "en": "Nivicolous (develops in spring under melting snow) - on various substrates"
           },
           "media": "media:0a07c49182f4440e8f3f41ae541cba18"
         },
         {
           "id": "state:c626ca5a2a624d1f8c7266a28143621f",
           "title": {
-            "nb": "Ikke nivicol - på død ved eller bark (evt. på vedboende moser)"
+            "nb": "Ikke nivicol - på død ved eller bark (evt. på vedboende moser)",
+            "en": "Not nivicolous - on dead wood or bark (or on lignicolous mosses)"
           },
           "media": "media:0d5f7cce7e7c4daebe20baf765ef327a"
         },
         {
           "id": "state:8b9e1ff3f1b84f6eba6e3f6c744d35b1",
           "title": {
-            "nb": "Ikke nivicol - på mose (ikke knyttet til ved)"
+            "nb": "Ikke nivicol - på mose (ikke knyttet til ved)",
+            "en": "Not nivicolous - on moss (not associated with wood)"
           },
           "media": "media:b938e09ec8d84897a50e32c9ead441c3"
         },
         {
           "id": "state:73ad84e0ec58460da25db3f9c2cf36f6",
           "title": {
-            "nb": "Ikke nivicol - på levende planter eller døde planterester"
+            "nb": "Ikke nivicol - på levende planter eller døde planterester",
+            "en": "Not nivicolous - on living plants or dead plant remains"
           },
           "media": "media:8dc27c1d15e54841a1bff3af5ab25076"
         }
@@ -392,20 +399,23 @@
     {
       "id": "character:5b9026d621204bc687d948cedc8692c1",
       "title": {
-        "nb": "Sporokarpfarge utvendig (ytre peridium)"
+        "nb": "Sporokarpfarge utvendig (ytre peridium)",
+        "en": "Sporocarp colour on the outside (outer peridium)"
       },
       "states": [
         {
           "id": "state:bb3157eb980f468ab3cc729f8ef64e29",
           "title": {
-            "nb": "Tydelig farget (brun, oransje, oker, rødlig)"
+            "nb": "Tydelig farget (brun, oransje, oker, rødlig)",
+            "en": "Distinctly coloured (brown, orange, ochre, reddish)"
           },
           "media": "media:d6c3263270a24edfb1be35775ab0ec76"
         },
         {
           "id": "state:663e476ced78473fb5b6f31e2029f152",
           "title": {
-            "nb": "Hvit eller svakt farget (krem, rosa, grå, blekt oker)"
+            "nb": "Hvit eller svakt farget (krem, rosa, grå, blekt oker)",
+            "en": "White or faintly coloured (cream, pink, grey, pale ochre)"
           },
           "media": "media:8f17b0a15e8940609bf29b8010e37b05"
         }
@@ -414,20 +424,23 @@
     {
       "id": "character:a0041cf82b844176aa7a3f9e7a18885d",
       "title": {
-        "nb": "Sporokarp-konstellasjon"
+        "nb": "Sporokarp-konstellasjon",
+        "en": "Sporocarp arrangement"
       },
       "states": [
         {
           "id": "state:5c8887bf73fe4c28a725fef66e1f1e75",
           "title": {
-            "nb": "Spredt eller i små grupper, men ikke tettpakket eller sammenvokst"
+            "nb": "Spredt eller i små grupper, men ikke tettpakket eller sammenvokst",
+            "en": "Scattered or in small groups, but not densely packed or fused"
           },
           "media": "media:7a2eec7491ed4850b4714189d09ce2d0"
         },
         {
           "id": "state:dddf603a94b14c8cb9886c076291843c",
           "title": {
-            "nb": "Mange sporokarper tettpakket eller sammenvokst i større eller mindre grupper"
+            "nb": "Mange sporokarper tettpakket eller sammenvokst i større eller mindre grupper",
+            "en": "Many sporocarps densely packed or fused into larger or smaller groups"
           },
           "media": "media:a5bbe669adec477e926ae37c50d06da6"
         }
@@ -436,27 +449,31 @@
     {
       "id": "character:b1571c5cef4c4dfcbb3cf122be99a171",
       "title": {
-        "nb": "Sporokarptype/-form"
+        "nb": "Sporokarptype/-form",
+        "en": "Sporocarp type/shape"
       },
       "states": [
         {
           "id": "state:d948f0d470b7440a8ceeb79d0774241f",
           "title": {
-            "nb": "Sporokarper/sporocyster (kule-/halvkuleformede, puteformede eller skiveformede)"
+            "nb": "Sporokarper/sporocyster (kule-/halvkuleformede, puteformede eller skiveformede)",
+            "en": "Sporocarps/sporocysts (globose/hemispherical, cushion-shaped or disc-shaped)"
           },
           "media": "media:95c477567c9240eea1564d37e89adc18"
         },
         {
           "id": "state:2f6d7095a3bf4011ac3486f6a7d530cc",
           "title": {
-            "nb": "Flate, utbredte plasmodiokarper"
+            "nb": "Flate, utbredte plasmodiokarper",
+            "en": "Flat, spreading plasmodiocarps"
           },
           "media": "media:6cc42ff7e4a94d9390266426260c28fc"
         },
         {
           "id": "state:c8cc2f30d2ef447a895da66577ab30a0",
           "title": {
-            "nb": "Avrundede, avlange eller noe forgrenede plasmodiokarper"
+            "nb": "Avrundede, avlange eller noe forgrenede plasmodiokarper",
+            "en": "Rounded, elongate or somewhat branched plasmodiocarps"
           },
           "media": "media:b9648a7e87c84555b4de45e6a4bc06ee"
         }
@@ -465,27 +482,31 @@
     {
       "id": "character:0c2fdb8d5ae74ff7a4c19981a9151e20",
       "title": {
-        "nb": "Oppsprekkingsmekanisme"
+        "nb": "Oppsprekkingsmekanisme",
+        "en": "Dehiscence mechanism"
       },
       "states": [
         {
           "id": "state:240623442db84eaaae9f4868fdeff3d7",
           "title": {
-            "nb": "Uregelmessig (ikke langs definerte svakhetslinjer)"
+            "nb": "Uregelmessig (ikke langs definerte svakhetslinjer)",
+            "en": "Irregular (not along defined lines of weakness)"
           },
           "media": "media:ab49be1934a14231a6015d1eeed59329"
         },
         {
           "id": "state:44e80556d84742e0bf574e28ff60f971",
           "title": {
-            "nb": "Langs definerte svakhetslinjer, ofte \"blomsterformet\" som resultat"
+            "nb": "Langs definerte svakhetslinjer, ofte \"blomsterformet\" som resultat",
+            "en": "Along defined lines of weakness, often resulting in a \"flower-shaped\" pattern"
           },
           "media": "media:7669c56722e9415298312e7ed63de964"
         },
         {
           "id": "state:1fa3dc47623f40dda9add8de5cc81a6e",
           "title": {
-            "nb": "Langs kanten av sporocysten"
+            "nb": "Langs kanten av sporocysten",
+            "en": "Along the edge of the sporocyst"
           },
           "media": "media:6df299d040c04c6f9a88c6548d28f535"
         }
@@ -494,20 +515,23 @@
     {
       "id": "character:0e7a65d8e13242e6879bdf46a45a7e2b",
       "title": {
-        "nb": "Peridiestruktur"
+        "nb": "Peridiestruktur",
+        "en": "Peridium structure"
       },
       "states": [
         {
           "id": "state:4640d1f5287f4838ad9332f1d0c69c21",
           "title": {
-            "nb": "Ett lag eller to tett sammenvokste lag"
+            "nb": "Ett lag eller to tett sammenvokste lag",
+            "en": "One layer, or two tightly fused layers"
           },
           "media": "media:f3c2cbd2618046988673b717b61741d5"
         },
         {
           "id": "state:99e9a2344c5d4cf4b5be6d54ad150658",
           "title": {
-            "nb": "To eller tre, mer eller mindre tydelig adskilte lag"
+            "nb": "To eller tre, mer eller mindre tydelig adskilte lag",
+            "en": "Two or three more or less distinctly separated layers"
           },
           "media": "media:e7b4e36d94ed4584ad3b761d2255f1cc"
         }
@@ -516,27 +540,31 @@
     {
       "id": "character:7076c3bc0a2a4bcc803790b6ed81d8e6",
       "title": {
-        "nb": "Skaft"
+        "nb": "Skaft",
+        "en": "Stalk"
       },
       "states": [
         {
           "id": "state:db58c3fb5f264173be1ad722c3967c67",
           "title": {
-            "nb": "Skaft mangler eller svært kort/utydelig"
+            "nb": "Skaft mangler eller svært kort/utydelig",
+            "en": "Stalk absent or very short/indistinct"
           },
           "media": "media:0150af29eeab4f599fd4e719beae21fa"
         },
         {
           "id": "state:367a7efd2651434ba12e17fe420719f4",
           "title": {
-            "nb": "Skaft tydelig, brunt til svart (uten innvendig kalk)"
+            "nb": "Skaft tydelig, brunt til svart (uten innvendig kalk)",
+            "en": "Stalk distinct, brown to black (without internal lime)"
           },
           "media": "media:73edba21993445309df1ce74944bc349"
         },
         {
           "id": "state:5faba9a01b254934a66a40d8b185f9b8",
           "title": {
-            "nb": "Skaft tydelig, lysere farget (med innvendige kalkstrukturer)"
+            "nb": "Skaft tydelig, lysere farget (med innvendige kalkstrukturer)",
+            "en": "Stalk distinct, paler coloured (with internal lime structures)"
           },
           "media": "media:647a05bdf09a423ebb09f1151616a0e9"
         }
@@ -545,34 +573,39 @@
     {
       "id": "character:4a20d7fa8c3f404aae3e6c208f0bf66d",
       "title": {
-        "nb": "Kolumella"
+        "nb": "Kolumella",
+        "en": "Columella"
       },
       "states": [
         {
           "id": "state:1f5bcdb2d6474a7a9ce8726690878a9d",
           "title": {
-            "nb": "Mangler"
+            "nb": "Mangler",
+            "en": "Absent"
           },
           "media": "media:95bc535e7430437dad2c59bc744c38cd"
         },
         {
           "id": "state:9b1fb22027ad4fcabde24c2c4eb1d346",
           "title": {
-            "nb": "Halvkuleformet eller hvelvet, hvit eller nesten hvit (beige)"
+            "nb": "Halvkuleformet eller hvelvet, hvit eller nesten hvit (beige)",
+            "en": "Hemispherical or domed, white or nearly white (beige)"
           },
           "media": "media:cfa169f54edb4d319f287486ec7a908c"
         },
         {
           "id": "state:e2d6acf0d0c043829b05778573bf9f20",
           "title": {
-            "nb": "Halvkuleformet eller hvelvet, oker til oransje"
+            "nb": "Halvkuleformet eller hvelvet, oker til oransje",
+            "en": "Hemispherical or domed, ochre to orange"
           },
           "media": "media:73dc6b0afca445a88b851087f6155805"
         },
         {
           "id": "state:a86dbad3addf43f18b3586a8e06e535c",
           "title": {
-            "nb": "Klubbeformet eller sylindrisk"
+            "nb": "Klubbeformet eller sylindrisk",
+            "en": "Club-shaped or cylindrical"
           },
           "media": "media:a4f31f14cc8f433a837086f6ec37e29c"
         }
@@ -581,27 +614,31 @@
     {
       "id": "character:589f52b064674cfdacd41eb52e097a95",
       "title": {
-        "nb": "Hypothallus"
+        "nb": "Hypothallus",
+        "en": "Hypothallus"
       },
       "states": [
         {
           "id": "state:a4b828523e804902afea42a5750e4949",
           "title": {
-            "nb": "Utydelig eller fraværende"
+            "nb": "Utydelig eller fraværende",
+            "en": "Indistinct or absent"
           },
           "media": "media:bbc4b43c758148559aed10fe86b19e46"
         },
         {
           "id": "state:0019ac65dd6440e48019e380b6263dc3",
           "title": {
-            "nb": "Tydelig, hvit/blek og kalkholdig"
+            "nb": "Tydelig, hvit/blek og kalkholdig",
+            "en": "Distinct, white/pale and calcareous"
           },
           "media": "media:f553c8177bc64353b6de61b52aa8e9b2"
         },
         {
           "id": "state:e97bf7ae27994f2aa8d54cd767f9125a",
           "title": {
-            "nb": "Tydelig, farget (oker, oransje)"
+            "nb": "Tydelig, farget (oker, oransje)",
+            "en": "Distinct, coloured (ochre, orange)"
           },
           "media": "media:f69074a3d61c46d5a3799b04206e8075"
         }
@@ -610,27 +647,31 @@
     {
       "id": "character:71c61379944d4842b364bb28dabf2009",
       "title": {
-        "nb": "Kapillitium-struktur"
+        "nb": "Kapillitium-struktur",
+        "en": "Capillitium structure"
       },
       "states": [
         {
           "id": "state:fd37e4528991428a9452b2ec6f5dfb16",
           "title": {
-            "nb": "Overveiende ugrenede eller sparsomt forgrenede tråder, ofte med små, mørkere fortykninger"
+            "nb": "Overveiende ugrenede eller sparsomt forgrenede tråder, ofte med små, mørkere fortykninger",
+            "en": "Predominantly unbranched or sparsely branched threads, often with small, darker thickenings"
           },
           "media": "media:90101ee08b5a4d458ae5863b51053a8a"
         },
         {
           "id": "state:6e653a7afe3947e990a191bbfb104f59",
           "title": {
-            "nb": "Utpreget nettaktig forgrenet, uten kalkknuter"
+            "nb": "Utpreget nettaktig forgrenet, uten kalkknuter",
+            "en": "Distinctly net-like branched, without lime knots"
           },
           "media": "media:ac443303ab58483db57f03006f673e64"
         },
         {
           "id": "state:296f99d17d1843b8b50ee7ea6e7f4e10",
           "title": {
-            "nb": "Nettaktig, med spredte små kalkknuter"
+            "nb": "Nettaktig, med spredte små kalkknuter",
+            "en": "Net-like, with scattered small lime knots"
           },
           "media": "media:4f800909cadf4f309b0b473aa0407f01"
         }
@@ -639,20 +680,23 @@
     {
       "id": "character:fb8d9c59665849fd9cd739022b1ce808",
       "title": {
-        "nb": "Kapillitium-farge"
+        "nb": "Kapillitium-farge",
+        "en": "Capillitium colour"
       },
       "states": [
         {
           "id": "state:7de4cf22cbf74b8c9d359f253145fe55",
           "title": {
-            "nb": "Overveiende fargeløst eller svakt brunfarget"
+            "nb": "Overveiende fargeløst eller svakt brunfarget",
+            "en": "Predominantly colourless or faintly brown-tinged"
           },
           "media": "media:4c394bf9bf0c462c8104d997acd0e7ac"
         },
         {
           "id": "state:5bae8cb9d41a454a94e97791e9d48647",
           "title": {
-            "nb": "Tydelig brunfarget, evt. med fargeløse ender"
+            "nb": "Tydelig brunfarget, evt. med fargeløse ender",
+            "en": "Distinctly brown-coloured, possibly with colourless ends"
           },
           "media": "media:cc137becd1934ce195dbd00945dbc789"
         }
@@ -661,34 +705,39 @@
     {
       "id": "character:10eec1d0d8c8473a991b521f2ebb4e71",
       "title": {
-        "nb": "Sporeform"
+        "nb": "Sporeform",
+        "en": "Spore shape"
       },
       "states": [
         {
           "id": "state:0c003ab4df7a49a581ecec54e6aa50d0",
           "title": {
-            "nb": "Ganske regelmessig kuleformede"
+            "nb": "Ganske regelmessig kuleformede",
+            "en": "Fairly regularly globose"
           },
           "media": "media:bc8bfc5bca064c87817c76842eb43bb2"
         },
         {
           "id": "state:66edd50242f24e4e999c7d328a33889f",
           "title": {
-            "nb": "Ovale"
+            "nb": "Ovale",
+            "en": "Oval"
           },
           "media": "media:82a778c40f484050833a38fe3a3a768c"
         },
         {
           "id": "state:e8c585ec2fbd4050bf7e7db943bf65de",
           "title": {
-            "nb": "Kantete i omriss"
+            "nb": "Kantete i omriss",
+            "en": "Angular in outline"
           },
           "media": "media:07bdc3e7b3544091bff2f56ce98a5592"
         },
         {
           "id": "state:a0fe623715bc452c8a0718cd883bbede",
           "title": {
-            "nb": "Kuleformede med en liten utposning på den ene siden (kan minne om et øyeeple sett fra siden)"
+            "nb": "Kuleformede med en liten utposning på den ene siden (kan minne om et øyeeple sett fra siden)",
+            "en": "Globose with a small protrusion on one side (may resemble an eyeball seen from the side)"
           },
           "media": "media:aab0de055de94a33b3d6c116bcd66868"
         }
@@ -697,55 +746,63 @@
     {
       "id": "character:8d2b7763e86c4b8aa7662706d5ad0e5b",
       "title": {
-        "nb": "Sporeornamentering"
+        "nb": "Sporeornamentering",
+        "en": "Spore ornamentation"
       },
       "states": [
         {
           "id": "state:1f0adfe7417048de88b52d18f5463daf",
           "title": {
-            "nb": "Ganske jevnt fordelte vorter"
+            "nb": "Ganske jevnt fordelte vorter",
+            "en": "Fairly evenly distributed warts"
           },
           "media": "media:bd0d4dfafb5b4317a332afc8eb660e02"
         },
         {
           "id": "state:7c4256c32f43419d977c413edb927601",
           "title": {
-            "nb": "Jevnt vortet, med grupper av tydeligere vorter"
+            "nb": "Jevnt vortet, med grupper av tydeligere vorter",
+            "en": "Evenly warted, with groups of more prominent warts"
           },
           "media": "media:ca9b72f04a6f4aa38919c8d7cd09b52d"
         },
         {
           "id": "state:b36efcd0155e4d7a989cbef6fa7b8a9e",
           "title": {
-            "nb": "Grove, spredte vorter"
+            "nb": "Grove, spredte vorter",
+            "en": "Coarse, scattered warts"
           },
           "media": "media:a623c2cb95a44307a177feda4bde3375"
         },
         {
           "id": "state:7d7f0c00b504421f8e64e9d33b0d925c",
           "title": {
-            "nb": "Delvis sammenflytende vorter"
+            "nb": "Delvis sammenflytende vorter",
+            "en": "Partly confluent warts"
           },
           "media": "media:192cebf663944fce803e6e24c3f31710"
         },
         {
           "id": "state:12d7c66c5b5043ea8a8be8ea40e9b55d",
           "title": {
-            "nb": "Tette, korte pigger (kan se ut som vorter)"
+            "nb": "Tette, korte pigger (kan se ut som vorter)",
+            "en": "Dense, short spines (may look like warts)"
           },
           "media": "media:c29106f5067142b69ccb3fe00706f210"
         },
         {
           "id": "state:d04ac869bd24431990e1f37d006a223e",
           "title": {
-            "nb": "Tydelige pigger (sees best i relieff)"
+            "nb": "Tydelige pigger (sees best i relieff)",
+            "en": "Distinct spines (best seen in relief)"
           },
           "media": "media:afb8eb08296740578cfed15cfc338fcf"
         },
         {
           "id": "state:89d767afe9624ccf8ecffcea262f7341",
           "title": {
-            "nb": "Vortet/pigget med en lysere linje rundt ekvator"
+            "nb": "Vortet/pigget med en lysere linje rundt ekvator",
+            "en": "Warted/spiny with a paler line around the equator"
           },
           "media": "media:ae7105e1986e447999b42a81110798cb"
         }
@@ -754,30 +811,35 @@
     {
       "id": "character:1df47f3233e543208839a25bffbf0259",
       "title": {
-        "nb": "Sporestørrelse (ornamentering ikke inkludert). NB! Størrelsen kan variere betydelig hos enkelte arter."
+        "nb": "Sporestørrelse (ornamentering ikke inkludert). NB! Størrelsen kan variere betydelig hos enkelte arter.",
+        "en": "Spore size (ornamentation not included). NB! Size can vary considerably in some species."
       },
       "states": [
         {
           "id": "state:a4a90a07d85f45d88a831695b6e72721",
           "title": {
-            "nb": "Aritmetisk gj.sn < 10 µm"
+            "nb": "Aritmetisk gj.sn < 10 µm",
+            "en": "Arithmetic mean < 10 µm"
           }
         },
         {
           "id": "state:be329cc00eec41dd8dad30ddb3778164",
           "title": {
-            "nb": "Aritmetisk gj.sn 10-13 µm"
+            "nb": "Aritmetisk gj.sn 10-13 µm",
+            "en": "Arithmetic mean 10-13 µm"
           }
         },
         {
           "id": "state:faaaa8e9b1d74f43962014f992f9f412",
           "title": {
-            "nb": "Aritmetisk gj.sn > 13 µm"
+            "nb": "Aritmetisk gj.sn > 13 µm",
+            "en": "Arithmetic mean > 13 µm"
           }
         }
       ],
       "descriptionUrl": {
-        "nb": "Sporestørrelse"
+        "nb": "Sporestørrelse",
+        "en": "Spore size"
       }
     }
   ],
@@ -9922,7 +9984,8 @@
     {
       "id": "person:2a9f4cc52d1e4eefaea3179b9d3f3485",
       "name": {
-        "nb": "Edvin Johannesen"
+        "nb": "Edvin Johannesen",
+        "en": "Edvin Johannesen"
       }
     }
   ],
@@ -10500,7 +10563,8 @@
   "creator": "person:2a9f4cc52d1e4eefaea3179b9d3f3485",
   "geography": {
     "name": {
-      "nb": "Norge og Sverige"
+      "nb": "Norge og Sverige",
+      "en": "Norway and Sweden"
     }
   }
 }
