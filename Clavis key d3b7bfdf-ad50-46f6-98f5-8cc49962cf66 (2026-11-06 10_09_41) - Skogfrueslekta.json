@@ -1,0 +1,249 @@
+{
+  "$schema": "https://github.com/Artsdatabanken/Clavis/releases/download/v1.0/Clavis.json",
+  "identifier": "d3b7bfdf-ad50-46f6-98f5-8cc49962cf66",
+  "lastModified": "2026-11-06 10:09:41",
+  "language": [
+    "nb"
+  ],
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "externalServices": [
+    {
+      "id": "service:nbic_taxa",
+      "title": "NBIC taxonomy scientificNameId",
+      "description": "To retrieve taxon information based on the NBIC scientificNameId, e.g. through https://www.artsdatabanken.no/api/Taxon/ByScientificNameId/4362",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_page",
+      "title": "NBIC page ID",
+      "description": "To retrieve a page from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Pages/237010",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_media",
+      "title": "NBIC media ID",
+      "description": "To retrieve a picture from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Media/F27858?mode=750x750",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    }
+  ],
+  "mediaElements": [
+    {
+      "id": "media:f43003",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F43003"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f42977",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F42977"
+          }
+        }
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "statement:d8b519f53a0f420c8b5d610f5abd8d98",
+      "character": "character:780369bd895e488c8de54e6040c591c1",
+      "value": "state:083471fc387e40d084335c4f1c91e63c",
+      "taxon": "taxon:1148930f0a4149f18d6694d2eb971c7c",
+      "frequency": 0
+    },
+    {
+      "id": "statement:b47018353cf940f3ba89897338f55878",
+      "character": "character:780369bd895e488c8de54e6040c591c1",
+      "value": "state:083471fc387e40d084335c4f1c91e63c",
+      "taxon": "taxon:f75fdadb2468482f9e3a255ecb4ebfee",
+      "frequency": 1
+    },
+    {
+      "id": "statement:89e0ff36365c497cafd720eef23d41f2",
+      "character": "character:780369bd895e488c8de54e6040c591c1",
+      "value": "state:eba6be739ca94136b0a3a924928875e2",
+      "taxon": "taxon:1148930f0a4149f18d6694d2eb971c7c",
+      "frequency": 1
+    },
+    {
+      "id": "statement:40efb9def4884651b09dcc78b5fc9848",
+      "character": "character:780369bd895e488c8de54e6040c591c1",
+      "value": "state:eba6be739ca94136b0a3a924928875e2",
+      "taxon": "taxon:f75fdadb2468482f9e3a255ecb4ebfee",
+      "frequency": 0
+    },
+    {
+      "id": "statement:1ac52a95f5fa4c1ba079ae0dd9912d87",
+      "character": "character:5997a6f2a20444499e1e899351d10fd0",
+      "value": "state:40d1c84071cd44b891b6275bc46c8f57",
+      "taxon": "taxon:1148930f0a4149f18d6694d2eb971c7c",
+      "frequency": 1
+    },
+    {
+      "id": "statement:0397c5fed4954d338abf78334088621b",
+      "character": "character:5997a6f2a20444499e1e899351d10fd0",
+      "value": "state:40d1c84071cd44b891b6275bc46c8f57",
+      "taxon": "taxon:f75fdadb2468482f9e3a255ecb4ebfee",
+      "frequency": 0
+    },
+    {
+      "id": "statement:cf6cc28745324ab4a791f1b2744e3646",
+      "character": "character:5997a6f2a20444499e1e899351d10fd0",
+      "value": "state:85371526499b4b7cb2629391602d9dad",
+      "taxon": "taxon:1148930f0a4149f18d6694d2eb971c7c",
+      "frequency": 0
+    },
+    {
+      "id": "statement:5f509b3b8d2141c3bfa30ea58a31e9ef",
+      "character": "character:5997a6f2a20444499e1e899351d10fd0",
+      "value": "state:85371526499b4b7cb2629391602d9dad",
+      "taxon": "taxon:f75fdadb2468482f9e3a255ecb4ebfee",
+      "frequency": 1
+    },
+    {
+      "id": "statement:8335adace74b4106b2e5cfbc96f5d27f",
+      "character": "character:513065d23d094f8282d34f7b80eea7af",
+      "value": "state:e142f4ed44ac47078abc4fefd1f33616",
+      "taxon": "taxon:1148930f0a4149f18d6694d2eb971c7c",
+      "frequency": 0
+    },
+    {
+      "id": "statement:0e4af1e4d4354d178e874cb877f540e3",
+      "character": "character:513065d23d094f8282d34f7b80eea7af",
+      "value": "state:e142f4ed44ac47078abc4fefd1f33616",
+      "taxon": "taxon:f75fdadb2468482f9e3a255ecb4ebfee",
+      "frequency": 1
+    },
+    {
+      "id": "statement:6ae664905a48480eb10912ab8b37980a",
+      "character": "character:513065d23d094f8282d34f7b80eea7af",
+      "value": "state:c6530a7fdfc6460a87d12439861be603",
+      "taxon": "taxon:1148930f0a4149f18d6694d2eb971c7c",
+      "frequency": 1
+    },
+    {
+      "id": "statement:7aa9da6a2d5942fa9bad8cfabdaae94f",
+      "character": "character:513065d23d094f8282d34f7b80eea7af",
+      "value": "state:c6530a7fdfc6460a87d12439861be603",
+      "taxon": "taxon:f75fdadb2468482f9e3a255ecb4ebfee",
+      "frequency": 0
+    }
+  ],
+  "title": {
+    "nb": "Cephalanthera"
+  },
+  "geography": {
+    "name": {
+      "nb": "Noreg"
+    }
+  },
+  "description": {
+    "nb": "Førsteutkast, RE_211218"
+  },
+  "descriptionUrl": {
+    "nb": {
+      "externalReference": {
+        "serviceId": "service:nbic_page",
+        "externalId": "332554"
+      }
+    }
+  },
+  "characters": [
+    {
+      "id": "character:780369bd895e488c8de54e6040c591c1",
+      "title": {
+        "nb": "Farge på blomedekket"
+      },
+      "states": [
+        {
+          "id": "state:083471fc387e40d084335c4f1c91e63c",
+          "title": {
+            "nb": "Rosa"
+          }
+        },
+        {
+          "id": "state:eba6be739ca94136b0a3a924928875e2",
+          "title": {
+            "nb": "Kvit eller gulkvit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:5997a6f2a20444499e1e899351d10fd0",
+      "title": {
+        "nb": "Lengde på støtteblad"
+      },
+      "states": [
+        {
+          "id": "state:40d1c84071cd44b891b6275bc46c8f57",
+          "title": {
+            "nb": "I alle fall dei øvre kortare enn fruktknuten"
+          }
+        },
+        {
+          "id": "state:85371526499b4b7cb2629391602d9dad",
+          "title": {
+            "nb": "Alle lengre enn fruktknuten"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:513065d23d094f8282d34f7b80eea7af",
+      "title": {
+        "nb": "Hår på fruktknuten"
+      },
+      "states": [
+        {
+          "id": "state:e142f4ed44ac47078abc4fefd1f33616",
+          "title": {
+            "nb": "Fruktknuten smålodden"
+          }
+        },
+        {
+          "id": "state:c6530a7fdfc6460a87d12439861be603",
+          "title": {
+            "nb": "Fruktknuten snau"
+          }
+        }
+      ]
+    }
+  ],
+  "taxa": [
+    {
+      "id": "taxon:1148930f0a4149f18d6694d2eb971c7c",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "99484"
+      },
+      "scientificName": "Cephalanthera longifolia",
+      "vernacularName": {
+        "nb": "hvit skogfrue"
+      },
+      "media": "media:f43003"
+    },
+    {
+      "id": "taxon:f75fdadb2468482f9e3a255ecb4ebfee",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "99485"
+      },
+      "scientificName": "Cephalanthera rubra",
+      "vernacularName": {
+        "nb": "rød skogfrue"
+      },
+      "media": "media:f42977"
+    }
+  ]
+}

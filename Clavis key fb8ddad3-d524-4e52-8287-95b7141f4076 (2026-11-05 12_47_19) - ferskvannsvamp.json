@@ -1,0 +1,415 @@
+{
+  "$schema": "https://github.com/Artsdatabanken/Clavis/releases/download/v1.0/Clavis.json",
+  "identifier": "fb8ddad3-d524-4e52-8287-95b7141f4076",
+  "lastModified": "2026-11-05 12:47:19",
+  "language": [
+    "nb"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "externalServices": [
+    {
+      "id": "service:nbic_taxa",
+      "title": "NBIC taxonomy scientificNameId",
+      "description": "To retrieve taxon information based on the NBIC scientificNameId, e.g. through https://www.artsdatabanken.no/api/Taxon/ByScientificNameId/4362",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_page",
+      "title": "NBIC page ID",
+      "description": "To retrieve a page from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Pages/237010",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_media",
+      "title": "NBIC media ID",
+      "description": "To retrieve a picture from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Media/F27858?mode=750x750",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    }
+  ],
+  "mediaElements": [
+    {
+      "id": "media:f21704",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F21704"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f21705",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F21705"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f21706",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F21706"
+          }
+        }
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "statement:8edb66b6804f43579df89fc9c476d89d",
+      "character": "character:a6dd86e0b9be436482613cd94070f1fc",
+      "value": "state:3a187eb74dc24d28b9775e50863a32e5",
+      "taxon": "taxon:e1e16f1312f54aa9bb4e9b9f8b5e9e80",
+      "frequency": 1
+    },
+    {
+      "id": "statement:acf1ff7c44864a598d20f8bd787c3c9e",
+      "character": "character:a6dd86e0b9be436482613cd94070f1fc",
+      "value": "state:3a187eb74dc24d28b9775e50863a32e5",
+      "taxon": "taxon:78335386a6cc4970aaa07363afdd329a",
+      "frequency": 0
+    },
+    {
+      "id": "statement:282bbe8c12724dfe8b16f4d49222870c",
+      "character": "character:a6dd86e0b9be436482613cd94070f1fc",
+      "value": "state:3a187eb74dc24d28b9775e50863a32e5",
+      "taxon": "taxon:749a54381c8545988fd4633590203529",
+      "frequency": 0
+    },
+    {
+      "id": "statement:06bb130ec18949d0a049c17a7e46c514",
+      "character": "character:a6dd86e0b9be436482613cd94070f1fc",
+      "value": "state:3a187eb74dc24d28b9775e50863a32e5",
+      "taxon": "taxon:5339146d9531409ab6210d41c3f0c1a7",
+      "frequency": 0
+    },
+    {
+      "id": "statement:f06f3152bb6c42fea13b5c9ab7d30814",
+      "character": "character:a6dd86e0b9be436482613cd94070f1fc",
+      "value": "state:3a187eb74dc24d28b9775e50863a32e5",
+      "taxon": "taxon:f3ee58b3ab48449a88c9db2620a21e45",
+      "frequency": 0
+    },
+    {
+      "id": "statement:77887f4fe9b242cdb159727988a0bf53",
+      "character": "character:a6dd86e0b9be436482613cd94070f1fc",
+      "value": "state:dbe0a68129454645b8aaeed05e084e82",
+      "taxon": "taxon:e1e16f1312f54aa9bb4e9b9f8b5e9e80",
+      "frequency": 0
+    },
+    {
+      "id": "statement:6bf67e21448747398b6e38349ddae57b",
+      "character": "character:a6dd86e0b9be436482613cd94070f1fc",
+      "value": "state:dbe0a68129454645b8aaeed05e084e82",
+      "taxon": "taxon:78335386a6cc4970aaa07363afdd329a",
+      "frequency": 1
+    },
+    {
+      "id": "statement:1904f73b6e934b738f64d9f82241ef0f",
+      "character": "character:a6dd86e0b9be436482613cd94070f1fc",
+      "value": "state:dbe0a68129454645b8aaeed05e084e82",
+      "taxon": "taxon:749a54381c8545988fd4633590203529",
+      "frequency": 1
+    },
+    {
+      "id": "statement:43cbd6c3828e4fb89040b41e613cf945",
+      "character": "character:a6dd86e0b9be436482613cd94070f1fc",
+      "value": "state:dbe0a68129454645b8aaeed05e084e82",
+      "taxon": "taxon:5339146d9531409ab6210d41c3f0c1a7",
+      "frequency": 1
+    },
+    {
+      "id": "statement:0df2175d2eb54c88b747e45b0d637192",
+      "character": "character:a6dd86e0b9be436482613cd94070f1fc",
+      "value": "state:dbe0a68129454645b8aaeed05e084e82",
+      "taxon": "taxon:f3ee58b3ab48449a88c9db2620a21e45",
+      "frequency": 1
+    },
+    {
+      "id": "statement:b8442781cb3946319ecfca46da5a82c8",
+      "character": "character:4ef5d567ae734533ae3c22233fe60808",
+      "value": "state:51ffa5603be04b05b81a082a020c280b",
+      "taxon": "taxon:78335386a6cc4970aaa07363afdd329a",
+      "frequency": 1
+    },
+    {
+      "id": "statement:5cb0c3008e424cd1afc25688109b9391",
+      "character": "character:4ef5d567ae734533ae3c22233fe60808",
+      "value": "state:51ffa5603be04b05b81a082a020c280b",
+      "taxon": "taxon:749a54381c8545988fd4633590203529",
+      "frequency": 0
+    },
+    {
+      "id": "statement:5de7c7c00ac34bb9b1d640bc1b69356d",
+      "character": "character:4ef5d567ae734533ae3c22233fe60808",
+      "value": "state:51ffa5603be04b05b81a082a020c280b",
+      "taxon": "taxon:5339146d9531409ab6210d41c3f0c1a7",
+      "frequency": 0
+    },
+    {
+      "id": "statement:9c593fc510d64181937498fd619b6b03",
+      "character": "character:4ef5d567ae734533ae3c22233fe60808",
+      "value": "state:51ffa5603be04b05b81a082a020c280b",
+      "taxon": "taxon:f3ee58b3ab48449a88c9db2620a21e45",
+      "frequency": 0
+    },
+    {
+      "id": "statement:c08af91ea0a14158b30cdc2e2549f839",
+      "character": "character:4ef5d567ae734533ae3c22233fe60808",
+      "value": "state:c2bf767249a143efb2cc0bdf5e49bac9",
+      "taxon": "taxon:78335386a6cc4970aaa07363afdd329a",
+      "frequency": 0
+    },
+    {
+      "id": "statement:c5eabd41a3ba43e99c34fb9955bc0079",
+      "character": "character:4ef5d567ae734533ae3c22233fe60808",
+      "value": "state:c2bf767249a143efb2cc0bdf5e49bac9",
+      "taxon": "taxon:749a54381c8545988fd4633590203529",
+      "frequency": 1
+    },
+    {
+      "id": "statement:81d6004190cb410d85454f7a1b196d63",
+      "character": "character:4ef5d567ae734533ae3c22233fe60808",
+      "value": "state:c2bf767249a143efb2cc0bdf5e49bac9",
+      "taxon": "taxon:5339146d9531409ab6210d41c3f0c1a7",
+      "frequency": 1
+    },
+    {
+      "id": "statement:cca85225c7764b0eb3f48594f5bb6adc",
+      "character": "character:4ef5d567ae734533ae3c22233fe60808",
+      "value": "state:c2bf767249a143efb2cc0bdf5e49bac9",
+      "taxon": "taxon:f3ee58b3ab48449a88c9db2620a21e45",
+      "frequency": 1
+    },
+    {
+      "id": "statement:3b6ef55511a64cddb55fd8ff852fae50",
+      "character": "character:71e241b315934e99b9e4ca7fcf66252c",
+      "value": "state:5820f538f255401383764272f0688c3e",
+      "taxon": "taxon:749a54381c8545988fd4633590203529",
+      "frequency": 1
+    },
+    {
+      "id": "statement:75e6f7e6a6d94faa87e09effc1da90bf",
+      "character": "character:71e241b315934e99b9e4ca7fcf66252c",
+      "value": "state:5820f538f255401383764272f0688c3e",
+      "taxon": "taxon:5339146d9531409ab6210d41c3f0c1a7",
+      "frequency": 0
+    },
+    {
+      "id": "statement:54972680aed445d68a1bd8c61882f80f",
+      "character": "character:71e241b315934e99b9e4ca7fcf66252c",
+      "value": "state:5820f538f255401383764272f0688c3e",
+      "taxon": "taxon:f3ee58b3ab48449a88c9db2620a21e45",
+      "frequency": 0
+    },
+    {
+      "id": "statement:00182d5e725741298f1dfdec5669e73e",
+      "character": "character:71e241b315934e99b9e4ca7fcf66252c",
+      "value": "state:413356b3f4f84ec2b1a0b05ffe8a191e",
+      "taxon": "taxon:749a54381c8545988fd4633590203529",
+      "frequency": 0
+    },
+    {
+      "id": "statement:ee3bc055989f4d89b34a7cdc77a134ea",
+      "character": "character:71e241b315934e99b9e4ca7fcf66252c",
+      "value": "state:413356b3f4f84ec2b1a0b05ffe8a191e",
+      "taxon": "taxon:5339146d9531409ab6210d41c3f0c1a7",
+      "frequency": 1
+    },
+    {
+      "id": "statement:3a1ed6726abd468f9e460338df27331e",
+      "character": "character:71e241b315934e99b9e4ca7fcf66252c",
+      "value": "state:413356b3f4f84ec2b1a0b05ffe8a191e",
+      "taxon": "taxon:f3ee58b3ab48449a88c9db2620a21e45",
+      "frequency": 1
+    },
+    {
+      "id": "statement:3b240f3d2442467aaf684905db6b299e",
+      "character": "character:c6ed89ea39d948609c26acc89938d6e1",
+      "value": "state:142f9f5ebfc244b4bd70d4efde4fcc56",
+      "taxon": "taxon:5339146d9531409ab6210d41c3f0c1a7",
+      "frequency": 1
+    },
+    {
+      "id": "statement:0b2024b9a5934c2e9643ff9fedc17adf",
+      "character": "character:c6ed89ea39d948609c26acc89938d6e1",
+      "value": "state:142f9f5ebfc244b4bd70d4efde4fcc56",
+      "taxon": "taxon:f3ee58b3ab48449a88c9db2620a21e45",
+      "frequency": 0
+    },
+    {
+      "id": "statement:c6e10b595fcb4ee9900968683120eeff",
+      "character": "character:c6ed89ea39d948609c26acc89938d6e1",
+      "value": "state:2ece9029d8704ef39ab0424739daba8e",
+      "taxon": "taxon:5339146d9531409ab6210d41c3f0c1a7",
+      "frequency": 0
+    },
+    {
+      "id": "statement:0287f622f03a4b5c98564b614c3ca51f",
+      "character": "character:c6ed89ea39d948609c26acc89938d6e1",
+      "value": "state:2ece9029d8704ef39ab0424739daba8e",
+      "taxon": "taxon:f3ee58b3ab48449a88c9db2620a21e45",
+      "frequency": 1
+    }
+  ],
+  "title": {
+    "nb": "Ferskvannsvamp"
+  },
+  "geography": {
+    "name": {
+      "nb": "Norge"
+    }
+  },
+  "characters": [
+    {
+      "id": "character:a6dd86e0b9be436482613cd94070f1fc",
+      "title": {
+        "nb": "Ynglekorn"
+      },
+      "states": [
+        {
+          "id": "state:3a187eb74dc24d28b9775e50863a32e5",
+          "title": {
+            "nb": "Ynglekorn danner en sammenhengende skorpe. Glatte store nåler (megasclerer) ingen spisse smånåler, men ynglekornene (gemmulae) inneholder butte, piggete nåler."
+          }
+        },
+        {
+          "id": "state:dbe0a68129454645b8aaeed05e084e82",
+          "title": {
+            "nb": "Ynglekorn spredd i svampvevet"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:4ef5d567ae734533ae3c22233fe60808",
+      "title": {
+        "nb": "Trådsneller (amfidisker)"
+      },
+      "states": [
+        {
+          "id": "state:51ffa5603be04b05b81a082a020c280b",
+          "title": {
+            "nb": "Trådsneller (amfidisker) mangler"
+          },
+          "media": "media:f21704"
+        },
+        {
+          "id": "state:c2bf767249a143efb2cc0bdf5e49bac9",
+          "title": {
+            "nb": "Trådsneller (amfidisker) til stede"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:71e241b315934e99b9e4ca7fcf66252c",
+      "title": {
+        "nb": "Trådsneller (amfidisker) typer"
+      },
+      "states": [
+        {
+          "id": "state:5820f538f255401383764272f0688c3e",
+          "title": {
+            "nb": "Trådsneller (amfidisker) av to typer"
+          }
+        },
+        {
+          "id": "state:413356b3f4f84ec2b1a0b05ffe8a191e",
+          "title": {
+            "nb": "Bare en type trådsneller (amfidisker)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:c6ed89ea39d948609c26acc89938d6e1",
+      "title": {
+        "nb": "Trådsneller (amfidisker) lengde"
+      },
+      "states": [
+        {
+          "id": "state:142f9f5ebfc244b4bd70d4efde4fcc56",
+          "title": {
+            "nb": "Korte trådsneller (amfidisker) akselen ikke lenger enn diameteren på hjulet.  Nåler med mer eller mindre tydelige torner."
+          },
+          "media": "media:f21705"
+        },
+        {
+          "id": "state:2ece9029d8704ef39ab0424739daba8e",
+          "title": {
+            "nb": "Lange trådsneller (amfidisker) akselen lenger enn diameteren på hjulet. Nåler glatte"
+          },
+          "media": "media:f21706"
+        }
+      ]
+    }
+  ],
+  "taxa": [
+    {
+      "id": "taxon:e1e16f1312f54aa9bb4e9b9f8b5e9e80",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "119977"
+      },
+      "scientificName": "Eunapius fragilis",
+      "vernacularName": {
+        "nb": "skjørsvamp"
+      }
+    },
+    {
+      "id": "taxon:78335386a6cc4970aaa07363afdd329a",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "119972"
+      },
+      "scientificName": "Spongilla lacustris",
+      "vernacularName": {
+        "nb": "vanlig ferskvannsvamp"
+      }
+    },
+    {
+      "id": "taxon:749a54381c8545988fd4633590203529",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "120084"
+      },
+      "scientificName": "Racekiela ryderi",
+      "vernacularName": {
+        "nb": "rydersvamp"
+      }
+    },
+    {
+      "id": "taxon:5339146d9531409ab6210d41c3f0c1a7",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "119974"
+      },
+      "scientificName": "Ephydatia mülleri",
+      "vernacularName": {
+        "nb": "myllersvamp"
+      }
+    },
+    {
+      "id": "taxon:f3ee58b3ab48449a88c9db2620a21e45",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "119975"
+      },
+      "scientificName": "Ephydatia fluviatilis",
+      "vernacularName": {
+        "nb": "elvesvamp"
+      }
+    }
+  ]
+}

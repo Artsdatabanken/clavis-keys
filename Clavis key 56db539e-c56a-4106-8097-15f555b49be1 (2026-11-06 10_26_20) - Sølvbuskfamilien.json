@@ -1,0 +1,385 @@
+{
+  "$schema": "https://github.com/Artsdatabanken/Clavis/releases/download/v1.0/Clavis.json",
+  "identifier": "56db539e-c56a-4106-8097-15f555b49be1",
+  "lastModified": "2026-11-06 10:26:20",
+  "language": [
+    "nb"
+  ],
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "externalServices": [
+    {
+      "id": "service:nbic_taxa",
+      "title": "NBIC taxonomy scientificNameId",
+      "description": "To retrieve taxon information based on the NBIC scientificNameId, e.g. through https://www.artsdatabanken.no/api/Taxon/ByScientificNameId/4362",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_page",
+      "title": "NBIC page ID",
+      "description": "To retrieve a page from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Pages/237010",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_media",
+      "title": "NBIC media ID",
+      "description": "To retrieve a picture from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Media/F27858?mode=750x750",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    }
+  ],
+  "mediaElements": [
+    {
+      "id": "media:f56699",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F56699"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f24738",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F24738"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f56693",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F56693"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f24053",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F24053"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f56694",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F56694"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f24739",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F24739"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f56694",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F56694"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f24739",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F24739"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f56692",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F56692"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f56706",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F56706"
+          }
+        }
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "statement:0f67ff9d083f47d69ce89bcc5b1f530b",
+      "character": "character:af205beef81c4868acb1b92b20fa7585",
+      "value": "state:3a7f32b9e1f74043b411f122e5ede18b",
+      "taxon": "taxon:b10e1e3653674e9989a95c406b1da669",
+      "frequency": 0
+    },
+    {
+      "id": "statement:2a7940e1dcb54f8db54f77573213b047",
+      "character": "character:af205beef81c4868acb1b92b20fa7585",
+      "value": "state:3a7f32b9e1f74043b411f122e5ede18b",
+      "taxon": "taxon:4d6e9ad6ef894a27a6974177a444e915",
+      "frequency": 1
+    },
+    {
+      "id": "statement:7361134f51a24b08ad172891256df18c",
+      "character": "character:af205beef81c4868acb1b92b20fa7585",
+      "value": "state:adc37b1b16a342b2987cb77e36cfe678",
+      "taxon": "taxon:b10e1e3653674e9989a95c406b1da669",
+      "frequency": 1
+    },
+    {
+      "id": "statement:8643e765e75e42d483fb9aa99f4f47ae",
+      "character": "character:af205beef81c4868acb1b92b20fa7585",
+      "value": "state:adc37b1b16a342b2987cb77e36cfe678",
+      "taxon": "taxon:4d6e9ad6ef894a27a6974177a444e915",
+      "frequency": 0
+    },
+    {
+      "id": "statement:bf419ee74fa04d26a93e1f0b2b98567f",
+      "character": "character:b91146cb3134401e8b853abec5a89e72",
+      "value": "state:50bc6b8077744379b36ee38cf0f7de6b",
+      "taxon": "taxon:b10e1e3653674e9989a95c406b1da669",
+      "frequency": 0
+    },
+    {
+      "id": "statement:890dd6e33773443185e3415198bbee07",
+      "character": "character:b91146cb3134401e8b853abec5a89e72",
+      "value": "state:50bc6b8077744379b36ee38cf0f7de6b",
+      "taxon": "taxon:4d6e9ad6ef894a27a6974177a444e915",
+      "frequency": 1
+    },
+    {
+      "id": "statement:c8c69c53745547a9a2c759dc663de679",
+      "character": "character:b91146cb3134401e8b853abec5a89e72",
+      "value": "state:528902cc40a24443994a321ce710b2dd",
+      "taxon": "taxon:b10e1e3653674e9989a95c406b1da669",
+      "frequency": 1
+    },
+    {
+      "id": "statement:39fd24dc0f464e4e80731aad888a19c7",
+      "character": "character:b91146cb3134401e8b853abec5a89e72",
+      "value": "state:528902cc40a24443994a321ce710b2dd",
+      "taxon": "taxon:4d6e9ad6ef894a27a6974177a444e915",
+      "frequency": 0
+    },
+    {
+      "id": "statement:a2b486130fe048d9aadc10ef2290fbf6",
+      "character": "character:04b601d747604a9d831e63f6c58f9568",
+      "value": "state:bc1cb9d64d5d4c2c88676ce55d1d6727",
+      "taxon": "taxon:b10e1e3653674e9989a95c406b1da669",
+      "frequency": 0
+    },
+    {
+      "id": "statement:c41c3967b90144ecb506b08a371eea50",
+      "character": "character:04b601d747604a9d831e63f6c58f9568",
+      "value": "state:bc1cb9d64d5d4c2c88676ce55d1d6727",
+      "taxon": "taxon:4d6e9ad6ef894a27a6974177a444e915",
+      "frequency": 1
+    },
+    {
+      "id": "statement:2fdfc2c551be4709ba90ab44c5b74861",
+      "character": "character:04b601d747604a9d831e63f6c58f9568",
+      "value": "state:05311fb33c464e7fb23303e6ecc9c658",
+      "taxon": "taxon:b10e1e3653674e9989a95c406b1da669",
+      "frequency": 1
+    },
+    {
+      "id": "statement:9df22a6fe7294db982a9d405d4a61ef5",
+      "character": "character:04b601d747604a9d831e63f6c58f9568",
+      "value": "state:05311fb33c464e7fb23303e6ecc9c658",
+      "taxon": "taxon:4d6e9ad6ef894a27a6974177a444e915",
+      "frequency": 0
+    },
+    {
+      "id": "statement:f65286718d484bdb972102c398915f9e",
+      "character": "character:406e04b1dc4b4cf692be441cabf13fa7",
+      "value": "state:aa1c2c1fb6424c129f5612f95acfffca",
+      "taxon": "taxon:b10e1e3653674e9989a95c406b1da669",
+      "frequency": 0
+    },
+    {
+      "id": "statement:a997e42b96b74bd89f63ce5570dd3d12",
+      "character": "character:406e04b1dc4b4cf692be441cabf13fa7",
+      "value": "state:aa1c2c1fb6424c129f5612f95acfffca",
+      "taxon": "taxon:4d6e9ad6ef894a27a6974177a444e915",
+      "frequency": 1
+    },
+    {
+      "id": "statement:db9b58cd77b441bb9d9e477475bd2944",
+      "character": "character:406e04b1dc4b4cf692be441cabf13fa7",
+      "value": "state:bfdcd04462b74d3897dba960e5e53905",
+      "taxon": "taxon:b10e1e3653674e9989a95c406b1da669",
+      "frequency": 1
+    },
+    {
+      "id": "statement:fb659fa19409443d93e189dd9144d313",
+      "character": "character:406e04b1dc4b4cf692be441cabf13fa7",
+      "value": "state:bfdcd04462b74d3897dba960e5e53905",
+      "taxon": "taxon:4d6e9ad6ef894a27a6974177a444e915",
+      "frequency": 0
+    }
+  ],
+  "title": {
+    "nb": "Nøkkel til sølvbuskfamilien Elaeagnaceae"
+  },
+  "geography": {
+    "name": {
+      "nb": "Norge"
+    }
+  },
+  "description": {
+    "nb": "Førsteutkast, HH110624"
+  },
+  "characters": [
+    {
+      "id": "character:af205beef81c4868acb1b92b20fa7585",
+      "title": {
+        "nb": "Bladform"
+      },
+      "states": [
+        {
+          "id": "state:3a7f32b9e1f74043b411f122e5ede18b",
+          "title": {
+            "nb": "Blad smale og nokså jevnbreie"
+          },
+          "media": "media:f56699"
+        },
+        {
+          "id": "state:adc37b1b16a342b2987cb77e36cfe678",
+          "title": {
+            "nb": "Blad breie og elliptiske"
+          },
+          "media": "media:f24738"
+        }
+      ]
+    },
+    {
+      "id": "character:b91146cb3134401e8b853abec5a89e72",
+      "title": {
+        "nb": "Tilstedeværelse av greintorner"
+      },
+      "states": [
+        {
+          "id": "state:50bc6b8077744379b36ee38cf0f7de6b",
+          "title": {
+            "nb": "Greintorner til stede"
+          },
+          "media": "media:f56693"
+        },
+        {
+          "id": "state:528902cc40a24443994a321ce710b2dd",
+          "title": {
+            "nb": "Greintorner ikke til stede"
+          },
+          "media": "media:f24053"
+        }
+      ]
+    },
+    {
+      "id": "character:04b601d747604a9d831e63f6c58f9568",
+      "title": {
+        "nb": "Beger, fliking"
+      },
+      "states": [
+        {
+          "id": "state:bc1cb9d64d5d4c2c88676ce55d1d6727",
+          "title": {
+            "nb": "Beger tofliket"
+          },
+          "media": "media:f56694"
+        },
+        {
+          "id": "state:05311fb33c464e7fb23303e6ecc9c658",
+          "title": {
+            "nb": "Beger firefliket"
+          },
+          "media": "media:f24739"
+        }
+      ]
+    },
+    {
+      "id": "character:406e04b1dc4b4cf692be441cabf13fa7",
+      "title": {
+        "nb": "Blomster, kjønnsforhold"
+      },
+      "states": [
+        {
+          "id": "state:aa1c2c1fb6424c129f5612f95acfffca",
+          "title": {
+            "nb": "Blomster enkjønnete (busk oftest særbu)"
+          },
+          "media": "media:f56694"
+        },
+        {
+          "id": "state:bfdcd04462b74d3897dba960e5e53905",
+          "title": {
+            "nb": "Blomster tokjønnete"
+          },
+          "media": "media:f24739"
+        }
+      ]
+    }
+  ],
+  "taxa": [
+    {
+      "id": "taxon:b10e1e3653674e9989a95c406b1da669",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "103201"
+      },
+      "scientificName": "Elaeagnus",
+      "vernacularName": {
+        "nb": "sølvbuskslekta"
+      },
+      "media": "media:f56692"
+    },
+    {
+      "id": "taxon:4d6e9ad6ef894a27a6974177a444e915",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "103203"
+      },
+      "scientificName": "Hippophaë",
+      "vernacularName": {
+        "nb": "tindvedslekta"
+      },
+      "media": "media:f56706"
+    }
+  ]
+}

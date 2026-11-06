@@ -1,0 +1,466 @@
+{
+  "$schema": "https://github.com/Artsdatabanken/Clavis/releases/download/v1.0/Clavis.json",
+  "identifier": "96647fe3-0d9c-446c-bdac-20e1b40a554d",
+  "lastModified": "2026-11-05 10:24:29",
+  "language": [
+    "nb"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "externalServices": [
+    {
+      "id": "service:nbic_taxa",
+      "title": "NBIC taxonomy scientificNameId",
+      "description": "To retrieve taxon information based on the NBIC scientificNameId, e.g. through https://www.artsdatabanken.no/api/Taxon/ByScientificNameId/4362",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_page",
+      "title": "NBIC page ID",
+      "description": "To retrieve a page from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Pages/237010",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_media",
+      "title": "NBIC media ID",
+      "description": "To retrieve a picture from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Media/F27858?mode=750x750",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    }
+  ],
+  "mediaElements": [
+    {
+      "id": "media:f43085",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F43085"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f43092",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F43092"
+          }
+        }
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "statement:cb2b3fc851e843e5bb8591ffe9c77813",
+      "character": "character:6ddb990d236c4eae887831375e781959",
+      "value": "state:f1f35c71965e45cfbb0160e2d9b10917",
+      "taxon": "taxon:1e8b88f34e624c3c8d934dc034440b19",
+      "frequency": 1
+    },
+    {
+      "id": "statement:7edf10682cb64a51b277bcc70e284b37",
+      "character": "character:6ddb990d236c4eae887831375e781959",
+      "value": "state:f1f35c71965e45cfbb0160e2d9b10917",
+      "taxon": "taxon:7c1ef9609fe3498b9e77dbd53b556b37",
+      "frequency": 1
+    },
+    {
+      "id": "statement:d3d5fc995aff470690705a8d6ec9bada",
+      "character": "character:6ddb990d236c4eae887831375e781959",
+      "value": "state:f1f35c71965e45cfbb0160e2d9b10917",
+      "taxon": "taxon:f4b1359c74b34fc58f6976cdace9507e",
+      "frequency": 0
+    },
+    {
+      "id": "statement:523920941695480ab46e67de872d4b9f",
+      "character": "character:6ddb990d236c4eae887831375e781959",
+      "value": "state:80f5a342bc4c4c89bc30ff3c849af81e",
+      "taxon": "taxon:1e8b88f34e624c3c8d934dc034440b19",
+      "frequency": 0
+    },
+    {
+      "id": "statement:632a7421ff3d497da1401b65adc8c72d",
+      "character": "character:6ddb990d236c4eae887831375e781959",
+      "value": "state:80f5a342bc4c4c89bc30ff3c849af81e",
+      "taxon": "taxon:7c1ef9609fe3498b9e77dbd53b556b37",
+      "frequency": 0
+    },
+    {
+      "id": "statement:c163abfb717646278fa477171de65795",
+      "character": "character:6ddb990d236c4eae887831375e781959",
+      "value": "state:80f5a342bc4c4c89bc30ff3c849af81e",
+      "taxon": "taxon:f4b1359c74b34fc58f6976cdace9507e",
+      "frequency": 1
+    },
+    {
+      "id": "statement:5f53aa0717a445109642871d1a597161",
+      "character": "character:89bd26dc69d94561b3ba4fa2cd98f6b1",
+      "value": "state:8a174f69a67b4d4ba2da65aca7e98e59",
+      "taxon": "taxon:1e8b88f34e624c3c8d934dc034440b19",
+      "frequency": 1
+    },
+    {
+      "id": "statement:b89b3064d4d64d58b851ec0a0375fcd4",
+      "character": "character:89bd26dc69d94561b3ba4fa2cd98f6b1",
+      "value": "state:8a174f69a67b4d4ba2da65aca7e98e59",
+      "taxon": "taxon:7c1ef9609fe3498b9e77dbd53b556b37",
+      "frequency": 0
+    },
+    {
+      "id": "statement:fe45a107330f42189eb007251da48128",
+      "character": "character:89bd26dc69d94561b3ba4fa2cd98f6b1",
+      "value": "state:8a174f69a67b4d4ba2da65aca7e98e59",
+      "taxon": "taxon:f4b1359c74b34fc58f6976cdace9507e",
+      "frequency": 0
+    },
+    {
+      "id": "statement:ef78195dc8f341f6a25ddab30b1dabfc",
+      "character": "character:89bd26dc69d94561b3ba4fa2cd98f6b1",
+      "value": "state:51dfc1243559463abfdba08ec3a485c4",
+      "taxon": "taxon:1e8b88f34e624c3c8d934dc034440b19",
+      "frequency": 0
+    },
+    {
+      "id": "statement:f596b226d0234a62820fc641dfce141a",
+      "character": "character:89bd26dc69d94561b3ba4fa2cd98f6b1",
+      "value": "state:51dfc1243559463abfdba08ec3a485c4",
+      "taxon": "taxon:7c1ef9609fe3498b9e77dbd53b556b37",
+      "frequency": 1
+    },
+    {
+      "id": "statement:1768880864974fc48df051814bca4ee2",
+      "character": "character:89bd26dc69d94561b3ba4fa2cd98f6b1",
+      "value": "state:51dfc1243559463abfdba08ec3a485c4",
+      "taxon": "taxon:f4b1359c74b34fc58f6976cdace9507e",
+      "frequency": 1
+    },
+    {
+      "id": "statement:0e2b4ad8010a4d019c86715811c54cfd",
+      "character": "character:47fa9e048680437d93d22bc080715927",
+      "value": "state:31e0a7cbc0104bf0bf0582420b429291",
+      "taxon": "taxon:1e8b88f34e624c3c8d934dc034440b19",
+      "frequency": 1
+    },
+    {
+      "id": "statement:4f33f65f3e484e7f83ee92e80ec5a7fa",
+      "character": "character:47fa9e048680437d93d22bc080715927",
+      "value": "state:31e0a7cbc0104bf0bf0582420b429291",
+      "taxon": "taxon:7c1ef9609fe3498b9e77dbd53b556b37",
+      "frequency": 1
+    },
+    {
+      "id": "statement:62e55bcd72a5446f9c26020593be6a8a",
+      "character": "character:47fa9e048680437d93d22bc080715927",
+      "value": "state:31e0a7cbc0104bf0bf0582420b429291",
+      "taxon": "taxon:f4b1359c74b34fc58f6976cdace9507e",
+      "frequency": 0
+    },
+    {
+      "id": "statement:5711e88487f04acb953e3a5b410c345d",
+      "character": "character:47fa9e048680437d93d22bc080715927",
+      "value": "state:488a53af04854266840cc030184b98d8",
+      "taxon": "taxon:1e8b88f34e624c3c8d934dc034440b19",
+      "frequency": 0
+    },
+    {
+      "id": "statement:c340b29e39c64277808ddddc8e7bb3b9",
+      "character": "character:47fa9e048680437d93d22bc080715927",
+      "value": "state:488a53af04854266840cc030184b98d8",
+      "taxon": "taxon:7c1ef9609fe3498b9e77dbd53b556b37",
+      "frequency": 0
+    },
+    {
+      "id": "statement:1e24feb7b126431fa6df0acfc1a2fdd1",
+      "character": "character:47fa9e048680437d93d22bc080715927",
+      "value": "state:488a53af04854266840cc030184b98d8",
+      "taxon": "taxon:f4b1359c74b34fc58f6976cdace9507e",
+      "frequency": 1
+    },
+    {
+      "id": "statement:c0d4d0aa68fc4b23855a324257a55792",
+      "character": "character:be89048bb4704f0ba39c648c226ea4e6",
+      "value": "state:66c1a8b658d24c40b3658467dcdf8035",
+      "taxon": "taxon:1e8b88f34e624c3c8d934dc034440b19",
+      "frequency": 1
+    },
+    {
+      "id": "statement:734c121a7cf5439a94b413cdd9798d47",
+      "character": "character:be89048bb4704f0ba39c648c226ea4e6",
+      "value": "state:66c1a8b658d24c40b3658467dcdf8035",
+      "taxon": "taxon:7c1ef9609fe3498b9e77dbd53b556b37",
+      "frequency": 0
+    },
+    {
+      "id": "statement:1262dbe4bd554d978c1f1b289a41e6be",
+      "character": "character:be89048bb4704f0ba39c648c226ea4e6",
+      "value": "state:66c1a8b658d24c40b3658467dcdf8035",
+      "taxon": "taxon:f4b1359c74b34fc58f6976cdace9507e",
+      "frequency": 0
+    },
+    {
+      "id": "statement:eaaa0c60a2d24c7d87478b7c3d06a687",
+      "character": "character:be89048bb4704f0ba39c648c226ea4e6",
+      "value": "state:45f03fce87f948b5aca011627f047041",
+      "taxon": "taxon:1e8b88f34e624c3c8d934dc034440b19",
+      "frequency": 0
+    },
+    {
+      "id": "statement:cd147c4ac73f45f48e38bc9d3c854bd1",
+      "character": "character:be89048bb4704f0ba39c648c226ea4e6",
+      "value": "state:45f03fce87f948b5aca011627f047041",
+      "taxon": "taxon:7c1ef9609fe3498b9e77dbd53b556b37",
+      "frequency": 1
+    },
+    {
+      "id": "statement:93a6b31fe04c4ee99e728490a8e846ef",
+      "character": "character:be89048bb4704f0ba39c648c226ea4e6",
+      "value": "state:45f03fce87f948b5aca011627f047041",
+      "taxon": "taxon:f4b1359c74b34fc58f6976cdace9507e",
+      "frequency": 1
+    },
+    {
+      "id": "statement:8d07af830bb14d01a2008d233113215a",
+      "character": "character:24a265ae54bd4800bd37ed53cc6aad11",
+      "value": "state:e5b06fa1508a430699d86c132265180d",
+      "taxon": "taxon:7c1ef9609fe3498b9e77dbd53b556b37",
+      "frequency": 1
+    },
+    {
+      "id": "statement:9387526b3ef747b7a167c36344fa6796",
+      "character": "character:24a265ae54bd4800bd37ed53cc6aad11",
+      "value": "state:e5b06fa1508a430699d86c132265180d",
+      "taxon": "taxon:f4b1359c74b34fc58f6976cdace9507e",
+      "frequency": 0
+    },
+    {
+      "id": "statement:344194014e6c4b768ce9b1653aa989c6",
+      "character": "character:24a265ae54bd4800bd37ed53cc6aad11",
+      "value": "state:7164cd2f561d45bcbdf7416ec6452a2f",
+      "taxon": "taxon:7c1ef9609fe3498b9e77dbd53b556b37",
+      "frequency": 0
+    },
+    {
+      "id": "statement:66efed58c3924f06ae93fd756df268c3",
+      "character": "character:24a265ae54bd4800bd37ed53cc6aad11",
+      "value": "state:7164cd2f561d45bcbdf7416ec6452a2f",
+      "taxon": "taxon:f4b1359c74b34fc58f6976cdace9507e",
+      "frequency": 1
+    },
+    {
+      "id": "statement:3c7f3fc9fdcf459fb7f0ddb451e9b8f4",
+      "character": "character:6e0fa9d356194041b0e92b011e52fdae",
+      "value": "state:f9c68b9f0d384426bd5f1ed6f5d94738",
+      "taxon": "taxon:1e8b88f34e624c3c8d934dc034440b19",
+      "frequency": 1
+    },
+    {
+      "id": "statement:70e5e02ab4414b7a9a049c0c75645195",
+      "character": "character:6e0fa9d356194041b0e92b011e52fdae",
+      "value": "state:f9c68b9f0d384426bd5f1ed6f5d94738",
+      "taxon": "taxon:7c1ef9609fe3498b9e77dbd53b556b37",
+      "frequency": 1
+    },
+    {
+      "id": "statement:b376f918fde0460c88069a163e709d53",
+      "character": "character:6e0fa9d356194041b0e92b011e52fdae",
+      "value": "state:f9c68b9f0d384426bd5f1ed6f5d94738",
+      "taxon": "taxon:f4b1359c74b34fc58f6976cdace9507e",
+      "frequency": 0
+    },
+    {
+      "id": "statement:d2a6dc8d8cf14f72bfd3660acd196842",
+      "character": "character:6e0fa9d356194041b0e92b011e52fdae",
+      "value": "state:6b960ca3166b43db9fef9e19c18cb01e",
+      "taxon": "taxon:1e8b88f34e624c3c8d934dc034440b19",
+      "frequency": 0
+    },
+    {
+      "id": "statement:4f14f4d8819d43c6bc6a207a8e06e091",
+      "character": "character:6e0fa9d356194041b0e92b011e52fdae",
+      "value": "state:6b960ca3166b43db9fef9e19c18cb01e",
+      "taxon": "taxon:7c1ef9609fe3498b9e77dbd53b556b37",
+      "frequency": 0
+    },
+    {
+      "id": "statement:ffbdea66cfb2478d9c18258edd1dbf89",
+      "character": "character:6e0fa9d356194041b0e92b011e52fdae",
+      "value": "state:6b960ca3166b43db9fef9e19c18cb01e",
+      "taxon": "taxon:f4b1359c74b34fc58f6976cdace9507e",
+      "frequency": 1
+    }
+  ],
+  "title": {
+    "nb": "Gymnadenia"
+  },
+  "geography": {
+    "name": {
+      "nb": "Noreg"
+    }
+  },
+  "description": {
+    "nb": "Andreutkast RE ADB 230601"
+  },
+  "characters": [
+    {
+      "id": "character:6ddb990d236c4eae887831375e781959",
+      "title": {
+        "nb": "Blad, breidde"
+      },
+      "states": [
+        {
+          "id": "state:f1f35c71965e45cfbb0160e2d9b10917",
+          "title": {
+            "nb": "Alle blad smalare enn 1 cm"
+          }
+        },
+        {
+          "id": "state:80f5a342bc4c4c89bc30ff3c849af81e",
+          "title": {
+            "nb": "Lengste blad breiare enn 1 cm"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:89bd26dc69d94561b3ba4fa2cd98f6b1",
+      "title": {
+        "nb": "Leppa, breidde"
+      },
+      "states": [
+        {
+          "id": "state:8a174f69a67b4d4ba2da65aca7e98e59",
+          "title": {
+            "nb": "Leppa 3-5 mm brei"
+          }
+        },
+        {
+          "id": "state:51dfc1243559463abfdba08ec3a485c4",
+          "title": {
+            "nb": "Leppa >5 mm brei"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:47fa9e048680437d93d22bc080715927",
+      "title": {
+        "nb": "Leppa, breidde/lengde"
+      },
+      "states": [
+        {
+          "id": "state:31e0a7cbc0104bf0bf0582420b429291",
+          "title": {
+            "nb": "Leppa litt lengre enn brei"
+          }
+        },
+        {
+          "id": "state:488a53af04854266840cc030184b98d8",
+          "title": {
+            "nb": "Leppa litt breiare enn lang"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:be89048bb4704f0ba39c648c226ea4e6",
+      "title": {
+        "nb": "Leppa, flikar"
+      },
+      "states": [
+        {
+          "id": "state:66c1a8b658d24c40b3658467dcdf8035",
+          "title": {
+            "nb": "Leppa utydeleg flika"
+          }
+        },
+        {
+          "id": "state:45f03fce87f948b5aca011627f047041",
+          "title": {
+            "nb": "Leppa tydeleg flika"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:24a265ae54bd4800bd37ed53cc6aad11",
+      "title": {
+        "nb": "Leppa, midtflik"
+      },
+      "states": [
+        {
+          "id": "state:e5b06fa1508a430699d86c132265180d",
+          "title": {
+            "nb": "Leppa med midtflik litt lengre enn sideflikane"
+          }
+        },
+        {
+          "id": "state:7164cd2f561d45bcbdf7416ec6452a2f",
+          "title": {
+            "nb": "Leppa med midtflik kortare eller jamlang med sideflikane"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:6e0fa9d356194041b0e92b011e52fdae",
+      "title": {
+        "nb": "Aks, tettleik"
+      },
+      "states": [
+        {
+          "id": "state:f9c68b9f0d384426bd5f1ed6f5d94738",
+          "title": {
+            "nb": "Aks grisse, midtaksen lett synleg"
+          }
+        },
+        {
+          "id": "state:6b960ca3166b43db9fef9e19c18cb01e",
+          "title": {
+            "nb": "Aks tette, midtaksen lite eller ikkje synleg"
+          }
+        }
+      ]
+    }
+  ],
+  "taxa": [
+    {
+      "id": "taxon:1e8b88f34e624c3c8d934dc034440b19",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "222899"
+      },
+      "scientificName": "Gymnadenia borealis",
+      "vernacularName": {
+        "nb": "grannbrudespore"
+      }
+    },
+    {
+      "id": "taxon:7c1ef9609fe3498b9e77dbd53b556b37",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "99518"
+      },
+      "scientificName": "Gymnadenia conopsea",
+      "vernacularName": {
+        "nb": "brudespore"
+      },
+      "media": "media:f43085"
+    },
+    {
+      "id": "taxon:f4b1359c74b34fc58f6976cdace9507e",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "215488"
+      },
+      "scientificName": "Gymnadenia densiflora",
+      "vernacularName": {
+        "nb": "praktbrudespore"
+      },
+      "media": "media:f43092"
+    }
+  ]
+}

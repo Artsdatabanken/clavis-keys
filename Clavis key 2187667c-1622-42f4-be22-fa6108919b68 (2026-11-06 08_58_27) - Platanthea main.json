@@ -1,0 +1,249 @@
+{
+  "$schema": "https://github.com/Artsdatabanken/Clavis/releases/download/v1.0/Clavis.json",
+  "identifier": "2187667c-1622-42f4-be22-fa6108919b68",
+  "lastModified": "2026-11-06 08:58:27",
+  "language": [
+    "nb"
+  ],
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "externalServices": [
+    {
+      "id": "service:nbic_taxa",
+      "title": "NBIC taxonomy scientificNameId",
+      "description": "To retrieve taxon information based on the NBIC scientificNameId, e.g. through https://www.artsdatabanken.no/api/Taxon/ByScientificNameId/4362",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_page",
+      "title": "NBIC page ID",
+      "description": "To retrieve a page from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Pages/237010",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_media",
+      "title": "NBIC media ID",
+      "description": "To retrieve a picture from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Media/F27858?mode=750x750",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    }
+  ],
+  "mediaElements": [
+    {
+      "id": "media:f43138",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F43138"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f43146",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F43146"
+          }
+        }
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "statement:4cdb905262e540319675aec39c3c7923",
+      "character": "character:f91c6379905f4505aa864ec746f7db44",
+      "value": "state:fd5aecb5e3c241089a544c7f0f7c483d",
+      "taxon": "taxon:0ddf7dc0f29f4276afce423b2187fff9",
+      "frequency": 1
+    },
+    {
+      "id": "statement:aaabac616f4949fbb22d4222fe57ca01",
+      "character": "character:f91c6379905f4505aa864ec746f7db44",
+      "value": "state:fd5aecb5e3c241089a544c7f0f7c483d",
+      "taxon": "taxon:72d02b9a5d4c4769a102e1ff7db7cbb4",
+      "frequency": 0
+    },
+    {
+      "id": "statement:e565f38e5cd644cbb19cbf4af2165bfb",
+      "character": "character:f91c6379905f4505aa864ec746f7db44",
+      "value": "state:cf724d5db5f04072ab7885c1468845bb",
+      "taxon": "taxon:0ddf7dc0f29f4276afce423b2187fff9",
+      "frequency": 0
+    },
+    {
+      "id": "statement:c9fb33c558d44b63a08dd5a6210ea59c",
+      "character": "character:f91c6379905f4505aa864ec746f7db44",
+      "value": "state:cf724d5db5f04072ab7885c1468845bb",
+      "taxon": "taxon:72d02b9a5d4c4769a102e1ff7db7cbb4",
+      "frequency": 1
+    },
+    {
+      "id": "statement:edec7091fac54b0aa950da733430a19b",
+      "character": "character:9a3e407726154f819a24a852816c36fb",
+      "value": "state:4833254137e3459fa596bcaa521aed85",
+      "taxon": "taxon:0ddf7dc0f29f4276afce423b2187fff9",
+      "frequency": 1
+    },
+    {
+      "id": "statement:3abe158761a14f678006bd767dee89bf",
+      "character": "character:9a3e407726154f819a24a852816c36fb",
+      "value": "state:4833254137e3459fa596bcaa521aed85",
+      "taxon": "taxon:72d02b9a5d4c4769a102e1ff7db7cbb4",
+      "frequency": 0
+    },
+    {
+      "id": "statement:0d1d6d1474d44ca7a7177777d6dff942",
+      "character": "character:9a3e407726154f819a24a852816c36fb",
+      "value": "state:4bc5ef9fd0584506b6c99232acc7f30e",
+      "taxon": "taxon:0ddf7dc0f29f4276afce423b2187fff9",
+      "frequency": 0
+    },
+    {
+      "id": "statement:4eea587ec4fc4069aee9fe79f4712706",
+      "character": "character:9a3e407726154f819a24a852816c36fb",
+      "value": "state:4bc5ef9fd0584506b6c99232acc7f30e",
+      "taxon": "taxon:72d02b9a5d4c4769a102e1ff7db7cbb4",
+      "frequency": 1
+    },
+    {
+      "id": "statement:8aaf2f4311fa48639e200b7ba980c871",
+      "character": "character:3ff32d929e5e4bf9b7a30bbec4942e8b",
+      "value": "state:27eda79a593c4e19ab6f788aab7f2475",
+      "taxon": "taxon:0ddf7dc0f29f4276afce423b2187fff9",
+      "frequency": 1
+    },
+    {
+      "id": "statement:1279a30a23c54477aac4e2f7d11fe73f",
+      "character": "character:3ff32d929e5e4bf9b7a30bbec4942e8b",
+      "value": "state:27eda79a593c4e19ab6f788aab7f2475",
+      "taxon": "taxon:72d02b9a5d4c4769a102e1ff7db7cbb4",
+      "frequency": 0
+    },
+    {
+      "id": "statement:9fe1f4cbd3084288a699096a392fc062",
+      "character": "character:3ff32d929e5e4bf9b7a30bbec4942e8b",
+      "value": "state:e8d243ee6b7f4482a49f6ef45714e1a0",
+      "taxon": "taxon:0ddf7dc0f29f4276afce423b2187fff9",
+      "frequency": 0
+    },
+    {
+      "id": "statement:5e9c45d70f7a4de1b44a70e21272dfd9",
+      "character": "character:3ff32d929e5e4bf9b7a30bbec4942e8b",
+      "value": "state:e8d243ee6b7f4482a49f6ef45714e1a0",
+      "taxon": "taxon:72d02b9a5d4c4769a102e1ff7db7cbb4",
+      "frequency": 1
+    }
+  ],
+  "title": {
+    "nb": "Platanthera"
+  },
+  "geography": {
+    "name": {
+      "nb": "Noreg"
+    }
+  },
+  "description": {
+    "nb": "Førsteutkast, RE_211218"
+  },
+  "descriptionUrl": {
+    "nb": {
+      "externalReference": {
+        "serviceId": "service:nbic_page",
+        "externalId": "332566"
+      }
+    }
+  },
+  "characters": [
+    {
+      "id": "character:f91c6379905f4505aa864ec746f7db44",
+      "title": {
+        "nb": "Pollenknapprom i blomen"
+      },
+      "states": [
+        {
+          "id": "state:fd5aecb5e3c241089a544c7f0f7c483d",
+          "title": {
+            "nb": "Pollenknapprom parallelle og tett saman"
+          }
+        },
+        {
+          "id": "state:cf724d5db5f04072ab7885c1468845bb",
+          "title": {
+            "nb": "Pollenknapprom sprikjer mykje frå kvarandre nedst"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:9a3e407726154f819a24a852816c36fb",
+      "title": {
+        "nb": "Nektarspore"
+      },
+      "states": [
+        {
+          "id": "state:4833254137e3459fa596bcaa521aed85",
+          "title": {
+            "nb": "Sporen jamntjukk"
+          }
+        },
+        {
+          "id": "state:4bc5ef9fd0584506b6c99232acc7f30e",
+          "title": {
+            "nb": "Sporen breiare mot enden (sidelengs samantrykt)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:3ff32d929e5e4bf9b7a30bbec4942e8b",
+      "title": {
+        "nb": "Blomedekke, farge"
+      },
+      "states": [
+        {
+          "id": "state:27eda79a593c4e19ab6f788aab7f2475",
+          "title": {
+            "nb": "Blomedekke reint kvitt"
+          }
+        },
+        {
+          "id": "state:e8d243ee6b7f4482a49f6ef45714e1a0",
+          "title": {
+            "nb": "Blomedekke litt grønleg kvitt"
+          }
+        }
+      ]
+    }
+  ],
+  "taxa": [
+    {
+      "id": "taxon:0ddf7dc0f29f4276afce423b2187fff9",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "99543"
+      },
+      "scientificName": "Platanthera bifolia",
+      "vernacularName": {
+        "nb": "nattfiol"
+      },
+      "media": "media:f43138"
+    },
+    {
+      "id": "taxon:72d02b9a5d4c4769a102e1ff7db7cbb4",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "159270"
+      },
+      "scientificName": "Platanthera chlorantha",
+      "vernacularName": {
+        "nb": "grov nattfiol"
+      },
+      "media": "media:f43146"
+    }
+  ]
+}

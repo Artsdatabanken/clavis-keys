@@ -1,0 +1,249 @@
+{
+  "$schema": "https://github.com/Artsdatabanken/Clavis/releases/download/v1.0/Clavis.json",
+  "identifier": "e122ff91-8c99-42d1-8ce0-e789505a85ae",
+  "lastModified": "2026-11-05 10:35:35",
+  "language": [
+    "nb"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "externalServices": [
+    {
+      "id": "service:nbic_taxa",
+      "title": "NBIC taxonomy scientificNameId",
+      "description": "To retrieve taxon information based on the NBIC scientificNameId, e.g. through https://www.artsdatabanken.no/api/Taxon/ByScientificNameId/4362",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_page",
+      "title": "NBIC page ID",
+      "description": "To retrieve a page from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Pages/237010",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_media",
+      "title": "NBIC media ID",
+      "description": "To retrieve a picture from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Media/F27858?mode=750x750",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    }
+  ],
+  "mediaElements": [
+    {
+      "id": "media:f43033",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F43033"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f43038",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F43038"
+          }
+        }
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "statement:a4bd613d20154424916fd985eb7087af",
+      "character": "character:63d132caf7b04272bb60d55318dba8c1",
+      "value": "state:9b42479abbed4102b87e3fd54daa88af",
+      "taxon": "taxon:0637d2ab8cd2418182a13cedd35f311d",
+      "frequency": 0
+    },
+    {
+      "id": "statement:cff1c3916f46426686d3ab20ed11af66",
+      "character": "character:63d132caf7b04272bb60d55318dba8c1",
+      "value": "state:9b42479abbed4102b87e3fd54daa88af",
+      "taxon": "taxon:d81905c1d12b46c7a8c455c64f3a3d46",
+      "frequency": 1
+    },
+    {
+      "id": "statement:ae99f735129747ce82d9bcab7a851cc5",
+      "character": "character:63d132caf7b04272bb60d55318dba8c1",
+      "value": "state:a501fdb17ee443bd8e81cb979400c1a6",
+      "taxon": "taxon:0637d2ab8cd2418182a13cedd35f311d",
+      "frequency": 1
+    },
+    {
+      "id": "statement:52756914fc9e4a1ab582a8c8813eb2d9",
+      "character": "character:63d132caf7b04272bb60d55318dba8c1",
+      "value": "state:a501fdb17ee443bd8e81cb979400c1a6",
+      "taxon": "taxon:d81905c1d12b46c7a8c455c64f3a3d46",
+      "frequency": 0
+    },
+    {
+      "id": "statement:9a06d5a64041459699cbfe22641a55ff",
+      "character": "character:92160675de4c46a1bd6b413b21393b21",
+      "value": "state:b69a2ae11d0b42988982e551334beec7",
+      "taxon": "taxon:0637d2ab8cd2418182a13cedd35f311d",
+      "frequency": 0
+    },
+    {
+      "id": "statement:1ad3e9cfd1964971bff03d37ac252d52",
+      "character": "character:92160675de4c46a1bd6b413b21393b21",
+      "value": "state:b69a2ae11d0b42988982e551334beec7",
+      "taxon": "taxon:d81905c1d12b46c7a8c455c64f3a3d46",
+      "frequency": 1
+    },
+    {
+      "id": "statement:64533ba3fbcd4552a95d4c9578492c26",
+      "character": "character:92160675de4c46a1bd6b413b21393b21",
+      "value": "state:18bb7f38a94349ad8ff19f0fd3a641b8",
+      "taxon": "taxon:0637d2ab8cd2418182a13cedd35f311d",
+      "frequency": 1
+    },
+    {
+      "id": "statement:3b63d281f340416cbb282c87d7ad0912",
+      "character": "character:92160675de4c46a1bd6b413b21393b21",
+      "value": "state:18bb7f38a94349ad8ff19f0fd3a641b8",
+      "taxon": "taxon:d81905c1d12b46c7a8c455c64f3a3d46",
+      "frequency": 0
+    },
+    {
+      "id": "statement:0c48c525ed2c4d4aa0f9c4caf970aba3",
+      "character": "character:a9a2fee5b4a942958461856aad3537e0",
+      "value": "state:2289b32de74e467db1fa22a974b036db",
+      "taxon": "taxon:0637d2ab8cd2418182a13cedd35f311d",
+      "frequency": 0.5
+    },
+    {
+      "id": "statement:1c5e4832f97b4aa79a17b338d3f0e127",
+      "character": "character:a9a2fee5b4a942958461856aad3537e0",
+      "value": "state:2289b32de74e467db1fa22a974b036db",
+      "taxon": "taxon:d81905c1d12b46c7a8c455c64f3a3d46",
+      "frequency": 0
+    },
+    {
+      "id": "statement:9af828fcf1344b8c9194a90c6f8c53ba",
+      "character": "character:a9a2fee5b4a942958461856aad3537e0",
+      "value": "state:79092bd0156542e7a621745e810212e8",
+      "taxon": "taxon:0637d2ab8cd2418182a13cedd35f311d",
+      "frequency": 0.5
+    },
+    {
+      "id": "statement:8d972d55733f40988b0cd83789b72a5c",
+      "character": "character:a9a2fee5b4a942958461856aad3537e0",
+      "value": "state:79092bd0156542e7a621745e810212e8",
+      "taxon": "taxon:d81905c1d12b46c7a8c455c64f3a3d46",
+      "frequency": 1
+    }
+  ],
+  "title": {
+    "nb": "Dactylorhiza maculata"
+  },
+  "geography": {
+    "name": {
+      "nb": "Noreg"
+    }
+  },
+  "description": {
+    "nb": "FÃ¸rsteutkast, RE_211218"
+  },
+  "descriptionUrl": {
+    "nb": {
+      "externalReference": {
+        "serviceId": "service:nbic_page",
+        "externalId": "332556"
+      }
+    }
+  },
+  "characters": [
+    {
+      "id": "character:63d132caf7b04272bb60d55318dba8c1",
+      "title": {
+        "nb": "Leppa, form"
+      },
+      "states": [
+        {
+          "id": "state:9b42479abbed4102b87e3fd54daa88af",
+          "title": {
+            "nb": "Midtfliken på leppa breitt 3-kanta eller avrunda, smalare og oftast kortare enn dei 2 sideflikane"
+          }
+        },
+        {
+          "id": "state:a501fdb17ee443bd8e81cb979400c1a6",
+          "title": {
+            "nb": "Midtfliken på leppa 3-kanta, om lag jambrei med og lengre enn dei 2 sideflikane"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:92160675de4c46a1bd6b413b21393b21",
+      "title": {
+        "nb": "Spore"
+      },
+      "states": [
+        {
+          "id": "state:b69a2ae11d0b42988982e551334beec7",
+          "title": {
+            "nb": "Spore ca. 1 mm tjukk"
+          }
+        },
+        {
+          "id": "state:18bb7f38a94349ad8ff19f0fd3a641b8",
+          "title": {
+            "nb": "Spore ca. 2 mm tjukk"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:a9a2fee5b4a942958461856aad3537e0",
+      "title": {
+        "nb": "Blad, flekkar"
+      },
+      "states": [
+        {
+          "id": "state:2289b32de74e467db1fa22a974b036db",
+          "title": {
+            "nb": "Blad uflekka"
+          }
+        },
+        {
+          "id": "state:79092bd0156542e7a621745e810212e8",
+          "title": {
+            "nb": "Blad flekka (på oversida)"
+          }
+        }
+      ]
+    }
+  ],
+  "taxa": [
+    {
+      "id": "taxon:0637d2ab8cd2418182a13cedd35f311d",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "143584"
+      },
+      "scientificName": "Dactylorhiza maculata fuchsii",
+      "vernacularName": {
+        "nb": "skogmarihand"
+      },
+      "media": "media:f43033"
+    },
+    {
+      "id": "taxon:d81905c1d12b46c7a8c455c64f3a3d46",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "143585"
+      },
+      "scientificName": "Dactylorhiza maculata maculata",
+      "vernacularName": {
+        "nb": "flekkmarihand"
+      },
+      "media": "media:f43038"
+    }
+  ]
+}

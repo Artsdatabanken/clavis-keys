@@ -1,0 +1,262 @@
+{
+  "$schema": "https://github.com/Artsdatabanken/Clavis/releases/download/v1.0/Clavis.json",
+  "identifier": "5893c309-e220-4f49-90ad-101362691c5d",
+  "lastModified": "2026-11-05 10:26:34",
+  "language": [
+    "nb"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "externalServices": [
+    {
+      "id": "service:nbic_taxa",
+      "title": "NBIC taxonomy scientificNameId",
+      "description": "To retrieve taxon information based on the NBIC scientificNameId, e.g. through https://www.artsdatabanken.no/api/Taxon/ByScientificNameId/4362",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_page",
+      "title": "NBIC page ID",
+      "description": "To retrieve a page from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Pages/237010",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_media",
+      "title": "NBIC media ID",
+      "description": "To retrieve a picture from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Media/F27858?mode=750x750",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    }
+  ],
+  "mediaElements": [
+    {
+      "id": "media:f57612",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F57612"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f57491",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F57491"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f57485",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F57485"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f57491",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F57491"
+          }
+        }
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "statement:806482ef429a496f9b5bf0b2cb5f6497",
+      "character": "character:7739607ed9a045e6a71d3d2f732e5247",
+      "value": "state:b53c78ac6a84448e984e7f12defbe218",
+      "taxon": "taxon:e5bd6cdbff66475198223d2146cea6cc",
+      "frequency": 1
+    },
+    {
+      "id": "statement:35bc30caa6f74d82883e54db0714b5a0",
+      "character": "character:7739607ed9a045e6a71d3d2f732e5247",
+      "value": "state:b53c78ac6a84448e984e7f12defbe218",
+      "taxon": "taxon:552ee338b58a4998a1bc7f14d1edd78a",
+      "frequency": 0
+    },
+    {
+      "id": "statement:77ebad877769443f8b0948d38a8937f2",
+      "character": "character:7739607ed9a045e6a71d3d2f732e5247",
+      "value": "state:0c49ced6ad7d4a8dbccea8bc8b92fa8a",
+      "taxon": "taxon:e5bd6cdbff66475198223d2146cea6cc",
+      "frequency": 0
+    },
+    {
+      "id": "statement:da08701c01894c43b63a92df493b002e",
+      "character": "character:7739607ed9a045e6a71d3d2f732e5247",
+      "value": "state:0c49ced6ad7d4a8dbccea8bc8b92fa8a",
+      "taxon": "taxon:552ee338b58a4998a1bc7f14d1edd78a",
+      "frequency": 1
+    },
+    {
+      "id": "statement:7d7a2eea82a54307a9f6781af1230d97",
+      "character": "character:1be1d492191f44b0935b952d081fb1c5",
+      "value": "state:8d479f3a0fe54421bbbf368888eb96f1",
+      "taxon": "taxon:e5bd6cdbff66475198223d2146cea6cc",
+      "frequency": 1
+    },
+    {
+      "id": "statement:f12941ca72294e5eb9b973438f205454",
+      "character": "character:1be1d492191f44b0935b952d081fb1c5",
+      "value": "state:8d479f3a0fe54421bbbf368888eb96f1",
+      "taxon": "taxon:552ee338b58a4998a1bc7f14d1edd78a",
+      "frequency": 0
+    },
+    {
+      "id": "statement:f76e2f3ecc434d4fbf7e63c0d78af327",
+      "character": "character:1be1d492191f44b0935b952d081fb1c5",
+      "value": "state:0f5a5986bb144fec96c2d4c75277fbbb",
+      "taxon": "taxon:e5bd6cdbff66475198223d2146cea6cc",
+      "frequency": 0
+    },
+    {
+      "id": "statement:3107eb1d33df421081d56cdd2c7958d6",
+      "character": "character:1be1d492191f44b0935b952d081fb1c5",
+      "value": "state:0f5a5986bb144fec96c2d4c75277fbbb",
+      "taxon": "taxon:552ee338b58a4998a1bc7f14d1edd78a",
+      "frequency": 1
+    },
+    {
+      "id": "statement:fd664ad7217041a5b323648bd26abefc",
+      "character": "character:de29e856a87940628653b3df0e008775",
+      "value": "state:525fd1052b2f49d99117e510bcff950c",
+      "taxon": "taxon:e5bd6cdbff66475198223d2146cea6cc",
+      "frequency": 0
+    },
+    {
+      "id": "statement:22b65832295c4026b8be2c373ff85112",
+      "character": "character:de29e856a87940628653b3df0e008775",
+      "value": "state:525fd1052b2f49d99117e510bcff950c",
+      "taxon": "taxon:552ee338b58a4998a1bc7f14d1edd78a",
+      "frequency": 1
+    },
+    {
+      "id": "statement:a3a0b46ad7a14a6c85f54b7bb1696728",
+      "character": "character:de29e856a87940628653b3df0e008775",
+      "value": "state:25b3ef3ca13243fc92eedf35a9491177",
+      "taxon": "taxon:e5bd6cdbff66475198223d2146cea6cc",
+      "frequency": 1
+    },
+    {
+      "id": "statement:34c4dfc1c05a4fed9fd5f439b85d0a33",
+      "character": "character:de29e856a87940628653b3df0e008775",
+      "value": "state:25b3ef3ca13243fc92eedf35a9491177",
+      "taxon": "taxon:552ee338b58a4998a1bc7f14d1edd78a",
+      "frequency": 0
+    }
+  ],
+  "title": {
+    "nb": "Nøkkel til bukkebladfamilien Menyanthaceae"
+  },
+  "geography": {
+    "name": {
+      "nb": "Norge"
+    }
+  },
+  "characters": [
+    {
+      "id": "character:7739607ed9a045e6a71d3d2f732e5247",
+      "title": {
+        "nb": "Blad, oppdeling"
+      },
+      "states": [
+        {
+          "id": "state:b53c78ac6a84448e984e7f12defbe218",
+          "title": {
+            "nb": "Blad trekoplete"
+          },
+          "media": "media:f57612"
+        },
+        {
+          "id": "state:0c49ced6ad7d4a8dbccea8bc8b92fa8a",
+          "title": {
+            "nb": "Blad hele, nyreformete"
+          },
+          "media": "media:f57491"
+        }
+      ]
+    },
+    {
+      "id": "character:1be1d492191f44b0935b952d081fb1c5",
+      "title": {
+        "nb": "Krone, farge"
+      },
+      "states": [
+        {
+          "id": "state:8d479f3a0fe54421bbbf368888eb96f1",
+          "title": {
+            "nb": "Krone hvit til svakt rosa"
+          }
+        },
+        {
+          "id": "state:0f5a5986bb144fec96c2d4c75277fbbb",
+          "title": {
+            "nb": "Krone gul"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:de29e856a87940628653b3df0e008775",
+      "title": {
+        "nb": "Blomsterstand"
+      },
+      "states": [
+        {
+          "id": "state:525fd1052b2f49d99117e510bcff950c",
+          "title": {
+            "nb": "Blomster enkeltvis"
+          }
+        },
+        {
+          "id": "state:25b3ef3ca13243fc92eedf35a9491177",
+          "title": {
+            "nb": "Blomster i klase"
+          }
+        }
+      ]
+    }
+  ],
+  "taxa": [
+    {
+      "id": "taxon:e5bd6cdbff66475198223d2146cea6cc",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "100968"
+      },
+      "scientificName": "Menyanthes",
+      "vernacularName": {
+        "nb": "bukkebladslekta"
+      },
+      "media": "media:f57485"
+    },
+    {
+      "id": "taxon:552ee338b58a4998a1bc7f14d1edd78a",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "100970"
+      },
+      "scientificName": "Nymphoides",
+      "vernacularName": {
+        "nb": "sjøgullslekta"
+      },
+      "media": "media:f57491"
+    }
+  ]
+}

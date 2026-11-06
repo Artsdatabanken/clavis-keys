@@ -1,0 +1,363 @@
+{
+  "$schema": "https://github.com/Artsdatabanken/Clavis/releases/download/v1.0/Clavis.json",
+  "identifier": "8b7d32d8-eed6-49fb-b6bf-aa501f4f1fa0",
+  "lastModified": "2026-11-05 14:10:54",
+  "language": [
+    "nb"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "externalServices": [
+    {
+      "id": "service:nbic_taxa",
+      "title": "NBIC taxonomy scientificNameId",
+      "description": "To retrieve taxon information based on the NBIC scientificNameId, e.g. through https://www.artsdatabanken.no/api/Taxon/ByScientificNameId/4362",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_page",
+      "title": "NBIC page ID",
+      "description": "To retrieve a page from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Pages/237010",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_media",
+      "title": "NBIC media ID",
+      "description": "To retrieve a picture from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Media/F27858?mode=750x750",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    }
+  ],
+  "mediaElements": [
+    {
+      "id": "media:f56831",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F56831"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f56832",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F56832"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f56833",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F56833"
+          }
+        }
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "statement:77208f912d1549a99558ab9af8c6f96a",
+      "character": "character:12c4d5ce79dc414990b3f35d3da84ee4",
+      "value": "state:fa5cc4dc8ee1460aa48e83c587820ad9",
+      "taxon": "taxon:6451335905434ea995546ad30f053796",
+      "frequency": 1
+    },
+    {
+      "id": "statement:880d8fdc7b6d4d1ca34526f61726b14f",
+      "character": "character:12c4d5ce79dc414990b3f35d3da84ee4",
+      "value": "state:fa5cc4dc8ee1460aa48e83c587820ad9",
+      "taxon": "taxon:d0b8e91e30954159a4bfd2e0397c017d",
+      "frequency": 0
+    },
+    {
+      "id": "statement:d4a09ddc5db74d2a9ee5476c77f5cdf9",
+      "character": "character:12c4d5ce79dc414990b3f35d3da84ee4",
+      "value": "state:fa5cc4dc8ee1460aa48e83c587820ad9",
+      "taxon": "taxon:3762a7180e9c4e10b3703a7ad1754da6",
+      "frequency": 0
+    },
+    {
+      "id": "statement:8a96e3a5ddaa4fb799616dc40a8c1f60",
+      "character": "character:12c4d5ce79dc414990b3f35d3da84ee4",
+      "value": "state:a9cab7f6430145b4bb2cb07bb62ac81b",
+      "taxon": "taxon:6451335905434ea995546ad30f053796",
+      "frequency": 0
+    },
+    {
+      "id": "statement:b27b3d61141b4f78b55f271ae027a1d3",
+      "character": "character:12c4d5ce79dc414990b3f35d3da84ee4",
+      "value": "state:a9cab7f6430145b4bb2cb07bb62ac81b",
+      "taxon": "taxon:d0b8e91e30954159a4bfd2e0397c017d",
+      "frequency": 1
+    },
+    {
+      "id": "statement:5022a21ec8b44416bd550941815145c8",
+      "character": "character:12c4d5ce79dc414990b3f35d3da84ee4",
+      "value": "state:a9cab7f6430145b4bb2cb07bb62ac81b",
+      "taxon": "taxon:3762a7180e9c4e10b3703a7ad1754da6",
+      "frequency": 1
+    },
+    {
+      "id": "statement:bfb8999e4b22485fa0f66fde55ce4088",
+      "character": "character:2ab7aa4f39734f0ab246b41e36e4f0ce",
+      "value": "state:22450ffaf2cb4ed0b408cb89c9393be7",
+      "taxon": "taxon:6451335905434ea995546ad30f053796",
+      "frequency": 1
+    },
+    {
+      "id": "statement:c94a56f9d5ed4faea19257ba873c8fdc",
+      "character": "character:2ab7aa4f39734f0ab246b41e36e4f0ce",
+      "value": "state:22450ffaf2cb4ed0b408cb89c9393be7",
+      "taxon": "taxon:d0b8e91e30954159a4bfd2e0397c017d",
+      "frequency": 0
+    },
+    {
+      "id": "statement:4b41b569d847435b933bd24550982633",
+      "character": "character:2ab7aa4f39734f0ab246b41e36e4f0ce",
+      "value": "state:22450ffaf2cb4ed0b408cb89c9393be7",
+      "taxon": "taxon:3762a7180e9c4e10b3703a7ad1754da6",
+      "frequency": 0
+    },
+    {
+      "id": "statement:68b8139c40b24c249ebf0652c8bcb9c5",
+      "character": "character:2ab7aa4f39734f0ab246b41e36e4f0ce",
+      "value": "state:43665a43361d4763a047de6e533b4c82",
+      "taxon": "taxon:6451335905434ea995546ad30f053796",
+      "frequency": 0
+    },
+    {
+      "id": "statement:6df36d6a249c4efe9c1f8e613ddeaea3",
+      "character": "character:2ab7aa4f39734f0ab246b41e36e4f0ce",
+      "value": "state:43665a43361d4763a047de6e533b4c82",
+      "taxon": "taxon:d0b8e91e30954159a4bfd2e0397c017d",
+      "frequency": 1
+    },
+    {
+      "id": "statement:e940dc840f634f069d6e85c205919888",
+      "character": "character:2ab7aa4f39734f0ab246b41e36e4f0ce",
+      "value": "state:43665a43361d4763a047de6e533b4c82",
+      "taxon": "taxon:3762a7180e9c4e10b3703a7ad1754da6",
+      "frequency": 0
+    },
+    {
+      "id": "statement:e0326f87f48e4da4a6d73ede3d5ce6c4",
+      "character": "character:2ab7aa4f39734f0ab246b41e36e4f0ce",
+      "value": "state:9a993eb56ad147e187857dbea14c308f",
+      "taxon": "taxon:6451335905434ea995546ad30f053796",
+      "frequency": 0
+    },
+    {
+      "id": "statement:d43f2df7fd7e433084a6d2027054b2f9",
+      "character": "character:2ab7aa4f39734f0ab246b41e36e4f0ce",
+      "value": "state:9a993eb56ad147e187857dbea14c308f",
+      "taxon": "taxon:d0b8e91e30954159a4bfd2e0397c017d",
+      "frequency": 0
+    },
+    {
+      "id": "statement:c3677155a6dc420081e137a447086226",
+      "character": "character:2ab7aa4f39734f0ab246b41e36e4f0ce",
+      "value": "state:9a993eb56ad147e187857dbea14c308f",
+      "taxon": "taxon:3762a7180e9c4e10b3703a7ad1754da6",
+      "frequency": 1
+    },
+    {
+      "id": "statement:28d48acf525247038518508c1d7c575f",
+      "character": "character:515d4bb07b70487298ead00351528941",
+      "value": "state:39928272c1d34018bd495542c2b058ae",
+      "taxon": "taxon:6451335905434ea995546ad30f053796",
+      "frequency": 1
+    },
+    {
+      "id": "statement:69e1ac0fa0c3475c873faad45210c9af",
+      "character": "character:515d4bb07b70487298ead00351528941",
+      "value": "state:39928272c1d34018bd495542c2b058ae",
+      "taxon": "taxon:d0b8e91e30954159a4bfd2e0397c017d",
+      "frequency": 0
+    },
+    {
+      "id": "statement:9ed57d9eb3ab4d65bfb612d995e4e413",
+      "character": "character:515d4bb07b70487298ead00351528941",
+      "value": "state:39928272c1d34018bd495542c2b058ae",
+      "taxon": "taxon:3762a7180e9c4e10b3703a7ad1754da6",
+      "frequency": 0
+    },
+    {
+      "id": "statement:68370ea0ba9c4f44bedb206d271d2d10",
+      "character": "character:515d4bb07b70487298ead00351528941",
+      "value": "state:af8141e8d652433497865d42babd7498",
+      "taxon": "taxon:6451335905434ea995546ad30f053796",
+      "frequency": 0
+    },
+    {
+      "id": "statement:ae25971a35c0410181188e8ac37d34f0",
+      "character": "character:515d4bb07b70487298ead00351528941",
+      "value": "state:af8141e8d652433497865d42babd7498",
+      "taxon": "taxon:d0b8e91e30954159a4bfd2e0397c017d",
+      "frequency": 1
+    },
+    {
+      "id": "statement:6dd1b62c128343aba36bd9a7a7012134",
+      "character": "character:515d4bb07b70487298ead00351528941",
+      "value": "state:af8141e8d652433497865d42babd7498",
+      "taxon": "taxon:3762a7180e9c4e10b3703a7ad1754da6",
+      "frequency": 0
+    },
+    {
+      "id": "statement:0297271b74b8406597f03fd5ab989f05",
+      "character": "character:515d4bb07b70487298ead00351528941",
+      "value": "state:b8a3c9ad7a6d4baba3d1e77951d77854",
+      "taxon": "taxon:6451335905434ea995546ad30f053796",
+      "frequency": 0
+    },
+    {
+      "id": "statement:7b5da0e1479b423ca5f996b2fdb0f4c2",
+      "character": "character:515d4bb07b70487298ead00351528941",
+      "value": "state:b8a3c9ad7a6d4baba3d1e77951d77854",
+      "taxon": "taxon:d0b8e91e30954159a4bfd2e0397c017d",
+      "frequency": 0
+    },
+    {
+      "id": "statement:461430bf6bfe438d887655f28e0b8a12",
+      "character": "character:515d4bb07b70487298ead00351528941",
+      "value": "state:b8a3c9ad7a6d4baba3d1e77951d77854",
+      "taxon": "taxon:3762a7180e9c4e10b3703a7ad1754da6",
+      "frequency": 1
+    }
+  ],
+  "title": {
+    "nb": "Nøkkel til kornellfamilien Cornaceae"
+  },
+  "geography": {
+    "name": {
+      "nb": "Norge"
+    }
+  },
+  "characters": [
+    {
+      "id": "character:12c4d5ce79dc414990b3f35d3da84ee4",
+      "title": {
+        "nb": "Vokseform"
+      },
+      "states": [
+        {
+          "id": "state:fa5cc4dc8ee1460aa48e83c587820ad9",
+          "title": {
+            "nb": "Flerårig urt [med krypende jordstengel]"
+          }
+        },
+        {
+          "id": "state:a9cab7f6430145b4bb2cb07bb62ac81b",
+          "title": {
+            "nb": "Busk [løvfellende]"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:2ab7aa4f39734f0ab246b41e36e4f0ce",
+      "title": {
+        "nb": "Støtteblad under blomsterstanden"
+      },
+      "states": [
+        {
+          "id": "state:22450ffaf2cb4ed0b408cb89c9393be7",
+          "title": {
+            "nb": "Hvite"
+          }
+        },
+        {
+          "id": "state:43665a43361d4763a047de6e533b4c82",
+          "title": {
+            "nb": "Grågule"
+          }
+        },
+        {
+          "id": "state:9a993eb56ad147e187857dbea14c308f",
+          "title": {
+            "nb": "Mangler"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:515d4bb07b70487298ead00351528941",
+      "title": {
+        "nb": "Blomsterfarge"
+      },
+      "states": [
+        {
+          "id": "state:39928272c1d34018bd495542c2b058ae",
+          "title": {
+            "nb": "Svartrød"
+          }
+        },
+        {
+          "id": "state:af8141e8d652433497865d42babd7498",
+          "title": {
+            "nb": "Gul"
+          }
+        },
+        {
+          "id": "state:b8a3c9ad7a6d4baba3d1e77951d77854",
+          "title": {
+            "nb": "Hvit"
+          }
+        },
+        {
+          "id": "state:800555685fe64b7fae0e4a9a85aed958",
+          "title": {
+            "nb": ""
+          }
+        }
+      ]
+    }
+  ],
+  "taxa": [
+    {
+      "id": "taxon:6451335905434ea995546ad30f053796",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "101665"
+      },
+      "scientificName": "Chamaepericlymenum",
+      "vernacularName": {
+        "nb": "skrubbærslekta"
+      },
+      "media": "media:f56831"
+    },
+    {
+      "id": "taxon:d0b8e91e30954159a4bfd2e0397c017d",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "101667"
+      },
+      "scientificName": "Cornus",
+      "vernacularName": {
+        "nb": "vårkornellslekta"
+      },
+      "media": "media:f56832"
+    },
+    {
+      "id": "taxon:3762a7180e9c4e10b3703a7ad1754da6",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "101669"
+      },
+      "scientificName": "Swida",
+      "vernacularName": {
+        "nb": "kornellslekta"
+      },
+      "media": "media:f56833"
+    }
+  ]
+}

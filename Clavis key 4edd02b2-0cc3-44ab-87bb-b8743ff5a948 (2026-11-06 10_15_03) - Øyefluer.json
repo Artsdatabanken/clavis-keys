@@ -1,0 +1,2061 @@
+{
+  "$schema": "https://github.com/Artsdatabanken/Clavis/releases/download/v1.0/Clavis.json",
+  "identifier": "4edd02b2-0cc3-44ab-87bb-b8743ff5a948",
+  "lastModified": "2026-11-06 10:15:03",
+  "language": [
+    "nb"
+  ],
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "externalServices": [
+    {
+      "id": "service:nbic_taxa",
+      "title": "NBIC taxonomy scientificNameId",
+      "description": "To retrieve taxon information based on the NBIC scientificNameId, e.g. through https://www.artsdatabanken.no/api/Taxon/ByScientificNameId/4362",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_page",
+      "title": "NBIC page ID",
+      "description": "To retrieve a page from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Pages/237010",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_media",
+      "title": "NBIC media ID",
+      "description": "To retrieve a picture from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Media/F27858?mode=750x750",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    }
+  ],
+  "mediaElements": [
+    {
+      "id": "media:f38539",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38539"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38535",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38535"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38530",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38530"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38531",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38531"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38460",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38460"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38461",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38461"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38466",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38466"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38467",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38467"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38468",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38468"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38469",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38469"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38471",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38471"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38470",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38470"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38464",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38464"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38465",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38465"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38473",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38473"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38472",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38472"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38540",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38540"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38574",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38574"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38544",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38544"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38521",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38521"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38524",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38524"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38525",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38525"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38527",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38527"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38522",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38522"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38526",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38526"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38523",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38523"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38529",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38529"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38549",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38549"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f38520",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F38520"
+          }
+        }
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "statement:187b963ce2af4dd8a1acec63a7871247",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4204130bd17947438d89b6cac283da7c",
+      "taxon": "taxon:1f9848aca07d49fdb9bd4bd74352a19a",
+      "frequency": 1
+    },
+    {
+      "id": "statement:97e6f08d41414a248724c482534f6e1b",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4204130bd17947438d89b6cac283da7c",
+      "taxon": "taxon:d7aa02df476349c7a0f74f76c069bf16",
+      "frequency": 1
+    },
+    {
+      "id": "statement:6581396eb4c141098db037bdf0bfbd17",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4204130bd17947438d89b6cac283da7c",
+      "taxon": "taxon:c6106d4c2a6146d68f7788bdd1ec4551",
+      "frequency": 1
+    },
+    {
+      "id": "statement:2729c16b58454b5e980f032bb3830a3c",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4204130bd17947438d89b6cac283da7c",
+      "taxon": "taxon:b585bf54f4a04765b719f59c110a4884",
+      "frequency": 0
+    },
+    {
+      "id": "statement:02500497d992466fb385990b2b077304",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4204130bd17947438d89b6cac283da7c",
+      "taxon": "taxon:6707406abe874ea1b60108b374835935",
+      "frequency": 0
+    },
+    {
+      "id": "statement:0d991aa58a0e4a978292ec3af2a4b2cd",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4204130bd17947438d89b6cac283da7c",
+      "taxon": "taxon:03435ab49cf74f43be452f85ca40fdbf",
+      "frequency": 0
+    },
+    {
+      "id": "statement:23a55e51e9324c499be1c800bffa5f8a",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4204130bd17947438d89b6cac283da7c",
+      "taxon": "taxon:e188d73c4f0e45b0b93cfc17efcc2fbd",
+      "frequency": 0
+    },
+    {
+      "id": "statement:c29fc8cd2e384ab882c373b59328ad00",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4204130bd17947438d89b6cac283da7c",
+      "taxon": "taxon:be0bce9f99814877a2417f785b2318ce",
+      "frequency": 0
+    },
+    {
+      "id": "statement:b5017af93253487fad3e23620a11d871",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4204130bd17947438d89b6cac283da7c",
+      "taxon": "taxon:d1e7c0b52c704af2aa2c55241f64294f",
+      "frequency": 0
+    },
+    {
+      "id": "statement:e729bf8ab6b04f249f3a737b91f203b8",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4204130bd17947438d89b6cac283da7c",
+      "taxon": "taxon:d7de762ffb784ffa8e20929f12f11e30",
+      "frequency": 0
+    },
+    {
+      "id": "statement:a2699c29a0f643d391c6a9081c0f5473",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4204130bd17947438d89b6cac283da7c",
+      "taxon": "taxon:e51eeab288af4f82962f2e84bc327c1b",
+      "frequency": 0
+    },
+    {
+      "id": "statement:8236d32d981741d9801672b495ae2736",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4d0a1bdb33ec4519adcc613e4df649f6",
+      "taxon": "taxon:1f9848aca07d49fdb9bd4bd74352a19a",
+      "frequency": 0
+    },
+    {
+      "id": "statement:43841c3dc93d49fb917a4e1df1d830c3",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4d0a1bdb33ec4519adcc613e4df649f6",
+      "taxon": "taxon:d7aa02df476349c7a0f74f76c069bf16",
+      "frequency": 0
+    },
+    {
+      "id": "statement:c92f8707ffa74621a8f1b7d1eb6936ae",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4d0a1bdb33ec4519adcc613e4df649f6",
+      "taxon": "taxon:c6106d4c2a6146d68f7788bdd1ec4551",
+      "frequency": 0
+    },
+    {
+      "id": "statement:4fea1af4a2964ce3ab2454ab02288c81",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4d0a1bdb33ec4519adcc613e4df649f6",
+      "taxon": "taxon:b585bf54f4a04765b719f59c110a4884",
+      "frequency": 1
+    },
+    {
+      "id": "statement:a464da9e2fa64dc79362ec7dc88e60c6",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4d0a1bdb33ec4519adcc613e4df649f6",
+      "taxon": "taxon:6707406abe874ea1b60108b374835935",
+      "frequency": 1
+    },
+    {
+      "id": "statement:38c52b6f5eb64808a0547dc138b2f486",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4d0a1bdb33ec4519adcc613e4df649f6",
+      "taxon": "taxon:03435ab49cf74f43be452f85ca40fdbf",
+      "frequency": 1
+    },
+    {
+      "id": "statement:5543bf05fe95472eaf1b722517ae12c9",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4d0a1bdb33ec4519adcc613e4df649f6",
+      "taxon": "taxon:e188d73c4f0e45b0b93cfc17efcc2fbd",
+      "frequency": 1
+    },
+    {
+      "id": "statement:d00cbb9dfba14abab50fa8f5d6f9ef7a",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4d0a1bdb33ec4519adcc613e4df649f6",
+      "taxon": "taxon:be0bce9f99814877a2417f785b2318ce",
+      "frequency": 1
+    },
+    {
+      "id": "statement:b207ec39d4c744249956b19f8a49d9bd",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4d0a1bdb33ec4519adcc613e4df649f6",
+      "taxon": "taxon:d1e7c0b52c704af2aa2c55241f64294f",
+      "frequency": 1
+    },
+    {
+      "id": "statement:3487c104c56948968c6b8c70c02cbb53",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4d0a1bdb33ec4519adcc613e4df649f6",
+      "taxon": "taxon:d7de762ffb784ffa8e20929f12f11e30",
+      "frequency": 1
+    },
+    {
+      "id": "statement:c599e217e96347abad5ef041db36477a",
+      "character": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "value": "state:4d0a1bdb33ec4519adcc613e4df649f6",
+      "taxon": "taxon:e51eeab288af4f82962f2e84bc327c1b",
+      "frequency": 1
+    },
+    {
+      "id": "statement:ca5c358331f44eb297bcff0b665ce952",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:865bf651d60247679ef231eb0979de14",
+      "taxon": "taxon:1f9848aca07d49fdb9bd4bd74352a19a",
+      "frequency": 1
+    },
+    {
+      "id": "statement:66bfc435300a408e8fc063b26c4e259c",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:865bf651d60247679ef231eb0979de14",
+      "taxon": "taxon:d7aa02df476349c7a0f74f76c069bf16",
+      "frequency": 0
+    },
+    {
+      "id": "statement:22e2c93b2a344aa18de74bfda2c51345",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:865bf651d60247679ef231eb0979de14",
+      "taxon": "taxon:c6106d4c2a6146d68f7788bdd1ec4551",
+      "frequency": 1
+    },
+    {
+      "id": "statement:4ad0c093aa974f8b8496dd3828e2f4f6",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:865bf651d60247679ef231eb0979de14",
+      "taxon": "taxon:b585bf54f4a04765b719f59c110a4884",
+      "frequency": 1
+    },
+    {
+      "id": "statement:1f864755f42c43bca1ef35dc79f96882",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:865bf651d60247679ef231eb0979de14",
+      "taxon": "taxon:6707406abe874ea1b60108b374835935",
+      "frequency": 1
+    },
+    {
+      "id": "statement:7018f620731049038858aaf3736d8d34",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:865bf651d60247679ef231eb0979de14",
+      "taxon": "taxon:03435ab49cf74f43be452f85ca40fdbf",
+      "frequency": 1
+    },
+    {
+      "id": "statement:88e5d69afdeb43ae8ccd630cc24072ca",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:865bf651d60247679ef231eb0979de14",
+      "taxon": "taxon:e188d73c4f0e45b0b93cfc17efcc2fbd",
+      "frequency": 1
+    },
+    {
+      "id": "statement:cd97f10fff894db9b74fbfc15b00d3f7",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:865bf651d60247679ef231eb0979de14",
+      "taxon": "taxon:be0bce9f99814877a2417f785b2318ce",
+      "frequency": 1
+    },
+    {
+      "id": "statement:669a9c9a7bbc46d090ef385cc169bf6a",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:865bf651d60247679ef231eb0979de14",
+      "taxon": "taxon:d1e7c0b52c704af2aa2c55241f64294f",
+      "frequency": 1
+    },
+    {
+      "id": "statement:39307c9b813b4e0093994fbfa54e8c8f",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:865bf651d60247679ef231eb0979de14",
+      "taxon": "taxon:d7de762ffb784ffa8e20929f12f11e30",
+      "frequency": 1
+    },
+    {
+      "id": "statement:d738216c654f4d35a7064e19b8336143",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:865bf651d60247679ef231eb0979de14",
+      "taxon": "taxon:e51eeab288af4f82962f2e84bc327c1b",
+      "frequency": 1
+    },
+    {
+      "id": "statement:130a3db66b5f426b8d84636cb15938d3",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:b4bd48a80d44452192a85b851a8d193a",
+      "taxon": "taxon:1f9848aca07d49fdb9bd4bd74352a19a",
+      "frequency": 0
+    },
+    {
+      "id": "statement:8045865a44244acba97332ea92df71e6",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:b4bd48a80d44452192a85b851a8d193a",
+      "taxon": "taxon:d7aa02df476349c7a0f74f76c069bf16",
+      "frequency": 1
+    },
+    {
+      "id": "statement:9f513af642d44dac9d343002af5c9aaf",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:b4bd48a80d44452192a85b851a8d193a",
+      "taxon": "taxon:c6106d4c2a6146d68f7788bdd1ec4551",
+      "frequency": 0
+    },
+    {
+      "id": "statement:147431a7653e42469c757265e1feea21",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:b4bd48a80d44452192a85b851a8d193a",
+      "taxon": "taxon:b585bf54f4a04765b719f59c110a4884",
+      "frequency": 0
+    },
+    {
+      "id": "statement:57736926bd924084b33a65ced0ae6b5f",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:b4bd48a80d44452192a85b851a8d193a",
+      "taxon": "taxon:6707406abe874ea1b60108b374835935",
+      "frequency": 0
+    },
+    {
+      "id": "statement:e92c324ec36e46f096b36db1c468213a",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:b4bd48a80d44452192a85b851a8d193a",
+      "taxon": "taxon:03435ab49cf74f43be452f85ca40fdbf",
+      "frequency": 0
+    },
+    {
+      "id": "statement:06ff6d31157e40a9b3ba5a0f23eb1189",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:b4bd48a80d44452192a85b851a8d193a",
+      "taxon": "taxon:e188d73c4f0e45b0b93cfc17efcc2fbd",
+      "frequency": 0
+    },
+    {
+      "id": "statement:524d33e818a249c9b6807f5fb14e95ed",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:b4bd48a80d44452192a85b851a8d193a",
+      "taxon": "taxon:be0bce9f99814877a2417f785b2318ce",
+      "frequency": 0
+    },
+    {
+      "id": "statement:9225bbd045da41849bc455a9705fe3e6",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:b4bd48a80d44452192a85b851a8d193a",
+      "taxon": "taxon:d1e7c0b52c704af2aa2c55241f64294f",
+      "frequency": 0
+    },
+    {
+      "id": "statement:b50d7cd3288f4010b84480f5deed4ec3",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:b4bd48a80d44452192a85b851a8d193a",
+      "taxon": "taxon:d7de762ffb784ffa8e20929f12f11e30",
+      "frequency": 0
+    },
+    {
+      "id": "statement:5afa29ff41404ee3894f7cf9911ea751",
+      "character": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "value": "state:b4bd48a80d44452192a85b851a8d193a",
+      "taxon": "taxon:e51eeab288af4f82962f2e84bc327c1b",
+      "frequency": 0
+    },
+    {
+      "id": "statement:4ba1169c9cd242978217aca567c0dc48",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:1b3bf7d48000464aa7396d5923f53642",
+      "taxon": "taxon:1f9848aca07d49fdb9bd4bd74352a19a",
+      "frequency": 0
+    },
+    {
+      "id": "statement:3be90c1217a44649abd16375a7ee418b",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:1b3bf7d48000464aa7396d5923f53642",
+      "taxon": "taxon:d7aa02df476349c7a0f74f76c069bf16",
+      "frequency": 0
+    },
+    {
+      "id": "statement:56d897990a1a4cddaa46d151dd94404c",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:1b3bf7d48000464aa7396d5923f53642",
+      "taxon": "taxon:c6106d4c2a6146d68f7788bdd1ec4551",
+      "frequency": 0
+    },
+    {
+      "id": "statement:476f00a654b848c6a77f3c0f8918c42b",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:1b3bf7d48000464aa7396d5923f53642",
+      "taxon": "taxon:b585bf54f4a04765b719f59c110a4884",
+      "frequency": 1
+    },
+    {
+      "id": "statement:72acf9f9df6b48fc9c020674562e7762",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:1b3bf7d48000464aa7396d5923f53642",
+      "taxon": "taxon:6707406abe874ea1b60108b374835935",
+      "frequency": 0
+    },
+    {
+      "id": "statement:2fde98f341a946a1ad90e3d364aba0d9",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:1b3bf7d48000464aa7396d5923f53642",
+      "taxon": "taxon:03435ab49cf74f43be452f85ca40fdbf",
+      "frequency": 0
+    },
+    {
+      "id": "statement:e242f72749614d6dae58e9d5c82b488c",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:1b3bf7d48000464aa7396d5923f53642",
+      "taxon": "taxon:e188d73c4f0e45b0b93cfc17efcc2fbd",
+      "frequency": 0
+    },
+    {
+      "id": "statement:5ace6b4ece0d481a80194ddebd42132b",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:1b3bf7d48000464aa7396d5923f53642",
+      "taxon": "taxon:be0bce9f99814877a2417f785b2318ce",
+      "frequency": 0
+    },
+    {
+      "id": "statement:4678919db88a4e8f9a5c42bf517362b5",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:1b3bf7d48000464aa7396d5923f53642",
+      "taxon": "taxon:d1e7c0b52c704af2aa2c55241f64294f",
+      "frequency": 0
+    },
+    {
+      "id": "statement:f5f13fe49bef40929277d0bf5f89e67d",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:1b3bf7d48000464aa7396d5923f53642",
+      "taxon": "taxon:d7de762ffb784ffa8e20929f12f11e30",
+      "frequency": 0
+    },
+    {
+      "id": "statement:4de10fbc48e74731809cad28a693381e",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:1b3bf7d48000464aa7396d5923f53642",
+      "taxon": "taxon:e51eeab288af4f82962f2e84bc327c1b",
+      "frequency": 0
+    },
+    {
+      "id": "statement:f77f450ac2624490b35b957bf604413d",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:6b972f7f349847eba006966554ec601b",
+      "taxon": "taxon:1f9848aca07d49fdb9bd4bd74352a19a",
+      "frequency": 1
+    },
+    {
+      "id": "statement:8321dd75217247a199c2b73d8b7da13b",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:6b972f7f349847eba006966554ec601b",
+      "taxon": "taxon:d7aa02df476349c7a0f74f76c069bf16",
+      "frequency": 1
+    },
+    {
+      "id": "statement:0e96b4a362704c0285b89b327d34b614",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:6b972f7f349847eba006966554ec601b",
+      "taxon": "taxon:c6106d4c2a6146d68f7788bdd1ec4551",
+      "frequency": 1
+    },
+    {
+      "id": "statement:9e79990d443c4a8f8b8030ba023efe31",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:6b972f7f349847eba006966554ec601b",
+      "taxon": "taxon:b585bf54f4a04765b719f59c110a4884",
+      "frequency": 0
+    },
+    {
+      "id": "statement:0c7fa22e6b944ef692180cb9d51b13c2",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:6b972f7f349847eba006966554ec601b",
+      "taxon": "taxon:6707406abe874ea1b60108b374835935",
+      "frequency": 1
+    },
+    {
+      "id": "statement:b40be2a14b8d4f12a37afe2d24b601a8",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:6b972f7f349847eba006966554ec601b",
+      "taxon": "taxon:03435ab49cf74f43be452f85ca40fdbf",
+      "frequency": 1
+    },
+    {
+      "id": "statement:49064f26faba4571a8b95e12f64d5513",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:6b972f7f349847eba006966554ec601b",
+      "taxon": "taxon:e188d73c4f0e45b0b93cfc17efcc2fbd",
+      "frequency": 1
+    },
+    {
+      "id": "statement:8786d97dec7048ba9e1a60e0b75ae815",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:6b972f7f349847eba006966554ec601b",
+      "taxon": "taxon:be0bce9f99814877a2417f785b2318ce",
+      "frequency": 1
+    },
+    {
+      "id": "statement:ef95f6206083497591d6dc00c5675a63",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:6b972f7f349847eba006966554ec601b",
+      "taxon": "taxon:d1e7c0b52c704af2aa2c55241f64294f",
+      "frequency": 1
+    },
+    {
+      "id": "statement:761eab7d2e8641a58f80d6c4c188dd24",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:6b972f7f349847eba006966554ec601b",
+      "taxon": "taxon:d7de762ffb784ffa8e20929f12f11e30",
+      "frequency": 1
+    },
+    {
+      "id": "statement:1efae6d339b0438c90905d9132838a96",
+      "character": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "value": "state:6b972f7f349847eba006966554ec601b",
+      "taxon": "taxon:e51eeab288af4f82962f2e84bc327c1b",
+      "frequency": 1
+    },
+    {
+      "id": "statement:0cf562873ab744a8aebc5e2dfc1decfc",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:e800bae646b14e49b4edb0bd965ddb45",
+      "taxon": "taxon:1f9848aca07d49fdb9bd4bd74352a19a",
+      "frequency": 1
+    },
+    {
+      "id": "statement:0d7f0a35bc46403f84414df2e39c093e",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:e800bae646b14e49b4edb0bd965ddb45",
+      "taxon": "taxon:d7aa02df476349c7a0f74f76c069bf16",
+      "frequency": 1
+    },
+    {
+      "id": "statement:e668314fad5e49a0913293aa793897ec",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:e800bae646b14e49b4edb0bd965ddb45",
+      "taxon": "taxon:c6106d4c2a6146d68f7788bdd1ec4551",
+      "frequency": 1
+    },
+    {
+      "id": "statement:2760f1aa475c478b9e13e7e4797f8547",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:e800bae646b14e49b4edb0bd965ddb45",
+      "taxon": "taxon:b585bf54f4a04765b719f59c110a4884",
+      "frequency": 0
+    },
+    {
+      "id": "statement:b23f78797a09467ca5232fa79f9645c2",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:e800bae646b14e49b4edb0bd965ddb45",
+      "taxon": "taxon:6707406abe874ea1b60108b374835935",
+      "frequency": 0
+    },
+    {
+      "id": "statement:14f2ca6a831d4a2a8f16561df7541363",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:e800bae646b14e49b4edb0bd965ddb45",
+      "taxon": "taxon:03435ab49cf74f43be452f85ca40fdbf",
+      "frequency": 0
+    },
+    {
+      "id": "statement:44e4c02dbe6e434e98af549be23db8e9",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:e800bae646b14e49b4edb0bd965ddb45",
+      "taxon": "taxon:e188d73c4f0e45b0b93cfc17efcc2fbd",
+      "frequency": 1
+    },
+    {
+      "id": "statement:441a125d5ab04f008ee70098683747bd",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:e800bae646b14e49b4edb0bd965ddb45",
+      "taxon": "taxon:be0bce9f99814877a2417f785b2318ce",
+      "frequency": 1
+    },
+    {
+      "id": "statement:b8272f204a424983896215070051f265",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:e800bae646b14e49b4edb0bd965ddb45",
+      "taxon": "taxon:d1e7c0b52c704af2aa2c55241f64294f",
+      "frequency": 1
+    },
+    {
+      "id": "statement:1a525f29d7ed47f8ba08bd2c138179d0",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:e800bae646b14e49b4edb0bd965ddb45",
+      "taxon": "taxon:d7de762ffb784ffa8e20929f12f11e30",
+      "frequency": 1
+    },
+    {
+      "id": "statement:f40bdac74133468f8b6924a1f78d8dd0",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:e800bae646b14e49b4edb0bd965ddb45",
+      "taxon": "taxon:e51eeab288af4f82962f2e84bc327c1b",
+      "frequency": 1
+    },
+    {
+      "id": "statement:2d71a37587164086b35a19d5cc3ab5e3",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:06a63e062b964d9cb0806614cdfe16e7",
+      "taxon": "taxon:1f9848aca07d49fdb9bd4bd74352a19a",
+      "frequency": 0
+    },
+    {
+      "id": "statement:28c5ce0ec5614c82a17ce337ad88709b",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:06a63e062b964d9cb0806614cdfe16e7",
+      "taxon": "taxon:d7aa02df476349c7a0f74f76c069bf16",
+      "frequency": 0
+    },
+    {
+      "id": "statement:cebb3944d6e0432b9fb403f150892f12",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:06a63e062b964d9cb0806614cdfe16e7",
+      "taxon": "taxon:c6106d4c2a6146d68f7788bdd1ec4551",
+      "frequency": 0
+    },
+    {
+      "id": "statement:28d203fabd9a4825aa36afb377ae0840",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:06a63e062b964d9cb0806614cdfe16e7",
+      "taxon": "taxon:b585bf54f4a04765b719f59c110a4884",
+      "frequency": 0
+    },
+    {
+      "id": "statement:c2dad57d59034f0080b08abca0068971",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:06a63e062b964d9cb0806614cdfe16e7",
+      "taxon": "taxon:6707406abe874ea1b60108b374835935",
+      "frequency": 1
+    },
+    {
+      "id": "statement:ef31a3733aa1498d85a6c40d837e6728",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:06a63e062b964d9cb0806614cdfe16e7",
+      "taxon": "taxon:03435ab49cf74f43be452f85ca40fdbf",
+      "frequency": 1
+    },
+    {
+      "id": "statement:aedbbbe63f2e455eb6bf7f9ad4833751",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:06a63e062b964d9cb0806614cdfe16e7",
+      "taxon": "taxon:e188d73c4f0e45b0b93cfc17efcc2fbd",
+      "frequency": 0
+    },
+    {
+      "id": "statement:9d2175c4046741ab8080b981869fc00e",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:06a63e062b964d9cb0806614cdfe16e7",
+      "taxon": "taxon:be0bce9f99814877a2417f785b2318ce",
+      "frequency": 0
+    },
+    {
+      "id": "statement:55ffae93e43947038f55d059df79f756",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:06a63e062b964d9cb0806614cdfe16e7",
+      "taxon": "taxon:d1e7c0b52c704af2aa2c55241f64294f",
+      "frequency": 0
+    },
+    {
+      "id": "statement:102eb057d89f4b6b8614831dc9b93754",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:06a63e062b964d9cb0806614cdfe16e7",
+      "taxon": "taxon:d7de762ffb784ffa8e20929f12f11e30",
+      "frequency": 0
+    },
+    {
+      "id": "statement:6dc5595b75f5476ba778ac516dd36b91",
+      "character": "character:9b1bd0befc394d0993c2af134a008e09",
+      "value": "state:06a63e062b964d9cb0806614cdfe16e7",
+      "taxon": "taxon:e51eeab288af4f82962f2e84bc327c1b",
+      "frequency": 0
+    },
+    {
+      "id": "statement:c93a159c3ac84a7693eeec5b97f88408",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:c457c195dd0542fca0e0a20ca1757160",
+      "taxon": "taxon:1f9848aca07d49fdb9bd4bd74352a19a",
+      "frequency": 1
+    },
+    {
+      "id": "statement:acf55b3075664d10a8298f1cb5526bde",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:c457c195dd0542fca0e0a20ca1757160",
+      "taxon": "taxon:d7aa02df476349c7a0f74f76c069bf16",
+      "frequency": 0
+    },
+    {
+      "id": "statement:cd8dcc21bd1e40ad8bba35cd120d4833",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:c457c195dd0542fca0e0a20ca1757160",
+      "taxon": "taxon:c6106d4c2a6146d68f7788bdd1ec4551",
+      "frequency": 1
+    },
+    {
+      "id": "statement:d855ec9570e64605a7eab6a04e5b7529",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:c457c195dd0542fca0e0a20ca1757160",
+      "taxon": "taxon:b585bf54f4a04765b719f59c110a4884",
+      "frequency": 0
+    },
+    {
+      "id": "statement:20a6de276015482ea4482beff9eb574b",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:c457c195dd0542fca0e0a20ca1757160",
+      "taxon": "taxon:6707406abe874ea1b60108b374835935",
+      "frequency": 1
+    },
+    {
+      "id": "statement:a2dc51bec69b493f9f6be49c89a33abf",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:c457c195dd0542fca0e0a20ca1757160",
+      "taxon": "taxon:03435ab49cf74f43be452f85ca40fdbf",
+      "frequency": 0
+    },
+    {
+      "id": "statement:d9ac865d86654a688e9ba2abff841729",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:c457c195dd0542fca0e0a20ca1757160",
+      "taxon": "taxon:e188d73c4f0e45b0b93cfc17efcc2fbd",
+      "frequency": 0
+    },
+    {
+      "id": "statement:b82bc8c49319433d933d8ff07e969dcb",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:c457c195dd0542fca0e0a20ca1757160",
+      "taxon": "taxon:be0bce9f99814877a2417f785b2318ce",
+      "frequency": 0
+    },
+    {
+      "id": "statement:a3f34fdbab174d2e804b8cc342190043",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:c457c195dd0542fca0e0a20ca1757160",
+      "taxon": "taxon:d1e7c0b52c704af2aa2c55241f64294f",
+      "frequency": 0
+    },
+    {
+      "id": "statement:a1a22d15390e49f0acce660b2b9ed6b0",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:c457c195dd0542fca0e0a20ca1757160",
+      "taxon": "taxon:d7de762ffb784ffa8e20929f12f11e30",
+      "frequency": 0
+    },
+    {
+      "id": "statement:6dc9542db7fc452099be53ad11892a62",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:c457c195dd0542fca0e0a20ca1757160",
+      "taxon": "taxon:e51eeab288af4f82962f2e84bc327c1b",
+      "frequency": 0
+    },
+    {
+      "id": "statement:386a43a9377549f981df1686091cc380",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:21b7302e81d0493b82b25e7161104128",
+      "taxon": "taxon:1f9848aca07d49fdb9bd4bd74352a19a",
+      "frequency": 0
+    },
+    {
+      "id": "statement:2a7b3b6cbdd24428a3220f8560625a5a",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:21b7302e81d0493b82b25e7161104128",
+      "taxon": "taxon:d7aa02df476349c7a0f74f76c069bf16",
+      "frequency": 0
+    },
+    {
+      "id": "statement:ab22f73a0f584d58b68d665a88f2fd65",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:21b7302e81d0493b82b25e7161104128",
+      "taxon": "taxon:c6106d4c2a6146d68f7788bdd1ec4551",
+      "frequency": 0
+    },
+    {
+      "id": "statement:b04383f3baf34376a59fc107bc0d7261",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:21b7302e81d0493b82b25e7161104128",
+      "taxon": "taxon:b585bf54f4a04765b719f59c110a4884",
+      "frequency": 1
+    },
+    {
+      "id": "statement:0d07b709c32440179152834ecb2aa92e",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:21b7302e81d0493b82b25e7161104128",
+      "taxon": "taxon:6707406abe874ea1b60108b374835935",
+      "frequency": 0
+    },
+    {
+      "id": "statement:19d80f80ee974ecf9ddb11b642833ece",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:21b7302e81d0493b82b25e7161104128",
+      "taxon": "taxon:03435ab49cf74f43be452f85ca40fdbf",
+      "frequency": 1
+    },
+    {
+      "id": "statement:e09c85ee5aec4defb3c8d8b0661983d2",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:21b7302e81d0493b82b25e7161104128",
+      "taxon": "taxon:e188d73c4f0e45b0b93cfc17efcc2fbd",
+      "frequency": 1
+    },
+    {
+      "id": "statement:6c6203f30ebc479b95f108b9e9cbe033",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:21b7302e81d0493b82b25e7161104128",
+      "taxon": "taxon:be0bce9f99814877a2417f785b2318ce",
+      "frequency": 1
+    },
+    {
+      "id": "statement:4e16ba4c25194cf8a1d050fd0cba671c",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:21b7302e81d0493b82b25e7161104128",
+      "taxon": "taxon:d1e7c0b52c704af2aa2c55241f64294f",
+      "frequency": 1
+    },
+    {
+      "id": "statement:600a2c2b7495499aad8d2a57af29cefc",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:21b7302e81d0493b82b25e7161104128",
+      "taxon": "taxon:d7de762ffb784ffa8e20929f12f11e30",
+      "frequency": 1
+    },
+    {
+      "id": "statement:edc01aeeca4b400e8ee9d2f2e3f14278",
+      "character": "character:0b52cded53a84492b8a655c55ff4594f",
+      "value": "state:21b7302e81d0493b82b25e7161104128",
+      "taxon": "taxon:e51eeab288af4f82962f2e84bc327c1b",
+      "frequency": 1
+    },
+    {
+      "id": "statement:87ead50406c94f99ad1663393143eb6c",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:651949f2e0cb434d888f3bfa0a8975b8",
+      "taxon": "taxon:1f9848aca07d49fdb9bd4bd74352a19a",
+      "frequency": 1
+    },
+    {
+      "id": "statement:206acb21f47b41639108be6cac7c378f",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:651949f2e0cb434d888f3bfa0a8975b8",
+      "taxon": "taxon:d7aa02df476349c7a0f74f76c069bf16",
+      "frequency": 1
+    },
+    {
+      "id": "statement:876c6c614955492a9abf27c0abd9bdc6",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:651949f2e0cb434d888f3bfa0a8975b8",
+      "taxon": "taxon:c6106d4c2a6146d68f7788bdd1ec4551",
+      "frequency": 1
+    },
+    {
+      "id": "statement:f26f5741eaa7405db8f5765c2ecc046b",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:651949f2e0cb434d888f3bfa0a8975b8",
+      "taxon": "taxon:b585bf54f4a04765b719f59c110a4884",
+      "frequency": 0
+    },
+    {
+      "id": "statement:43befb7b419844769132a05d1f3efd52",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:651949f2e0cb434d888f3bfa0a8975b8",
+      "taxon": "taxon:6707406abe874ea1b60108b374835935",
+      "frequency": 0
+    },
+    {
+      "id": "statement:bcd56cd80d8541c885b8300923a251e5",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:651949f2e0cb434d888f3bfa0a8975b8",
+      "taxon": "taxon:03435ab49cf74f43be452f85ca40fdbf",
+      "frequency": 0
+    },
+    {
+      "id": "statement:cdc74f3fae22446e9160eeb095cb3651",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:651949f2e0cb434d888f3bfa0a8975b8",
+      "taxon": "taxon:e188d73c4f0e45b0b93cfc17efcc2fbd",
+      "frequency": 1
+    },
+    {
+      "id": "statement:14f887fc02df460cadacbe4b09e168b1",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:651949f2e0cb434d888f3bfa0a8975b8",
+      "taxon": "taxon:be0bce9f99814877a2417f785b2318ce",
+      "frequency": 0
+    },
+    {
+      "id": "statement:35c6fb44e83c499cb1ea288ec541e831",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:651949f2e0cb434d888f3bfa0a8975b8",
+      "taxon": "taxon:d1e7c0b52c704af2aa2c55241f64294f",
+      "frequency": 0
+    },
+    {
+      "id": "statement:967d4b03deea419d93c64098c739737c",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:651949f2e0cb434d888f3bfa0a8975b8",
+      "taxon": "taxon:d7de762ffb784ffa8e20929f12f11e30",
+      "frequency": 0
+    },
+    {
+      "id": "statement:635dde02ccd4432c8796dc4f83e9da41",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:651949f2e0cb434d888f3bfa0a8975b8",
+      "taxon": "taxon:e51eeab288af4f82962f2e84bc327c1b",
+      "frequency": 0
+    },
+    {
+      "id": "statement:b158dfaa307948909282e2ae22e94843",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:b2f12f55c9294d5396888bb4ba5fc4fc",
+      "taxon": "taxon:1f9848aca07d49fdb9bd4bd74352a19a",
+      "frequency": 0
+    },
+    {
+      "id": "statement:4e0e686af73f433980e30856e7000b76",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:b2f12f55c9294d5396888bb4ba5fc4fc",
+      "taxon": "taxon:d7aa02df476349c7a0f74f76c069bf16",
+      "frequency": 0
+    },
+    {
+      "id": "statement:8c31983431b9409b9f7e3107826d4805",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:b2f12f55c9294d5396888bb4ba5fc4fc",
+      "taxon": "taxon:c6106d4c2a6146d68f7788bdd1ec4551",
+      "frequency": 0
+    },
+    {
+      "id": "statement:3d305dec18a5449bb8bdcc1a2022adfa",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:b2f12f55c9294d5396888bb4ba5fc4fc",
+      "taxon": "taxon:b585bf54f4a04765b719f59c110a4884",
+      "frequency": 1
+    },
+    {
+      "id": "statement:68a845946948427b8e0f66755aa8aafb",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:b2f12f55c9294d5396888bb4ba5fc4fc",
+      "taxon": "taxon:6707406abe874ea1b60108b374835935",
+      "frequency": 1
+    },
+    {
+      "id": "statement:190c9e2deee84b6b90678ef3f7122fca",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:b2f12f55c9294d5396888bb4ba5fc4fc",
+      "taxon": "taxon:03435ab49cf74f43be452f85ca40fdbf",
+      "frequency": 1
+    },
+    {
+      "id": "statement:657b028e7c894c4cac0ba8aa51959295",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:b2f12f55c9294d5396888bb4ba5fc4fc",
+      "taxon": "taxon:e188d73c4f0e45b0b93cfc17efcc2fbd",
+      "frequency": 0
+    },
+    {
+      "id": "statement:4a9505c514fb40e1babbf4cd810be319",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:b2f12f55c9294d5396888bb4ba5fc4fc",
+      "taxon": "taxon:be0bce9f99814877a2417f785b2318ce",
+      "frequency": 1
+    },
+    {
+      "id": "statement:494cc4eb10d949c3989bfe55331941ea",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:b2f12f55c9294d5396888bb4ba5fc4fc",
+      "taxon": "taxon:d1e7c0b52c704af2aa2c55241f64294f",
+      "frequency": 1
+    },
+    {
+      "id": "statement:1c0856fa73c44c4eaa2c0ad6dddc1660",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:b2f12f55c9294d5396888bb4ba5fc4fc",
+      "taxon": "taxon:d7de762ffb784ffa8e20929f12f11e30",
+      "frequency": 1
+    },
+    {
+      "id": "statement:c772637c870c4f58a9e9ed56887bf806",
+      "character": "character:1c3fb7bd4528413db60949ecd571092c",
+      "value": "state:b2f12f55c9294d5396888bb4ba5fc4fc",
+      "taxon": "taxon:e51eeab288af4f82962f2e84bc327c1b",
+      "frequency": 1
+    },
+    {
+      "id": "statement:7b859231935f462fb70212047d9f9718",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:ab31a699a51b4ead9d7e6592d63f659e",
+      "taxon": "taxon:1f9848aca07d49fdb9bd4bd74352a19a",
+      "frequency": 0
+    },
+    {
+      "id": "statement:c0f3007e846946fc8b3ce8fa77a3a3f6",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:ab31a699a51b4ead9d7e6592d63f659e",
+      "taxon": "taxon:d7aa02df476349c7a0f74f76c069bf16",
+      "frequency": 0
+    },
+    {
+      "id": "statement:a855302efdc345b6ac5a68971ef9a388",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:ab31a699a51b4ead9d7e6592d63f659e",
+      "taxon": "taxon:c6106d4c2a6146d68f7788bdd1ec4551",
+      "frequency": 0
+    },
+    {
+      "id": "statement:4fc22058545645b29f50896721b19f9b",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:ab31a699a51b4ead9d7e6592d63f659e",
+      "taxon": "taxon:b585bf54f4a04765b719f59c110a4884",
+      "frequency": 1
+    },
+    {
+      "id": "statement:7e31ca4d701d4aadb68fa16bccee48bd",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:ab31a699a51b4ead9d7e6592d63f659e",
+      "taxon": "taxon:6707406abe874ea1b60108b374835935",
+      "frequency": 0
+    },
+    {
+      "id": "statement:67da422e69ca4a9a9d36c3bc539370e3",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:ab31a699a51b4ead9d7e6592d63f659e",
+      "taxon": "taxon:03435ab49cf74f43be452f85ca40fdbf",
+      "frequency": 0
+    },
+    {
+      "id": "statement:b3d35a5188aa4da39c82d84b06dfe6a7",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:ab31a699a51b4ead9d7e6592d63f659e",
+      "taxon": "taxon:e188d73c4f0e45b0b93cfc17efcc2fbd",
+      "frequency": 1
+    },
+    {
+      "id": "statement:4d13debf9b6d4c7ea62b034820bade0a",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:ab31a699a51b4ead9d7e6592d63f659e",
+      "taxon": "taxon:be0bce9f99814877a2417f785b2318ce",
+      "frequency": 0
+    },
+    {
+      "id": "statement:7529adfe17364dcaa35ede9ddbadb955",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:ab31a699a51b4ead9d7e6592d63f659e",
+      "taxon": "taxon:d1e7c0b52c704af2aa2c55241f64294f",
+      "frequency": 1
+    },
+    {
+      "id": "statement:99d639099c784f1a9287381c3d6c5b98",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:ab31a699a51b4ead9d7e6592d63f659e",
+      "taxon": "taxon:d7de762ffb784ffa8e20929f12f11e30",
+      "frequency": 1
+    },
+    {
+      "id": "statement:086ab31a7ef34bb8aafd6dec33589a46",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:ab31a699a51b4ead9d7e6592d63f659e",
+      "taxon": "taxon:e51eeab288af4f82962f2e84bc327c1b",
+      "frequency": 1
+    },
+    {
+      "id": "statement:4458242c767541cf85c211589b51be8c",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:dd7e2e3cafb448178338e3c74f5343db",
+      "taxon": "taxon:1f9848aca07d49fdb9bd4bd74352a19a",
+      "frequency": 1
+    },
+    {
+      "id": "statement:75c92ecc42a64d19a1621cdbfdc73fe4",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:dd7e2e3cafb448178338e3c74f5343db",
+      "taxon": "taxon:d7aa02df476349c7a0f74f76c069bf16",
+      "frequency": 1
+    },
+    {
+      "id": "statement:8e095bc73a6d4bfea7dc5179ac8a8b7a",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:dd7e2e3cafb448178338e3c74f5343db",
+      "taxon": "taxon:c6106d4c2a6146d68f7788bdd1ec4551",
+      "frequency": 1
+    },
+    {
+      "id": "statement:9702e2a8f6554504b47d0755d37c6c4c",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:dd7e2e3cafb448178338e3c74f5343db",
+      "taxon": "taxon:b585bf54f4a04765b719f59c110a4884",
+      "frequency": 0
+    },
+    {
+      "id": "statement:814fe25f0ca04ceea6ee85584356ffff",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:dd7e2e3cafb448178338e3c74f5343db",
+      "taxon": "taxon:6707406abe874ea1b60108b374835935",
+      "frequency": 1
+    },
+    {
+      "id": "statement:2b79d12f02b541c0bf555d2a6932967e",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:dd7e2e3cafb448178338e3c74f5343db",
+      "taxon": "taxon:03435ab49cf74f43be452f85ca40fdbf",
+      "frequency": 1
+    },
+    {
+      "id": "statement:47f8c182214a4e61994949de0bda2be2",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:dd7e2e3cafb448178338e3c74f5343db",
+      "taxon": "taxon:e188d73c4f0e45b0b93cfc17efcc2fbd",
+      "frequency": 0
+    },
+    {
+      "id": "statement:b4b608798f9a4a75a2490436ff9fb864",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:dd7e2e3cafb448178338e3c74f5343db",
+      "taxon": "taxon:be0bce9f99814877a2417f785b2318ce",
+      "frequency": 1
+    },
+    {
+      "id": "statement:14a28eabc7fe4c14b66a179bd1ee6a81",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:dd7e2e3cafb448178338e3c74f5343db",
+      "taxon": "taxon:d1e7c0b52c704af2aa2c55241f64294f",
+      "frequency": 0
+    },
+    {
+      "id": "statement:3155e0feb9614ac8acf0f4ad93ec94eb",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:dd7e2e3cafb448178338e3c74f5343db",
+      "taxon": "taxon:d7de762ffb784ffa8e20929f12f11e30",
+      "frequency": 0
+    },
+    {
+      "id": "statement:192b9896335543c28c77eb43fb4a685f",
+      "character": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "value": "state:dd7e2e3cafb448178338e3c74f5343db",
+      "taxon": "taxon:e51eeab288af4f82962f2e84bc327c1b",
+      "frequency": 0
+    },
+    {
+      "id": "statement:8291dc00be1c419c9e1a4e28537f6735",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:63a722a4af3745678bdc38f94f18457b",
+      "taxon": "taxon:1f9848aca07d49fdb9bd4bd74352a19a",
+      "frequency": 0
+    },
+    {
+      "id": "statement:aaf48d70528b478cb59c8af5ec3c2eca",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:63a722a4af3745678bdc38f94f18457b",
+      "taxon": "taxon:d7aa02df476349c7a0f74f76c069bf16",
+      "frequency": 0
+    },
+    {
+      "id": "statement:731b79e2722c42b488179d7bc6a051d2",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:63a722a4af3745678bdc38f94f18457b",
+      "taxon": "taxon:c6106d4c2a6146d68f7788bdd1ec4551",
+      "frequency": 0
+    },
+    {
+      "id": "statement:fe3836194eed46c9ab1a704db2c17ca3",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:63a722a4af3745678bdc38f94f18457b",
+      "taxon": "taxon:b585bf54f4a04765b719f59c110a4884",
+      "frequency": 0
+    },
+    {
+      "id": "statement:10701bc50db5492ea2ce283e90b3b98e",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:63a722a4af3745678bdc38f94f18457b",
+      "taxon": "taxon:6707406abe874ea1b60108b374835935",
+      "frequency": 0
+    },
+    {
+      "id": "statement:8dd2eaa0bcdc41ceb69c203675ece4c6",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:63a722a4af3745678bdc38f94f18457b",
+      "taxon": "taxon:03435ab49cf74f43be452f85ca40fdbf",
+      "frequency": 0
+    },
+    {
+      "id": "statement:4f8150594abe4b69a8f669abd33d1807",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:63a722a4af3745678bdc38f94f18457b",
+      "taxon": "taxon:e188d73c4f0e45b0b93cfc17efcc2fbd",
+      "frequency": 0
+    },
+    {
+      "id": "statement:7de4cfaa55cb48ce80bf319ef5bffe72",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:63a722a4af3745678bdc38f94f18457b",
+      "taxon": "taxon:be0bce9f99814877a2417f785b2318ce",
+      "frequency": 0.5
+    },
+    {
+      "id": "statement:1e6d6735def24c509f1328813e00afb1",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:63a722a4af3745678bdc38f94f18457b",
+      "taxon": "taxon:d1e7c0b52c704af2aa2c55241f64294f",
+      "frequency": 0
+    },
+    {
+      "id": "statement:506039dadaf7417fb3f6edef33eef0c7",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:63a722a4af3745678bdc38f94f18457b",
+      "taxon": "taxon:d7de762ffb784ffa8e20929f12f11e30",
+      "frequency": 1
+    },
+    {
+      "id": "statement:69124669877c4a9893b931ebc1f76f16",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:63a722a4af3745678bdc38f94f18457b",
+      "taxon": "taxon:e51eeab288af4f82962f2e84bc327c1b",
+      "frequency": 0
+    },
+    {
+      "id": "statement:dee2501390864838a9f235d6ef6d2ea1",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:d3b1a54a6c8a4cfd8ceb31e60284087d",
+      "taxon": "taxon:1f9848aca07d49fdb9bd4bd74352a19a",
+      "frequency": 1
+    },
+    {
+      "id": "statement:3ea0bf0c0b1e49599417857343527985",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:d3b1a54a6c8a4cfd8ceb31e60284087d",
+      "taxon": "taxon:d7aa02df476349c7a0f74f76c069bf16",
+      "frequency": 1
+    },
+    {
+      "id": "statement:26986c178dc04328bd362cb0b4105394",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:d3b1a54a6c8a4cfd8ceb31e60284087d",
+      "taxon": "taxon:c6106d4c2a6146d68f7788bdd1ec4551",
+      "frequency": 1
+    },
+    {
+      "id": "statement:82e8f8a51dff4474b2d57783e20a1ee2",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:d3b1a54a6c8a4cfd8ceb31e60284087d",
+      "taxon": "taxon:b585bf54f4a04765b719f59c110a4884",
+      "frequency": 1
+    },
+    {
+      "id": "statement:1c93a3ff12c14d87ba5e303c21e35420",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:d3b1a54a6c8a4cfd8ceb31e60284087d",
+      "taxon": "taxon:6707406abe874ea1b60108b374835935",
+      "frequency": 1
+    },
+    {
+      "id": "statement:cb32b05c626e4cd2940fdc753dd877a9",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:d3b1a54a6c8a4cfd8ceb31e60284087d",
+      "taxon": "taxon:03435ab49cf74f43be452f85ca40fdbf",
+      "frequency": 1
+    },
+    {
+      "id": "statement:9e1208a4851247e18bdcda62e9b76945",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:d3b1a54a6c8a4cfd8ceb31e60284087d",
+      "taxon": "taxon:e188d73c4f0e45b0b93cfc17efcc2fbd",
+      "frequency": 1
+    },
+    {
+      "id": "statement:520ac74ee49342ec98322a32ce3bbadb",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:d3b1a54a6c8a4cfd8ceb31e60284087d",
+      "taxon": "taxon:be0bce9f99814877a2417f785b2318ce",
+      "frequency": 0.5
+    },
+    {
+      "id": "statement:737e5e6efd87494caca606cc03602e7f",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:d3b1a54a6c8a4cfd8ceb31e60284087d",
+      "taxon": "taxon:d1e7c0b52c704af2aa2c55241f64294f",
+      "frequency": 1
+    },
+    {
+      "id": "statement:6750c17e831d4922b5d5e65fc7d90c8d",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:d3b1a54a6c8a4cfd8ceb31e60284087d",
+      "taxon": "taxon:d7de762ffb784ffa8e20929f12f11e30",
+      "frequency": 0
+    },
+    {
+      "id": "statement:71eb5d3d4cc541c48518f82345714917",
+      "character": "character:7799ef23775e4702928b5b85f469d4c1",
+      "value": "state:d3b1a54a6c8a4cfd8ceb31e60284087d",
+      "taxon": "taxon:e51eeab288af4f82962f2e84bc327c1b",
+      "frequency": 1
+    },
+    {
+      "id": "statement:fb650ff7d0ae48e0b86b72d86c51647e",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:eac1f7e13bfb4b66a1e81d24ab481f07",
+      "taxon": "taxon:1f9848aca07d49fdb9bd4bd74352a19a",
+      "frequency": 1
+    },
+    {
+      "id": "statement:ce41f2c93f924a51b8bc2e426244a658",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:eac1f7e13bfb4b66a1e81d24ab481f07",
+      "taxon": "taxon:d7aa02df476349c7a0f74f76c069bf16",
+      "frequency": 0
+    },
+    {
+      "id": "statement:90f0dbd3348b4b74b2dec22baceb0aa8",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:eac1f7e13bfb4b66a1e81d24ab481f07",
+      "taxon": "taxon:c6106d4c2a6146d68f7788bdd1ec4551",
+      "frequency": 0
+    },
+    {
+      "id": "statement:c64a3b891ed0486db8bccf0ea676eaa3",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:eac1f7e13bfb4b66a1e81d24ab481f07",
+      "taxon": "taxon:b585bf54f4a04765b719f59c110a4884",
+      "frequency": 1
+    },
+    {
+      "id": "statement:173cc922238245d09c3bdc43eccd1dd7",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:eac1f7e13bfb4b66a1e81d24ab481f07",
+      "taxon": "taxon:6707406abe874ea1b60108b374835935",
+      "frequency": 0
+    },
+    {
+      "id": "statement:17b4c31e8f784b4ba8dd0fb6f2bf939f",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:eac1f7e13bfb4b66a1e81d24ab481f07",
+      "taxon": "taxon:03435ab49cf74f43be452f85ca40fdbf",
+      "frequency": 0
+    },
+    {
+      "id": "statement:0b1c3f7850cd4735a3a0d9cf2ec914e7",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:eac1f7e13bfb4b66a1e81d24ab481f07",
+      "taxon": "taxon:e188d73c4f0e45b0b93cfc17efcc2fbd",
+      "frequency": 0
+    },
+    {
+      "id": "statement:c37fd5a5ae5a4be7b1d4d1fd2f8391d2",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:eac1f7e13bfb4b66a1e81d24ab481f07",
+      "taxon": "taxon:be0bce9f99814877a2417f785b2318ce",
+      "frequency": 0
+    },
+    {
+      "id": "statement:5dc5e19da6384208bd9b3fb7a443a1bb",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:eac1f7e13bfb4b66a1e81d24ab481f07",
+      "taxon": "taxon:d1e7c0b52c704af2aa2c55241f64294f",
+      "frequency": 1
+    },
+    {
+      "id": "statement:977e1dcc0974458cab9bf9760537651a",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:eac1f7e13bfb4b66a1e81d24ab481f07",
+      "taxon": "taxon:d7de762ffb784ffa8e20929f12f11e30",
+      "frequency": 0
+    },
+    {
+      "id": "statement:bde498812a2a414292d020dfe0c878e2",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:eac1f7e13bfb4b66a1e81d24ab481f07",
+      "taxon": "taxon:e51eeab288af4f82962f2e84bc327c1b",
+      "frequency": 0
+    },
+    {
+      "id": "statement:247ab314d12e426b8e23ddf54689696f",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:9bbb43295b8e4b1fa429c548e09cc12b",
+      "taxon": "taxon:1f9848aca07d49fdb9bd4bd74352a19a",
+      "frequency": 0
+    },
+    {
+      "id": "statement:fd7633bd77714b39a3f467a9e0924abf",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:9bbb43295b8e4b1fa429c548e09cc12b",
+      "taxon": "taxon:d7aa02df476349c7a0f74f76c069bf16",
+      "frequency": 1
+    },
+    {
+      "id": "statement:4258cbcf9bc9422a91378646d88dcff6",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:9bbb43295b8e4b1fa429c548e09cc12b",
+      "taxon": "taxon:c6106d4c2a6146d68f7788bdd1ec4551",
+      "frequency": 1
+    },
+    {
+      "id": "statement:876cbd1522014c9489218efee73641e3",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:9bbb43295b8e4b1fa429c548e09cc12b",
+      "taxon": "taxon:b585bf54f4a04765b719f59c110a4884",
+      "frequency": 0
+    },
+    {
+      "id": "statement:1c5d87268a8e472aad1e7f8dd9144ae0",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:9bbb43295b8e4b1fa429c548e09cc12b",
+      "taxon": "taxon:6707406abe874ea1b60108b374835935",
+      "frequency": 1
+    },
+    {
+      "id": "statement:73079b9c31344b25b576a5cb778e7eae",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:9bbb43295b8e4b1fa429c548e09cc12b",
+      "taxon": "taxon:03435ab49cf74f43be452f85ca40fdbf",
+      "frequency": 1
+    },
+    {
+      "id": "statement:b3afffb2d3bd4105a5d16cdcd1277ec9",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:9bbb43295b8e4b1fa429c548e09cc12b",
+      "taxon": "taxon:e188d73c4f0e45b0b93cfc17efcc2fbd",
+      "frequency": 1
+    },
+    {
+      "id": "statement:19c5b7105af2420cb31a1ff337e626f1",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:9bbb43295b8e4b1fa429c548e09cc12b",
+      "taxon": "taxon:be0bce9f99814877a2417f785b2318ce",
+      "frequency": 1
+    },
+    {
+      "id": "statement:7da77f64c1624740b3cdb386482f326f",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:9bbb43295b8e4b1fa429c548e09cc12b",
+      "taxon": "taxon:d1e7c0b52c704af2aa2c55241f64294f",
+      "frequency": 0
+    },
+    {
+      "id": "statement:a966598f964c47f590d0dc896d9b171c",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:9bbb43295b8e4b1fa429c548e09cc12b",
+      "taxon": "taxon:d7de762ffb784ffa8e20929f12f11e30",
+      "frequency": 1
+    },
+    {
+      "id": "statement:47a1e0c3483045df8cbc18f318cf4f77",
+      "character": "character:b5778117eb55429594775d89fc2cc543",
+      "value": "state:9bbb43295b8e4b1fa429c548e09cc12b",
+      "taxon": "taxon:e51eeab288af4f82962f2e84bc327c1b",
+      "frequency": 1
+    }
+  ],
+  "title": {
+    "nb": "Pipunculidae"
+  },
+  "geography": {
+    "name": {
+      "nb": "Norway"
+    }
+  },
+  "description": {
+    "nb": "Denne bestemmelsesnøkkelen gir deg mulighet til å skille mellom de 11 slektene som forekommer i Norge. Mange av artene er små, og nøkkelen spør etter detaljer som krever høy forstørrelse."
+  },
+  "descriptionUrl": {
+    "nb": {
+      "externalReference": {
+        "serviceId": "service:nbic_page",
+        "externalId": "SlektsnÃ¸kkel til norske slekter Ã¸yefluer"
+      }
+    }
+  },
+  "characters": [
+    {
+      "id": "character:366b1f441ea641a6822a1f3704a0ba99",
+      "title": {
+        "nb": "Hode - Panne med eller uten ocellarhår."
+      },
+      "states": [
+        {
+          "id": "state:4204130bd17947438d89b6cac283da7c",
+          "title": {
+            "nb": "Ocellarhår finnes"
+          },
+          "media": "media:f38539"
+        },
+        {
+          "id": "state:4d0a1bdb33ec4519adcc613e4df649f6",
+          "title": {
+            "nb": "Ocellarhår mangler"
+          },
+          "media": "media:f38535"
+        }
+      ]
+    },
+    {
+      "id": "character:a4ef0a2fbd9a4792a009b0a27c0cb7a9",
+      "title": {
+        "nb": "Vinge - Vinge med eller uten diskalcelle."
+      },
+      "states": [
+        {
+          "id": "state:865bf651d60247679ef231eb0979de14",
+          "title": {
+            "nb": "Diskalcelle finnes"
+          },
+          "media": "media:f38530"
+        },
+        {
+          "id": "state:b4bd48a80d44452192a85b851a8d193a",
+          "title": {
+            "nb": "Diskalcelle mangler"
+          },
+          "media": "media:f38531"
+        }
+      ]
+    },
+    {
+      "id": "character:8e6cfc1c2d974da6a263b35790655e4a",
+      "title": {
+        "nb": "Hode - utforming bakre kant."
+      },
+      "states": [
+        {
+          "id": "state:1b3bf7d48000464aa7396d5923f53642",
+          "title": {
+            "nb": "Bakre kant innskåret midtveis"
+          },
+          "media": "media:f38460"
+        },
+        {
+          "id": "state:6b972f7f349847eba006966554ec601b",
+          "title": {
+            "nb": "Bakre kant rett"
+          },
+          "media": "media:f38461"
+        }
+      ]
+    },
+    {
+      "id": "character:9b1bd0befc394d0993c2af134a008e09",
+      "title": {
+        "nb": "Vinge - med eller uten pterostigma."
+      },
+      "states": [
+        {
+          "id": "state:e800bae646b14e49b4edb0bd965ddb45",
+          "title": {
+            "nb": "Pterostigma finnes."
+          },
+          "media": "media:f38466"
+        },
+        {
+          "id": "state:06a63e062b964d9cb0806614cdfe16e7",
+          "title": {
+            "nb": "Pterostigma mangler."
+          },
+          "media": "media:f38467"
+        }
+      ]
+    },
+    {
+      "id": "character:0b52cded53a84492b8a655c55ff4594f",
+      "title": {
+        "nb": "Vingeribber - plassering av tverribbe r-m."
+      },
+      "states": [
+        {
+          "id": "state:c457c195dd0542fca0e0a20ca1757160",
+          "title": {
+            "nb": "Går ut fra midten av diskalcellens (dc) øvre kant"
+          },
+          "media": "media:f38468"
+        },
+        {
+          "id": "state:21b7302e81d0493b82b25e7161104128",
+          "title": {
+            "nb": "Går ut nærmere basis av vingen"
+          },
+          "media": "media:f38469"
+        }
+      ]
+    },
+    {
+      "id": "character:1c3fb7bd4528413db60949ecd571092c",
+      "title": {
+        "nb": "Bryst (thorax) - behåring på ryggsiden."
+      },
+      "states": [
+        {
+          "id": "state:651949f2e0cb434d888f3bfa0a8975b8",
+          "title": {
+            "nb": "Jevnt spredte stive hår (i det minste foran)"
+          },
+          "media": "media:f38471"
+        },
+        {
+          "id": "state:b2f12f55c9294d5396888bb4ba5fc4fc",
+          "title": {
+            "nb": "Stive hår i to rader"
+          },
+          "media": "media:f38470"
+        }
+      ]
+    },
+    {
+      "id": "character:2fdffa3b32834810bec329e2ac829b6f",
+      "title": {
+        "nb": "Bryst - propleuron (ppl) med eller uten vifte av hår."
+      },
+      "states": [
+        {
+          "id": "state:ab31a699a51b4ead9d7e6592d63f659e",
+          "title": {
+            "nb": "Liten vifte med hår til stede"
+          },
+          "media": "media:f38464"
+        },
+        {
+          "id": "state:dd7e2e3cafb448178338e3c74f5343db",
+          "title": {
+            "nb": "Uten vifte med hår"
+          },
+          "media": "media:f38465"
+        }
+      ]
+    },
+    {
+      "id": "character:7799ef23775e4702928b5b85f469d4c1",
+      "title": {
+        "nb": "Vinge - farge på vingmembran."
+      },
+      "states": [
+        {
+          "id": "state:63a722a4af3745678bdc38f94f18457b",
+          "title": {
+            "nb": "Mørk vinge"
+          },
+          "media": "media:f38473"
+        },
+        {
+          "id": "state:d3b1a54a6c8a4cfd8ceb31e60284087d",
+          "title": {
+            "nb": "Klar vinge"
+          },
+          "media": "media:f38472"
+        }
+      ]
+    },
+    {
+      "id": "character:b5778117eb55429594775d89fc2cc543",
+      "title": {
+        "nb": "Vingeribbe M1 og M2"
+      },
+      "states": [
+        {
+          "id": "state:eac1f7e13bfb4b66a1e81d24ab481f07",
+          "title": {
+            "nb": "Som to ribber med felles stamme"
+          },
+          "media": "media:f38540"
+        },
+        {
+          "id": "state:9bbb43295b8e4b1fa429c548e09cc12b",
+          "title": {
+            "nb": "Smeltet sammen til én ribbe(M1+2) eller mangler"
+          },
+          "media": "media:f38574"
+        }
+      ]
+    }
+  ],
+  "taxa": [
+    {
+      "id": "taxon:1f9848aca07d49fdb9bd4bd74352a19a",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "23323"
+      },
+      "scientificName": "Verrallia",
+      "media": "media:f38544"
+    },
+    {
+      "id": "taxon:d7aa02df476349c7a0f74f76c069bf16",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "23215"
+      },
+      "scientificName": "Chalarus",
+      "media": "media:f38521"
+    },
+    {
+      "id": "taxon:c6106d4c2a6146d68f7788bdd1ec4551",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "23293"
+      },
+      "scientificName": "Jassidophaga",
+      "media": "media:f38524"
+    },
+    {
+      "id": "taxon:b585bf54f4a04765b719f59c110a4884",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "23300"
+      },
+      "scientificName": "Nephrocerus",
+      "media": "media:f38525"
+    },
+    {
+      "id": "taxon:6707406abe874ea1b60108b374835935",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "23314"
+      },
+      "scientificName": "Tomosvaryella",
+      "media": "media:f38527"
+    },
+    {
+      "id": "taxon:03435ab49cf74f43be452f85ca40fdbf",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "23236"
+      },
+      "scientificName": "Dorylomorpha",
+      "media": "media:f38522"
+    },
+    {
+      "id": "taxon:e188d73c4f0e45b0b93cfc17efcc2fbd",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "23304"
+      },
+      "scientificName": "Pipunculus",
+      "media": "media:f38526"
+    },
+    {
+      "id": "taxon:be0bce9f99814877a2417f785b2318ce",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "23268"
+      },
+      "scientificName": "Eudorylas",
+      "media": "media:f38523"
+    },
+    {
+      "id": "taxon:d1e7c0b52c704af2aa2c55241f64294f",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "23211"
+      },
+      "scientificName": "Cephalosphaera",
+      "media": "media:f38529"
+    },
+    {
+      "id": "taxon:d7de762ffb784ffa8e20929f12f11e30",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "23298"
+      },
+      "scientificName": "Microcephalops",
+      "media": "media:f38549"
+    },
+    {
+      "id": "taxon:e51eeab288af4f82962f2e84bc327c1b",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "23197"
+      },
+      "scientificName": "Cephalops",
+      "media": "media:f38520"
+    }
+  ]
+}

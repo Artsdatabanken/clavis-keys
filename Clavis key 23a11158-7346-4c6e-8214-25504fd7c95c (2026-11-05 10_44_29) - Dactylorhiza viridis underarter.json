@@ -1,0 +1,249 @@
+{
+  "$schema": "https://github.com/Artsdatabanken/Clavis/releases/download/v1.0/Clavis.json",
+  "identifier": "23a11158-7346-4c6e-8214-25504fd7c95c",
+  "lastModified": "2026-11-05 10:44:29",
+  "language": [
+    "nb"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "externalServices": [
+    {
+      "id": "service:nbic_taxa",
+      "title": "NBIC taxonomy scientificNameId",
+      "description": "To retrieve taxon information based on the NBIC scientificNameId, e.g. through https://www.artsdatabanken.no/api/Taxon/ByScientificNameId/4362",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_page",
+      "title": "NBIC page ID",
+      "description": "To retrieve a page from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Pages/237010",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_media",
+      "title": "NBIC media ID",
+      "description": "To retrieve a picture from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Media/F27858?mode=750x750",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    }
+  ],
+  "mediaElements": [
+    {
+      "id": "media:f43063",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F43063"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f43059",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F43059"
+          }
+        }
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "statement:655ef67b4891492ea33884c6100f0677",
+      "character": "character:63f0264ae79f4958a9d2a4b9634044b4",
+      "value": "state:345464a889d7485db7a5ad4db2ee8439",
+      "taxon": "taxon:4571aa8d71574503ada940c219b967d6",
+      "frequency": 1
+    },
+    {
+      "id": "statement:1d3e315e6a474142901278e2598ba928",
+      "character": "character:63f0264ae79f4958a9d2a4b9634044b4",
+      "value": "state:345464a889d7485db7a5ad4db2ee8439",
+      "taxon": "taxon:bb2aac2e5b564bc2bbfe01f19fd63f62",
+      "frequency": 0
+    },
+    {
+      "id": "statement:73369399d112443683821de516287d14",
+      "character": "character:63f0264ae79f4958a9d2a4b9634044b4",
+      "value": "state:d8e855fe51734e9bb108fde4c9955a4d",
+      "taxon": "taxon:4571aa8d71574503ada940c219b967d6",
+      "frequency": 0
+    },
+    {
+      "id": "statement:41b92fc312494368b792522f08cc455c",
+      "character": "character:63f0264ae79f4958a9d2a4b9634044b4",
+      "value": "state:d8e855fe51734e9bb108fde4c9955a4d",
+      "taxon": "taxon:bb2aac2e5b564bc2bbfe01f19fd63f62",
+      "frequency": 1
+    },
+    {
+      "id": "statement:250eee57dc97412f803313a69a9f9318",
+      "character": "character:da3ab2cc8ece40659903c832518532fe",
+      "value": "state:dc7f5b6517c348438d96a2ccfc86eb5c",
+      "taxon": "taxon:4571aa8d71574503ada940c219b967d6",
+      "frequency": 1
+    },
+    {
+      "id": "statement:5ae473d08d304b319cc58c078e634d27",
+      "character": "character:da3ab2cc8ece40659903c832518532fe",
+      "value": "state:dc7f5b6517c348438d96a2ccfc86eb5c",
+      "taxon": "taxon:bb2aac2e5b564bc2bbfe01f19fd63f62",
+      "frequency": 0
+    },
+    {
+      "id": "statement:455c497f33ab48a4b3321022eb706859",
+      "character": "character:da3ab2cc8ece40659903c832518532fe",
+      "value": "state:6e3f4da639764bd99baf04c6c1684a6f",
+      "taxon": "taxon:4571aa8d71574503ada940c219b967d6",
+      "frequency": 0
+    },
+    {
+      "id": "statement:3052906fef704ebdadb40620d0f2bf91",
+      "character": "character:da3ab2cc8ece40659903c832518532fe",
+      "value": "state:6e3f4da639764bd99baf04c6c1684a6f",
+      "taxon": "taxon:bb2aac2e5b564bc2bbfe01f19fd63f62",
+      "frequency": 1
+    },
+    {
+      "id": "statement:59a69880b2e942ffabe9f93b162970d8",
+      "character": "character:55c6edd1b1e14877bdd498f573785e94",
+      "value": "state:dd345ce708bb4fc38b1ea40df2284cfa",
+      "taxon": "taxon:4571aa8d71574503ada940c219b967d6",
+      "frequency": 0
+    },
+    {
+      "id": "statement:41c2b72c0d154052a2ff187c173c1ba6",
+      "character": "character:55c6edd1b1e14877bdd498f573785e94",
+      "value": "state:dd345ce708bb4fc38b1ea40df2284cfa",
+      "taxon": "taxon:bb2aac2e5b564bc2bbfe01f19fd63f62",
+      "frequency": 1
+    },
+    {
+      "id": "statement:e7e85729de064bebb8853f1dec059859",
+      "character": "character:55c6edd1b1e14877bdd498f573785e94",
+      "value": "state:2a7041616f8f44c6bdf8904455be7421",
+      "taxon": "taxon:4571aa8d71574503ada940c219b967d6",
+      "frequency": 1
+    },
+    {
+      "id": "statement:fed435128d8443f799d7908adffbfb55",
+      "character": "character:55c6edd1b1e14877bdd498f573785e94",
+      "value": "state:2a7041616f8f44c6bdf8904455be7421",
+      "taxon": "taxon:bb2aac2e5b564bc2bbfe01f19fd63f62",
+      "frequency": 0
+    }
+  ],
+  "title": {
+    "nb": "Dactylorhiza viridis"
+  },
+  "geography": {
+    "name": {
+      "nb": "Noreg"
+    }
+  },
+  "description": {
+    "nb": "Andreutkast, RE_ADB_230601"
+  },
+  "descriptionUrl": {
+    "nb": {
+      "externalReference": {
+        "serviceId": "service:nbic_page",
+        "externalId": "332558"
+      }
+    }
+  },
+  "characters": [
+    {
+      "id": "character:63f0264ae79f4958a9d2a4b9634044b4",
+      "title": {
+        "nb": "Velutvikla blad, antal"
+      },
+      "states": [
+        {
+          "id": "state:345464a889d7485db7a5ad4db2ee8439",
+          "title": {
+            "nb": "2-3 velutvikla blad, oppe på stengelen"
+          }
+        },
+        {
+          "id": "state:d8e855fe51734e9bb108fde4c9955a4d",
+          "title": {
+            "nb": "Fleire enn 3 velutvikla blad, nedst på stengelen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:da3ab2cc8ece40659903c832518532fe",
+      "title": {
+        "nb": "Velutvikla blad, breidde"
+      },
+      "states": [
+        {
+          "id": "state:dc7f5b6517c348438d96a2ccfc86eb5c",
+          "title": {
+            "nb": "Største blad 1-2 cm breie"
+          }
+        },
+        {
+          "id": "state:6e3f4da639764bd99baf04c6c1684a6f",
+          "title": {
+            "nb": "Største blad <3 cm breie"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:55c6edd1b1e14877bdd498f573785e94",
+      "title": {
+        "nb": "Utbreiing"
+      },
+      "states": [
+        {
+          "id": "state:dd345ce708bb4fc38b1ea40df2284cfa",
+          "title": {
+            "nb": "Jæren"
+          }
+        },
+        {
+          "id": "state:2a7041616f8f44c6bdf8904455be7421",
+          "title": {
+            "nb": "Ikkje Jæren"
+          }
+        }
+      ]
+    }
+  ],
+  "taxa": [
+    {
+      "id": "taxon:4571aa8d71574503ada940c219b967d6",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "215949"
+      },
+      "scientificName": "Dactylorhiza viridis viridis",
+      "vernacularName": {
+        "nb": "smågrønnkurle"
+      },
+      "media": "media:f43063"
+    },
+    {
+      "id": "taxon:bb2aac2e5b564bc2bbfe01f19fd63f62",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "215950"
+      },
+      "scientificName": "Dactylorhiza viridis islandica",
+      "vernacularName": {
+        "nb": "islandsgrønnkurle"
+      },
+      "media": "media:f43059"
+    }
+  ]
+}
