@@ -1,0 +1,269 @@
+{
+  "$schema": "https://github.com/Artsdatabanken/Clavis/releases/download/v1.0/Clavis.json",
+  "identifier": "2219a90c-2448-444e-aa89-827adda6d290",
+  "lastModified": "2026-11-06 08:57:12",
+  "language": [
+    "nb"
+  ],
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "externalServices": [
+    {
+      "id": "service:nbic_taxa",
+      "title": "NBIC taxonomy scientificNameId",
+      "description": "To retrieve taxon information based on the NBIC scientificNameId, e.g. through https://www.artsdatabanken.no/api/Taxon/ByScientificNameId/4362",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_page",
+      "title": "NBIC page ID",
+      "description": "To retrieve a page from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Pages/237010",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_media",
+      "title": "NBIC media ID",
+      "description": "To retrieve a picture from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Media/F27858?mode=750x750",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    }
+  ],
+  "mediaElements": [
+    {
+      "id": "media:f43138",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F43138"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f43143",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F43143"
+          }
+        }
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "statement:54ed1162b15a4a8e8d6f7ab2f82536d6",
+      "character": "character:adc88da7d05f474b9e7cf42b8e465d8f",
+      "value": "state:a4488b2c6d634d37bb0c17dd4c4869a4",
+      "taxon": "taxon:2786a916a3c6482dbc22cffcd10ef154",
+      "frequency": 1
+    },
+    {
+      "id": "statement:d6c0903b053647a285985757ac636548",
+      "character": "character:adc88da7d05f474b9e7cf42b8e465d8f",
+      "value": "state:a4488b2c6d634d37bb0c17dd4c4869a4",
+      "taxon": "taxon:acd440617d2b4cf69d5afd120fb94b3f",
+      "frequency": 0
+    },
+    {
+      "id": "statement:11b3bec343d24312bf40fa0ec0f2e853",
+      "character": "character:adc88da7d05f474b9e7cf42b8e465d8f",
+      "value": "state:f587d040ee384603b9e1059916fe3563",
+      "taxon": "taxon:2786a916a3c6482dbc22cffcd10ef154",
+      "frequency": 0
+    },
+    {
+      "id": "statement:8b24ff1f4207485e852f5b153e6a600c",
+      "character": "character:adc88da7d05f474b9e7cf42b8e465d8f",
+      "value": "state:f587d040ee384603b9e1059916fe3563",
+      "taxon": "taxon:acd440617d2b4cf69d5afd120fb94b3f",
+      "frequency": 1
+    },
+    {
+      "id": "statement:bf5009f251d24e27886201a9bc89d9d4",
+      "character": "character:e753186d6cff4d139c25a84e2f006cbe",
+      "value": "state:1d39ec982dda41378868dd457144d4d0",
+      "taxon": "taxon:2786a916a3c6482dbc22cffcd10ef154",
+      "frequency": 1
+    },
+    {
+      "id": "statement:afe63f0798504b7b951450c6a3ec4754",
+      "character": "character:e753186d6cff4d139c25a84e2f006cbe",
+      "value": "state:1d39ec982dda41378868dd457144d4d0",
+      "taxon": "taxon:acd440617d2b4cf69d5afd120fb94b3f",
+      "frequency": 0
+    },
+    {
+      "id": "statement:2914a3b64db444d08f95d46702f61667",
+      "character": "character:e753186d6cff4d139c25a84e2f006cbe",
+      "value": "state:b5aba8f05caa4833bbc2da86edfd30b5",
+      "taxon": "taxon:2786a916a3c6482dbc22cffcd10ef154",
+      "frequency": 0.5
+    },
+    {
+      "id": "statement:b115961f86fd4dc1b030f13f848e2a90",
+      "character": "character:e753186d6cff4d139c25a84e2f006cbe",
+      "value": "state:b5aba8f05caa4833bbc2da86edfd30b5",
+      "taxon": "taxon:acd440617d2b4cf69d5afd120fb94b3f",
+      "frequency": 0.5
+    },
+    {
+      "id": "statement:2b1463d5700c4568ad550f9cc35bcf5e",
+      "character": "character:e753186d6cff4d139c25a84e2f006cbe",
+      "value": "state:82d8883bc6b649b8baaaa545dd0141e5",
+      "taxon": "taxon:2786a916a3c6482dbc22cffcd10ef154",
+      "frequency": 0
+    },
+    {
+      "id": "statement:00dc9735f26e4a00ac6396b89dc679c7",
+      "character": "character:e753186d6cff4d139c25a84e2f006cbe",
+      "value": "state:82d8883bc6b649b8baaaa545dd0141e5",
+      "taxon": "taxon:acd440617d2b4cf69d5afd120fb94b3f",
+      "frequency": 1
+    },
+    {
+      "id": "statement:41125604398f4a9e9d3c1528359f2721",
+      "character": "character:15d57cfd27b94fcca3190246f2e43829",
+      "value": "state:5c8d6ca092e94ecbb3f712e78bfe51fc",
+      "taxon": "taxon:2786a916a3c6482dbc22cffcd10ef154",
+      "frequency": 1
+    },
+    {
+      "id": "statement:321ef89ab5de48b1833be99c1502f1da",
+      "character": "character:15d57cfd27b94fcca3190246f2e43829",
+      "value": "state:5c8d6ca092e94ecbb3f712e78bfe51fc",
+      "taxon": "taxon:acd440617d2b4cf69d5afd120fb94b3f",
+      "frequency": 0
+    },
+    {
+      "id": "statement:3a6c4c2d3f1b4e7ebad3faeae01fdbad",
+      "character": "character:15d57cfd27b94fcca3190246f2e43829",
+      "value": "state:049f83ecbe294f8f8d87eaa1ac1480ce",
+      "taxon": "taxon:2786a916a3c6482dbc22cffcd10ef154",
+      "frequency": 0
+    },
+    {
+      "id": "statement:a4d58c1064c54fd1a8cb2dd6c5b9e49a",
+      "character": "character:15d57cfd27b94fcca3190246f2e43829",
+      "value": "state:049f83ecbe294f8f8d87eaa1ac1480ce",
+      "taxon": "taxon:acd440617d2b4cf69d5afd120fb94b3f",
+      "frequency": 1
+    }
+  ],
+  "title": {
+    "nb": "Platanthera bifolia"
+  },
+  "geography": {
+    "name": {
+      "nb": "Noreg"
+    }
+  },
+  "description": {
+    "nb": "FÃ¸rsteutkast, RE_211218"
+  },
+  "descriptionUrl": {
+    "nb": {
+      "externalReference": {
+        "serviceId": "service:nbic_page",
+        "externalId": "332565"
+      }
+    }
+  },
+  "characters": [
+    {
+      "id": "character:adc88da7d05f474b9e7cf42b8e465d8f",
+      "title": {
+        "nb": "Nektarspore, lengde"
+      },
+      "states": [
+        {
+          "id": "state:a4488b2c6d634d37bb0c17dd4c4869a4",
+          "title": {
+            "nb": "Sporen opp til 23 mm lang"
+          }
+        },
+        {
+          "id": "state:f587d040ee384603b9e1059916fe3563",
+          "title": {
+            "nb": "Sporen lengre enn 23 mm"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:e753186d6cff4d139c25a84e2f006cbe",
+      "title": {
+        "nb": "Klase, avstand mellom blomane"
+      },
+      "states": [
+        {
+          "id": "state:1d39ec982dda41378868dd457144d4d0",
+          "title": {
+            "nb": "Blomane 2–4 mm frå kvarandre"
+          }
+        },
+        {
+          "id": "state:b5aba8f05caa4833bbc2da86edfd30b5",
+          "title": {
+            "nb": "Blomane <4–7 mm frå kvarandre"
+          }
+        },
+        {
+          "id": "state:82d8883bc6b649b8baaaa545dd0141e5",
+          "title": {
+            "nb": "Blomane meir enn 7 mm frå kvarandre"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:15d57cfd27b94fcca3190246f2e43829",
+      "title": {
+        "nb": "Leppe, lengde"
+      },
+      "states": [
+        {
+          "id": "state:5c8d6ca092e94ecbb3f712e78bfe51fc",
+          "title": {
+            "nb": "Leppe på nedre blomar 7–10 mm"
+          }
+        },
+        {
+          "id": "state:049f83ecbe294f8f8d87eaa1ac1480ce",
+          "title": {
+            "nb": "Leppe på nedre blomar lengre enn 10 mm"
+          }
+        }
+      ]
+    }
+  ],
+  "taxa": [
+    {
+      "id": "taxon:2786a916a3c6482dbc22cffcd10ef154",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "99544"
+      },
+      "scientificName": "Platanthera bifolia bifolia",
+      "vernacularName": {
+        "nb": "heinattfiol"
+      },
+      "media": "media:f43138"
+    },
+    {
+      "id": "taxon:acd440617d2b4cf69d5afd120fb94b3f",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "99545"
+      },
+      "scientificName": "Platanthera bifolia latiflora",
+      "vernacularName": {
+        "nb": "skognattfiol"
+      },
+      "media": "media:f43143"
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "$schema": "https://github.com/Artsdatabanken/Clavis/releases/download/v1.0/Clavis.json",
+  "identifier": "e7bc9984-c6d2-4441-a3f4-deb779bb8452",
+  "lastModified": "2026-11-05 10:41:41",
+  "language": [
+    "nb"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "externalServices": [
+    {
+      "id": "service:nbic_taxa",
+      "title": "NBIC taxonomy scientificNameId",
+      "description": "To retrieve taxon information based on the NBIC scientificNameId, e.g. through https://www.artsdatabanken.no/api/Taxon/ByScientificNameId/4362",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_page",
+      "title": "NBIC page ID",
+      "description": "To retrieve a page from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Pages/237010",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_media",
+      "title": "NBIC media ID",
+      "description": "To retrieve a picture from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Media/F27858?mode=750x750",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    }
+  ],
+  "mediaElements": [
+    {
+      "id": "media:f43048",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F43048"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f43168",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F43168"
+          }
+        }
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "statement:13d40e82abf64ca7b01679872d730119",
+      "character": "character:fd516b5e680f4c10a719e45974c754ce",
+      "value": "state:82aa4e20dba947c88e60067646480a34",
+      "taxon": "taxon:489dbb15d6ab4d509cd5e8114b21280c",
+      "frequency": 0
+    },
+    {
+      "id": "statement:2e6baac85a464adf97178e1e388d8a39",
+      "character": "character:fd516b5e680f4c10a719e45974c754ce",
+      "value": "state:82aa4e20dba947c88e60067646480a34",
+      "taxon": "taxon:d5e9e03ae1e04d348017faedce35b8a3",
+      "frequency": 0
+    },
+    {
+      "id": "statement:067ecd01801c4559a1742683ea5df56c",
+      "character": "character:fd516b5e680f4c10a719e45974c754ce",
+      "value": "state:82aa4e20dba947c88e60067646480a34",
+      "taxon": "taxon:ae8af71bb9e8498c97e169842c67317f",
+      "frequency": 0
+    },
+    {
+      "id": "statement:3e34ee5ecfba4430b189b54b9d1fa4e5",
+      "character": "character:fd516b5e680f4c10a719e45974c754ce",
+      "value": "state:82aa4e20dba947c88e60067646480a34",
+      "taxon": "taxon:ee3553eb66cc4a5cb61ee31c83a7bcf1",
+      "frequency": 1
+    },
+    {
+      "id": "statement:439b6a4925ab4f79a24467236c5c1627",
+      "character": "character:fd516b5e680f4c10a719e45974c754ce",
+      "value": "state:bb1a341c745d415aa942e090a8970144",
+      "taxon": "taxon:489dbb15d6ab4d509cd5e8114b21280c",
+      "frequency": 1
+    },
+    {
+      "id": "statement:14cfbc3f9563478dadc2be353937454c",
+      "character": "character:fd516b5e680f4c10a719e45974c754ce",
+      "value": "state:bb1a341c745d415aa942e090a8970144",
+      "taxon": "taxon:d5e9e03ae1e04d348017faedce35b8a3",
+      "frequency": 1
+    },
+    {
+      "id": "statement:e667419cd8844eb8a5c6f1586fbd25b2",
+      "character": "character:fd516b5e680f4c10a719e45974c754ce",
+      "value": "state:bb1a341c745d415aa942e090a8970144",
+      "taxon": "taxon:ae8af71bb9e8498c97e169842c67317f",
+      "frequency": 1
+    },
+    {
+      "id": "statement:282a93861efd482fa6f1064cf0f4242a",
+      "character": "character:fd516b5e680f4c10a719e45974c754ce",
+      "value": "state:bb1a341c745d415aa942e090a8970144",
+      "taxon": "taxon:ee3553eb66cc4a5cb61ee31c83a7bcf1",
+      "frequency": 0
+    },
+    {
+      "id": "statement:a052c7fab5bb439f84220a32dbdf2312",
+      "character": "character:21625189c4af4b39bf23b13acd4412a3",
+      "value": "state:4906ba4351814fa2990eb969cc7b94d8",
+      "taxon": "taxon:489dbb15d6ab4d509cd5e8114b21280c",
+      "frequency": 0
+    },
+    {
+      "id": "statement:63440644b3c64a5280178788f610fed2",
+      "character": "character:21625189c4af4b39bf23b13acd4412a3",
+      "value": "state:4906ba4351814fa2990eb969cc7b94d8",
+      "taxon": "taxon:d5e9e03ae1e04d348017faedce35b8a3",
+      "frequency": 1
+    },
+    {
+      "id": "statement:94673415532b43d7bbb1ebf18cc3e11c",
+      "character": "character:21625189c4af4b39bf23b13acd4412a3",
+      "value": "state:4906ba4351814fa2990eb969cc7b94d8",
+      "taxon": "taxon:ae8af71bb9e8498c97e169842c67317f",
+      "frequency": 0
+    },
+    {
+      "id": "statement:8ced8021126247059eeb6f49e40b98ec",
+      "character": "character:21625189c4af4b39bf23b13acd4412a3",
+      "value": "state:4906ba4351814fa2990eb969cc7b94d8",
+      "taxon": "taxon:ee3553eb66cc4a5cb61ee31c83a7bcf1",
+      "frequency": 1
+    },
+    {
+      "id": "statement:46c6f4d50b7b46ce80df6a6710bd3a55",
+      "character": "character:21625189c4af4b39bf23b13acd4412a3",
+      "value": "state:976a7c70795349fcbeb65d1a3c76e2f4",
+      "taxon": "taxon:489dbb15d6ab4d509cd5e8114b21280c",
+      "frequency": 1
+    },
+    {
+      "id": "statement:d7365a7739114225a8a47dc2c627b65d",
+      "character": "character:21625189c4af4b39bf23b13acd4412a3",
+      "value": "state:976a7c70795349fcbeb65d1a3c76e2f4",
+      "taxon": "taxon:d5e9e03ae1e04d348017faedce35b8a3",
+      "frequency": 0
+    },
+    {
+      "id": "statement:8a63d1c08404486c884c853c30dd66db",
+      "character": "character:21625189c4af4b39bf23b13acd4412a3",
+      "value": "state:976a7c70795349fcbeb65d1a3c76e2f4",
+      "taxon": "taxon:ae8af71bb9e8498c97e169842c67317f",
+      "frequency": 1
+    },
+    {
+      "id": "statement:aa268057479f4b799765efbdb952eb40",
+      "character": "character:21625189c4af4b39bf23b13acd4412a3",
+      "value": "state:976a7c70795349fcbeb65d1a3c76e2f4",
+      "taxon": "taxon:ee3553eb66cc4a5cb61ee31c83a7bcf1",
+      "frequency": 0
+    },
+    {
+      "id": "statement:0c5aab5ac9d24cd38c2dfe23a5f87cfb",
+      "character": "character:117f29d837e74280b226725baf5670e8",
+      "value": "state:03e5f3bbcd464a30ad2ce265a83fbbf5",
+      "taxon": "taxon:489dbb15d6ab4d509cd5e8114b21280c",
+      "frequency": 0
+    },
+    {
+      "id": "statement:7aa8d24b065f43c28e6bf420415d9f59",
+      "character": "character:117f29d837e74280b226725baf5670e8",
+      "value": "state:03e5f3bbcd464a30ad2ce265a83fbbf5",
+      "taxon": "taxon:ae8af71bb9e8498c97e169842c67317f",
+      "frequency": 1
+    },
+    {
+      "id": "statement:0df31cc89ffd4863b2f5ade7aeae2f08",
+      "character": "character:117f29d837e74280b226725baf5670e8",
+      "value": "state:8315a2c4ffb34b7dabd5cb46ce8a4d9f",
+      "taxon": "taxon:489dbb15d6ab4d509cd5e8114b21280c",
+      "frequency": 1
+    },
+    {
+      "id": "statement:d3a042608f704eef9cabd48284f68285",
+      "character": "character:117f29d837e74280b226725baf5670e8",
+      "value": "state:8315a2c4ffb34b7dabd5cb46ce8a4d9f",
+      "taxon": "taxon:ae8af71bb9e8498c97e169842c67317f",
+      "frequency": 0
+    }
+  ],
+  "title": {
+    "nb": "Dactylorhiza majalis"
+  },
+  "geography": {
+    "name": {
+      "nb": "Noreg"
+    }
+  },
+  "description": {
+    "nb": "FÃ¸rsteutkast, RE_211218"
+  },
+  "descriptionUrl": {
+    "nb": {
+      "externalReference": {
+        "serviceId": "service:nbic_page",
+        "externalId": "332557"
+      }
+    }
+  },
+  "characters": [
+    {
+      "id": "character:fd516b5e680f4c10a719e45974c754ce",
+      "title": {
+        "nb": "Blad, breidde"
+      },
+      "states": [
+        {
+          "id": "state:82aa4e20dba947c88e60067646480a34",
+          "title": {
+            "nb": "Blad meir enn 4 gonger så lange som breie, jamsmale"
+          }
+        },
+        {
+          "id": "state:bb1a341c745d415aa942e090a8970144",
+          "title": {
+            "nb": "Blad mindre enn 4 gonger så lange som breie, ikkje jamsmale"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:21625189c4af4b39bf23b13acd4412a3",
+      "title": {
+        "nb": "Leppe, midtflik"
+      },
+      "states": [
+        {
+          "id": "state:4906ba4351814fa2990eb969cc7b94d8",
+          "title": {
+            "nb": "Leppe med tydeleg midtflik, meir enn 1/4 av heile leppa og tydeleg lengre enn sideflikane"
+          }
+        },
+        {
+          "id": "state:976a7c70795349fcbeb65d1a3c76e2f4",
+          "title": {
+            "nb": "Leppe med utydeleg midtflik, mindre enn 1/4 av heile leppa og oftast kortare enn sideflikane"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:117f29d837e74280b226725baf5670e8",
+      "title": {
+        "nb": "Nektarspore/fruktknute"
+      },
+      "states": [
+        {
+          "id": "state:03e5f3bbcd464a30ad2ce265a83fbbf5",
+          "title": {
+            "nb": "Nektarsporen om lag halvparten så lang som fruktknuten"
+          }
+        },
+        {
+          "id": "state:8315a2c4ffb34b7dabd5cb46ce8a4d9f",
+          "title": {
+            "nb": "Nektarsporen 3/4 så lang som fruktknuten"
+          }
+        }
+      ]
+    }
+  ],
+  "taxa": [
+    {
+      "id": "taxon:489dbb15d6ab4d509cd5e8114b21280c",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "145687"
+      },
+      "scientificName": "Dactylorhiza majalis baltica",
+      "vernacularName": {
+        "nb": "østersjømarihand"
+      }
+    },
+    {
+      "id": "taxon:d5e9e03ae1e04d348017faedce35b8a3",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "143586"
+      },
+      "scientificName": "Dactylorhiza majalis lapponica",
+      "vernacularName": {
+        "nb": "lappmarihand"
+      },
+      "media": "media:f43048"
+    },
+    {
+      "id": "taxon:ae8af71bb9e8498c97e169842c67317f",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "143614"
+      },
+      "scientificName": "Dactylorhiza majalis purpurella",
+      "vernacularName": {
+        "nb": "purpurmarihand"
+      }
+    },
+    {
+      "id": "taxon:ee3553eb66cc4a5cb61ee31c83a7bcf1",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "143615"
+      },
+      "scientificName": "Dactylorhiza majalis sphagnicola",
+      "vernacularName": {
+        "nb": "smalmarihand"
+      },
+      "media": "media:f43168"
+    }
+  ]
+}

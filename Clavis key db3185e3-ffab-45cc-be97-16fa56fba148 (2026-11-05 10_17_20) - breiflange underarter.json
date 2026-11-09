@@ -1,0 +1,249 @@
+{
+  "$schema": "https://github.com/Artsdatabanken/Clavis/releases/download/v1.0/Clavis.json",
+  "identifier": "db3185e3-ffab-45cc-be97-16fa56fba148",
+  "lastModified": "2026-11-05 10:17:20",
+  "language": [
+    "nb"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "externalServices": [
+    {
+      "id": "service:nbic_taxa",
+      "title": "NBIC taxonomy scientificNameId",
+      "description": "To retrieve taxon information based on the NBIC scientificNameId, e.g. through https://www.artsdatabanken.no/api/Taxon/ByScientificNameId/4362",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_page",
+      "title": "NBIC page ID",
+      "description": "To retrieve a page from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Pages/237010",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_media",
+      "title": "NBIC media ID",
+      "description": "To retrieve a picture from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Media/F27858?mode=750x750",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    }
+  ],
+  "mediaElements": [
+    {
+      "id": "media:f43077",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F43077"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f43082",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F43082"
+          }
+        }
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "statement:d2dde978a599467b99a197645ddb2b2e",
+      "character": "character:ce270a8670b9426d83a13aa94494b749",
+      "value": "state:3065afb04c284d10bc2b3742cc995070",
+      "taxon": "taxon:d316a88028c241489c98e4b9ba17fff4",
+      "frequency": 1
+    },
+    {
+      "id": "statement:eaa91ca5687248448a2dab6bbcd8dceb",
+      "character": "character:ce270a8670b9426d83a13aa94494b749",
+      "value": "state:3065afb04c284d10bc2b3742cc995070",
+      "taxon": "taxon:4a09723c007342f3b8a37e59f7996c1c",
+      "frequency": 0
+    },
+    {
+      "id": "statement:0246cf8f527945a2869f24ec39328c63",
+      "character": "character:ce270a8670b9426d83a13aa94494b749",
+      "value": "state:a659fe357c0f48c485757b6844042ed3",
+      "taxon": "taxon:d316a88028c241489c98e4b9ba17fff4",
+      "frequency": 0
+    },
+    {
+      "id": "statement:b32363e75bda45c49775ca339ebb698e",
+      "character": "character:ce270a8670b9426d83a13aa94494b749",
+      "value": "state:a659fe357c0f48c485757b6844042ed3",
+      "taxon": "taxon:4a09723c007342f3b8a37e59f7996c1c",
+      "frequency": 1
+    },
+    {
+      "id": "statement:8007edb393e540d5961c93504e1a927f",
+      "character": "character:d8ed589b71c841abb7430895c7e6fc3e",
+      "value": "state:7bebbb9e92614777a15e4cee2de5ec90",
+      "taxon": "taxon:d316a88028c241489c98e4b9ba17fff4",
+      "frequency": 1
+    },
+    {
+      "id": "statement:ec67b8fa7fd74ea2b4cb4e476ec33700",
+      "character": "character:d8ed589b71c841abb7430895c7e6fc3e",
+      "value": "state:7bebbb9e92614777a15e4cee2de5ec90",
+      "taxon": "taxon:4a09723c007342f3b8a37e59f7996c1c",
+      "frequency": 0
+    },
+    {
+      "id": "statement:85597ed6170e4be9b0cd45c2cedf981f",
+      "character": "character:d8ed589b71c841abb7430895c7e6fc3e",
+      "value": "state:f7e645e64a0f450a8b90b336be6bc45e",
+      "taxon": "taxon:d316a88028c241489c98e4b9ba17fff4",
+      "frequency": 0
+    },
+    {
+      "id": "statement:3426b0e9e03a4d889102d50cd745ae18",
+      "character": "character:d8ed589b71c841abb7430895c7e6fc3e",
+      "value": "state:f7e645e64a0f450a8b90b336be6bc45e",
+      "taxon": "taxon:4a09723c007342f3b8a37e59f7996c1c",
+      "frequency": 1
+    },
+    {
+      "id": "statement:686bff6f7aea4dbb916d11136388c082",
+      "character": "character:19eed68e8a1f4b7f9dd5e8029fa3606b",
+      "value": "state:335764ead2c54cc9914ba1ca9117d450",
+      "taxon": "taxon:d316a88028c241489c98e4b9ba17fff4",
+      "frequency": 1
+    },
+    {
+      "id": "statement:587158679fda42eb8f98c00e05cd1e56",
+      "character": "character:19eed68e8a1f4b7f9dd5e8029fa3606b",
+      "value": "state:335764ead2c54cc9914ba1ca9117d450",
+      "taxon": "taxon:4a09723c007342f3b8a37e59f7996c1c",
+      "frequency": 0
+    },
+    {
+      "id": "statement:52056a3e5e0744ef880ca09dd9b6a6ce",
+      "character": "character:19eed68e8a1f4b7f9dd5e8029fa3606b",
+      "value": "state:e980254c9ee14477afa0a960bd89395c",
+      "taxon": "taxon:d316a88028c241489c98e4b9ba17fff4",
+      "frequency": 0
+    },
+    {
+      "id": "statement:6587f67b7d48455a84bb6c134f83227d",
+      "character": "character:19eed68e8a1f4b7f9dd5e8029fa3606b",
+      "value": "state:e980254c9ee14477afa0a960bd89395c",
+      "taxon": "taxon:4a09723c007342f3b8a37e59f7996c1c",
+      "frequency": 1
+    }
+  ],
+  "title": {
+    "nb": "Epipactis helleborine"
+  },
+  "geography": {
+    "name": {
+      "nb": "Noreg"
+    }
+  },
+  "description": {
+    "nb": "Førsteutkast, RE_211218"
+  },
+  "descriptionUrl": {
+    "nb": {
+      "externalReference": {
+        "serviceId": "service:nbic_page",
+        "externalId": "332560"
+      }
+    }
+  },
+  "characters": [
+    {
+      "id": "character:ce270a8670b9426d83a13aa94494b749",
+      "title": {
+        "nb": "Støtteblad midt i klasen, retning"
+      },
+      "states": [
+        {
+          "id": "state:3065afb04c284d10bc2b3742cc995070",
+          "title": {
+            "nb": "Støtteblad meir eller mindre nedbøygde"
+          }
+        },
+        {
+          "id": "state:a659fe357c0f48c485757b6844042ed3",
+          "title": {
+            "nb": "Støtteblad sprikjande til oppstigande"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:d8ed589b71c841abb7430895c7e6fc3e",
+      "title": {
+        "nb": "Støtteblad nedst i klasen, lengde"
+      },
+      "states": [
+        {
+          "id": "state:7bebbb9e92614777a15e4cee2de5ec90",
+          "title": {
+            "nb": "Støtteblad meir enn dobbelt så lange som blomen"
+          }
+        },
+        {
+          "id": "state:f7e645e64a0f450a8b90b336be6bc45e",
+          "title": {
+            "nb": "Støtteblad opp til dobbelt så lange som blomen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:19eed68e8a1f4b7f9dd5e8029fa3606b",
+      "title": {
+        "nb": "Midtre ytre blomeblad, form"
+      },
+      "states": [
+        {
+          "id": "state:335764ead2c54cc9914ba1ca9117d450",
+          "title": {
+            "nb": "Blomeblad spist"
+          }
+        },
+        {
+          "id": "state:e980254c9ee14477afa0a960bd89395c",
+          "title": {
+            "nb": "Blomeblad butt"
+          }
+        }
+      ]
+    }
+  ],
+  "taxa": [
+    {
+      "id": "taxon:d316a88028c241489c98e4b9ba17fff4",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "99510"
+      },
+      "scientificName": "Epipactis helleborine helleborine",
+      "vernacularName": {
+        "nb": "skogbreiflangre"
+      },
+      "media": "media:f43077"
+    },
+    {
+      "id": "taxon:4a09723c007342f3b8a37e59f7996c1c",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "99511"
+      },
+      "scientificName": "Epipactis helleborine neerlandica",
+      "vernacularName": {
+        "nb": "dyneflangre"
+      },
+      "media": "media:f43082"
+    }
+  ]
+}

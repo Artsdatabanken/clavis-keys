@@ -1,0 +1,278 @@
+{
+  "$schema": "https://github.com/Artsdatabanken/Clavis/releases/download/v1.0/Clavis.json",
+  "identifier": "c517b422-1156-4946-9d54-6b613b7ef45b",
+  "lastModified": "2026-11-05 14:06:48",
+  "language": [
+    "nb"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "externalServices": [
+    {
+      "id": "service:nbic_taxa",
+      "title": "NBIC taxonomy scientificNameId",
+      "description": "To retrieve taxon information based on the NBIC scientificNameId, e.g. through https://www.artsdatabanken.no/api/Taxon/ByScientificNameId/4362",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_page",
+      "title": "NBIC page ID",
+      "description": "To retrieve a page from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Pages/237010",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_media",
+      "title": "NBIC media ID",
+      "description": "To retrieve a picture from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Media/F27858?mode=750x750",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    }
+  ],
+  "mediaElements": [
+    {
+      "id": "media:f56789",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F56789"
+          }
+        }
+      }
+    },
+    {
+      "id": "media:f56795",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F56795"
+          }
+        }
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "statement:880523f71e30415fa5498a32ab69c321",
+      "character": "character:5dd41b0bc03e4f0f825409c09131842c",
+      "value": "state:172ff789a7944a7ea0df50f4f91ecc5b",
+      "taxon": "taxon:93684d2b82414a49ae34f902dea4d2e7",
+      "frequency": 1
+    },
+    {
+      "id": "statement:be3b1ed70c004061abcc3b65fb8f2842",
+      "character": "character:5dd41b0bc03e4f0f825409c09131842c",
+      "value": "state:172ff789a7944a7ea0df50f4f91ecc5b",
+      "taxon": "taxon:e4b773e543594558a47b36dc6b652716",
+      "frequency": 0
+    },
+    {
+      "id": "statement:623362dc770b429cb4917e713fb9f7a4",
+      "character": "character:5dd41b0bc03e4f0f825409c09131842c",
+      "value": "state:11e22b7b67a34318910de79975fe9b10",
+      "taxon": "taxon:93684d2b82414a49ae34f902dea4d2e7",
+      "frequency": 0
+    },
+    {
+      "id": "statement:8764f13227ca44e2a1f577768d121c16",
+      "character": "character:5dd41b0bc03e4f0f825409c09131842c",
+      "value": "state:11e22b7b67a34318910de79975fe9b10",
+      "taxon": "taxon:e4b773e543594558a47b36dc6b652716",
+      "frequency": 1
+    },
+    {
+      "id": "statement:acbcdff74ed8493bb95fdc785a578cf3",
+      "character": "character:63fc433f788c4d2d93a56b5716ee0404",
+      "value": "state:e7bf409525324b8e9a8b8ab94c42f15e",
+      "taxon": "taxon:93684d2b82414a49ae34f902dea4d2e7",
+      "frequency": 1
+    },
+    {
+      "id": "statement:04872b7f70c149c3a2acabc5632124ca",
+      "character": "character:63fc433f788c4d2d93a56b5716ee0404",
+      "value": "state:e7bf409525324b8e9a8b8ab94c42f15e",
+      "taxon": "taxon:e4b773e543594558a47b36dc6b652716",
+      "frequency": 0
+    },
+    {
+      "id": "statement:8a2b1a2f6566486ab0180f96bb300e33",
+      "character": "character:63fc433f788c4d2d93a56b5716ee0404",
+      "value": "state:1c484d01fc2e40a4b18db70244b7fc0b",
+      "taxon": "taxon:93684d2b82414a49ae34f902dea4d2e7",
+      "frequency": 0
+    },
+    {
+      "id": "statement:370e2fe69924458580f7f2efa117b88f",
+      "character": "character:63fc433f788c4d2d93a56b5716ee0404",
+      "value": "state:1c484d01fc2e40a4b18db70244b7fc0b",
+      "taxon": "taxon:e4b773e543594558a47b36dc6b652716",
+      "frequency": 1
+    },
+    {
+      "id": "statement:29c0d7822d22447cbe23ad2a08f2ac02",
+      "character": "character:a43570dfd41241a6b64add03bc0460ef",
+      "value": "state:52d6300023b8433f9216bfdb5a692c1c",
+      "taxon": "taxon:93684d2b82414a49ae34f902dea4d2e7",
+      "frequency": 0.7
+    },
+    {
+      "id": "statement:4146573ef44b4e20b8859f7d67ad6e11",
+      "character": "character:a43570dfd41241a6b64add03bc0460ef",
+      "value": "state:52d6300023b8433f9216bfdb5a692c1c",
+      "taxon": "taxon:e4b773e543594558a47b36dc6b652716",
+      "frequency": 0
+    },
+    {
+      "id": "statement:c3177a6de019461e9c5c463e9f02df81",
+      "character": "character:a43570dfd41241a6b64add03bc0460ef",
+      "value": "state:3f186a77b101417d849bbc2d467b2253",
+      "taxon": "taxon:93684d2b82414a49ae34f902dea4d2e7",
+      "frequency": 0.2
+    },
+    {
+      "id": "statement:ce4f6f7c1c7048fb9bc3ec6ed47bf5d7",
+      "character": "character:a43570dfd41241a6b64add03bc0460ef",
+      "value": "state:3f186a77b101417d849bbc2d467b2253",
+      "taxon": "taxon:e4b773e543594558a47b36dc6b652716",
+      "frequency": 0
+    },
+    {
+      "id": "statement:88f12b33e75246a4a2d6460c2bba0ceb",
+      "character": "character:a43570dfd41241a6b64add03bc0460ef",
+      "value": "state:ef527bac151f4e30bd5fa1ba296d76bf",
+      "taxon": "taxon:93684d2b82414a49ae34f902dea4d2e7",
+      "frequency": 0.1
+    },
+    {
+      "id": "statement:dfbfb32b35d744fb983d4a8858517358",
+      "character": "character:a43570dfd41241a6b64add03bc0460ef",
+      "value": "state:ef527bac151f4e30bd5fa1ba296d76bf",
+      "taxon": "taxon:e4b773e543594558a47b36dc6b652716",
+      "frequency": 0.5
+    },
+    {
+      "id": "statement:bc453eb38048473e9e93a16e438ef740",
+      "character": "character:a43570dfd41241a6b64add03bc0460ef",
+      "value": "state:9a8e433b3a62448aa9741c1b3efd4930",
+      "taxon": "taxon:93684d2b82414a49ae34f902dea4d2e7",
+      "frequency": 0
+    },
+    {
+      "id": "statement:494fdd58c6f6435ca5fee96ab3d468f7",
+      "character": "character:a43570dfd41241a6b64add03bc0460ef",
+      "value": "state:9a8e433b3a62448aa9741c1b3efd4930",
+      "taxon": "taxon:e4b773e543594558a47b36dc6b652716",
+      "frequency": 0.5
+    }
+  ],
+  "title": {
+    "nb": "Nøkkel til gravmyrtfamilien Apocynaceae"
+  },
+  "geography": {
+    "name": {
+      "nb": "Norge"
+    }
+  },
+  "characters": [
+    {
+      "id": "character:5dd41b0bc03e4f0f825409c09131842c",
+      "title": {
+        "nb": "Vekstform"
+      },
+      "states": [
+        {
+          "id": "state:172ff789a7944a7ea0df50f4f91ecc5b",
+          "title": {
+            "nb": "Krypende dvergbusk"
+          }
+        },
+        {
+          "id": "state:11e22b7b67a34318910de79975fe9b10",
+          "title": {
+            "nb": "Opprett eller slyngende halvbusk"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:63fc433f788c4d2d93a56b5716ee0404",
+      "title": {
+        "nb": "Krone, størrelse"
+      },
+      "states": [
+        {
+          "id": "state:e7bf409525324b8e9a8b8ab94c42f15e",
+          "title": {
+            "nb": "Krone 15 mm bred eller mer"
+          }
+        },
+        {
+          "id": "state:1c484d01fc2e40a4b18db70244b7fc0b",
+          "title": {
+            "nb": "Krone mindre enn 15 mm bred"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:a43570dfd41241a6b64add03bc0460ef",
+      "title": {
+        "nb": "Krone, farge"
+      },
+      "states": [
+        {
+          "id": "state:52d6300023b8433f9216bfdb5a692c1c",
+          "title": {
+            "nb": "Krone blå"
+          }
+        },
+        {
+          "id": "state:3f186a77b101417d849bbc2d467b2253",
+          "title": {
+            "nb": "Krone fiolett"
+          }
+        },
+        {
+          "id": "state:ef527bac151f4e30bd5fa1ba296d76bf",
+          "title": {
+            "nb": "Krone hvit til gulhvit"
+          }
+        },
+        {
+          "id": "state:9a8e433b3a62448aa9741c1b3efd4930",
+          "title": {
+            "nb": "Krone brunrød"
+          }
+        }
+      ]
+    }
+  ],
+  "taxa": [
+    {
+      "id": "taxon:93684d2b82414a49ae34f902dea4d2e7",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "102166"
+      },
+      "scientificName": "Vinca",
+      "vernacularName": {
+        "nb": "gravmyrtslekta"
+      },
+      "media": "media:f56789"
+    },
+    {
+      "id": "taxon:e4b773e543594558a47b36dc6b652716",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "102168"
+      },
+      "scientificName": "Vincetoxicum",
+      "vernacularName": {
+        "nb": "svalerotslekta"
+      },
+      "media": "media:f56795"
+    }
+  ]
+}

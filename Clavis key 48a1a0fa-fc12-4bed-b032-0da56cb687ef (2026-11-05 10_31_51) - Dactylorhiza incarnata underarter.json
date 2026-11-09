@@ -1,0 +1,195 @@
+{
+  "$schema": "https://github.com/Artsdatabanken/Clavis/releases/download/v1.0/Clavis.json",
+  "identifier": "48a1a0fa-fc12-4bed-b032-0da56cb687ef",
+  "lastModified": "2026-11-05 10:31:51",
+  "language": [
+    "nb"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "externalServices": [
+    {
+      "id": "service:nbic_taxa",
+      "title": "NBIC taxonomy scientificNameId",
+      "description": "To retrieve taxon information based on the NBIC scientificNameId, e.g. through https://www.artsdatabanken.no/api/Taxon/ByScientificNameId/4362",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_page",
+      "title": "NBIC page ID",
+      "description": "To retrieve a page from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Pages/237010",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    },
+    {
+      "id": "service:nbic_media",
+      "title": "NBIC media ID",
+      "description": "To retrieve a picture from NBIC by its ID, e.g. through https://www.artsdatabanken.no/Media/F27858?mode=750x750",
+      "provider": "Norwegian Biodiversity Information Centre",
+      "url": "https://www.artsdatabanken.no/help"
+    }
+  ],
+  "mediaElements": [
+    {
+      "id": "media:f43022",
+      "mediaElement": {
+        "file": {
+          "url": {
+            "serviceId": "service:nbic_media",
+            "externalId": "F43022"
+          }
+        }
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "statement:66dd7bf931334c96bfaf386c25050ff8",
+      "character": "character:c657bf1f1c0d44e4b278a04f0ccee45d",
+      "value": "state:b5ad2a910bc548c8a67d6a73fab54e8b",
+      "taxon": "taxon:7add3340e50e4510b16e3a4610627780",
+      "frequency": 0
+    },
+    {
+      "id": "statement:d5c744c2deee44b7a5cd30cc7a21158d",
+      "character": "character:c657bf1f1c0d44e4b278a04f0ccee45d",
+      "value": "state:b5ad2a910bc548c8a67d6a73fab54e8b",
+      "taxon": "taxon:573397363db54d6ba144d3c3d5ca4789",
+      "frequency": 1
+    },
+    {
+      "id": "statement:1acde3f8abd846a6a91ef8ff0521acb2",
+      "character": "character:c657bf1f1c0d44e4b278a04f0ccee45d",
+      "value": "state:7fb9ad48741f48acbe53bcce2e1a6fc2",
+      "taxon": "taxon:7add3340e50e4510b16e3a4610627780",
+      "frequency": 1
+    },
+    {
+      "id": "statement:246dedae2cc646a98563562666a70ea4",
+      "character": "character:c657bf1f1c0d44e4b278a04f0ccee45d",
+      "value": "state:7fb9ad48741f48acbe53bcce2e1a6fc2",
+      "taxon": "taxon:573397363db54d6ba144d3c3d5ca4789",
+      "frequency": 0
+    },
+    {
+      "id": "statement:16b0d70659b349c89f366bd9958fadd6",
+      "character": "character:71240bb22a4b4890a3857235d8abd354",
+      "value": "state:21e6accd0db24b0ca0946fb81005a423",
+      "taxon": "taxon:7add3340e50e4510b16e3a4610627780",
+      "frequency": 0
+    },
+    {
+      "id": "statement:d95e2a0c31fb4e0e90e80dc0650cce7a",
+      "character": "character:71240bb22a4b4890a3857235d8abd354",
+      "value": "state:21e6accd0db24b0ca0946fb81005a423",
+      "taxon": "taxon:573397363db54d6ba144d3c3d5ca4789",
+      "frequency": 1
+    },
+    {
+      "id": "statement:758f702ae5e94beebb9ceca96c81f65e",
+      "character": "character:71240bb22a4b4890a3857235d8abd354",
+      "value": "state:1221f3a1eec34e569c4b2d40a3ff620b",
+      "taxon": "taxon:7add3340e50e4510b16e3a4610627780",
+      "frequency": 1
+    },
+    {
+      "id": "statement:aa17d67c58394762abc5ed7c6453a83e",
+      "character": "character:71240bb22a4b4890a3857235d8abd354",
+      "value": "state:1221f3a1eec34e569c4b2d40a3ff620b",
+      "taxon": "taxon:573397363db54d6ba144d3c3d5ca4789",
+      "frequency": 0
+    }
+  ],
+  "title": {
+    "nb": "Dactylorhiza incarnata"
+  },
+  "geography": {
+    "name": {
+      "nb": "Noreg"
+    }
+  },
+  "description": {
+    "nb": "Andreutkast, RE_230601"
+  },
+  "descriptionUrl": {
+    "nb": {
+      "externalReference": {
+        "serviceId": "service:nbic_page",
+        "externalId": "332555"
+      }
+    }
+  },
+  "characters": [
+    {
+      "id": "character:c657bf1f1c0d44e4b278a04f0ccee45d",
+      "title": {
+        "nb": "Lenge på aks i forhold til plantelengde"
+      },
+      "states": [
+        {
+          "id": "state:b5ad2a910bc548c8a67d6a73fab54e8b",
+          "title": {
+            "nb": "Akset utgjer 1/10 til <1/3 av plantelengda"
+          }
+        },
+        {
+          "id": "state:7fb9ad48741f48acbe53bcce2e1a6fc2",
+          "title": {
+            "nb": "Akset utgjer 1/3 til <1/2 av plantelengda"
+          }
+        }
+      ]
+    },
+    {
+      "id": "character:71240bb22a4b4890a3857235d8abd354",
+      "title": {
+        "nb": "Lengste blad"
+      },
+      "states": [
+        {
+          "id": "state:21e6accd0db24b0ca0946fb81005a423",
+          "title": {
+            "nb": "Lengste blad 0,2 til 0,5 av plantelengda"
+          }
+        },
+        {
+          "id": "state:1221f3a1eec34e569c4b2d40a3ff620b",
+          "title": {
+            "nb": "Lengste blad 0,5 til 1,5 av plantelengda"
+          }
+        },
+        {
+          "id": "state:c431e08878a644089c970bd5858418b4",
+          "title": {
+            "nb": ""
+          }
+        }
+      ]
+    }
+  ],
+  "taxa": [
+    {
+      "id": "taxon:7add3340e50e4510b16e3a4610627780",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "166760"
+      },
+      "scientificName": "Dactylorhiza incarnata coccinea",
+      "vernacularName": {
+        "nb": "dynemarihand"
+      }
+    },
+    {
+      "id": "taxon:573397363db54d6ba144d3c3d5ca4789",
+      "externalReference": {
+        "serviceId": "service:nbic_taxa",
+        "externalId": "99501"
+      },
+      "scientificName": "Dactylorhiza incarnata incarnata",
+      "vernacularName": {
+        "nb": "grasmarihand"
+      },
+      "media": "media:f43022"
+    }
+  ]
+}
